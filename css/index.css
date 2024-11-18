@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+}
+
+body {
+    height: 120vh;
+}
+
+header {
+    border: black 1px solid;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+}
+
+.stick {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 1vw;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+.stick>a {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 3vh 10px;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.logo-main {
+    width: 5vw;
+    float: left;
+    display: block;
+}
+
+.scrollbar {
+    height: 5vh;
+    border: black 1px solid;
+    position: relative;
+    top: 10vh;
+    background-color: aquamarine;
+}
