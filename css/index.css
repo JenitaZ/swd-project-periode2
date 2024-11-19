@@ -9,8 +9,7 @@
 }
 
 
-
-body {
+.home {
     min-height: 120vh;
     display: flex;
     flex-direction: column;
@@ -18,36 +17,17 @@ body {
 
 
 
-header {
+/*-------------------------------------- NAV ----------------------------------------------*/
+.headerTemplate {
     border: black 1px solid;
     position: sticky;
     top: 0;
     width: 100vw;
-    height: 10vh;
+    height: 70px;
     background-color: white;
     z-index: 900;
 }
 
-.stick {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    left: 6vw;
-    overflow: hidden;
-    /* background-color: #333; */
-}
-
-.stick>a,
-h1 {
-    float: right;
-    display: flex;
-    flex-direction: row;
-    /* color: #f2f2f2; */
-    text-align: center;
-    padding: 3vh 10px;
-    text-decoration: none;
-    font-size: 3vh;
-}
 
 
 .logo-main {
@@ -58,9 +38,35 @@ h1 {
     margin-right: 5px;
 }
 
+
+.stick>a,
+.Name {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 22px 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
 .Name {
     float: left;
 }
+
+
+.stick {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 6vw;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+
 #navbar {
     background-color: lightgray;
     position: fixed;
@@ -86,6 +92,12 @@ h1 {
     color: black;
 }
 
+.zoekbalk {
+    float: right;
+    margin: 18px 30px;
+    border-radius: 5px;
+    width: 15vw;
+}
 
 footer {
     height: 13vw;
@@ -94,7 +106,7 @@ footer {
     margin-top: auto;
 }
 
-/* #region gamebanner slideshow*/
+/* #region----------------------------------------- gamebanner slideshow----------------------------------------*/
 #container {
     width: 100vw;
     height: 67vh;
@@ -119,6 +131,16 @@ footer {
 #banner3 {
     display: none;
 
+}
+
+#textvak {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 7vw -23vh;
+    width: 20vw;
+    text-align: center;
 }
 
 /* #endregion */
