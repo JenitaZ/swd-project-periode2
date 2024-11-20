@@ -1,3 +1,9 @@
+:root {
+    --bg-dark: #4b4e6d;
+    --bgNav-dark: #98a3b1;
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +11,11 @@
     font-size: 1.1rem;
     line-height: 1.75rem;
     scroll-behavior: smooth;
-
+    overflow-x: hidden;
 }
 
 
-.home {
+body {
     min-height: 120vh;
     display: flex;
     flex-direction: column;
@@ -20,7 +26,7 @@
 /*-------------------------------------- NAV ----------------------------------------------*/
 .headerTemplate {
     border: black 1px solid;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100vw;
     height: 70px;
@@ -111,6 +117,7 @@ footer {
     width: 100vw;
     height: 67vh;
     overflow: hidden;
+    margin-top: 13vh;
 }
 #container>img {
     position: absolute;
