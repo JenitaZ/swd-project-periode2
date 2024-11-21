@@ -20,11 +20,21 @@
     <header class="headerTemplate">
         <article class="logo">
             <img src="img\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"> <!--ok ew-->
-            <h1 class="Name">TITEL</h1><!--change font-->
+            <h1 class="Name">TITEL</h1><!--change font pls-->
 
-            <section class="zoekbalk">
+            <section class="zoekbalk"> <!-- alles aan de rechter kant van header -->
                 <input type="text" placeholder="search">
-                <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                <div>
+                    <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                </div>
+
+
+                <!-- light/dark mode toggle -->
+                <div class="toggle">
+                    <input type="checkbox" id="mode-toggle" class="toggle__input">
+                    <label for="mode-toggle" class="toggle__label"></label>
+                </div>
+
                 <i class="fa fa-user-circle login"></i>
             </section>
         </article>
