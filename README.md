@@ -1,3 +1,6 @@
 # periode-2
 opdracht swd periode 2
-Binyi Zhou en jenita Zheng
+
+Binyi Zhou: merch, contact
+
+jenita Zheng: home, games

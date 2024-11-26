@@ -13,15 +13,30 @@
     <title>GameShop</title>
     <link rel="icon" href="###" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body id="Home">
     <header class="headerTemplate">
         <article class="logo">
-            <img src="img\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"> <!--ok ew-->
-            <h1 class="Name">TITEL</h1><!--change font-->
+            <img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"> <!--ok ew-->
+            <h1 class="Name">TITEL</h1><!--change font pls-->
 
-            <input class="zoekbalk" type="text" placeholder="search">
+            <section class="zoekbalk"> <!-- alles aan de rechter kant van header -->
+                <input type="text" placeholder="search">
+                <div>
+                    <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                </div>
+
+
+                <!-- light/dark mode toggle -->
+                <div class="toggle">
+                    <input type="checkbox" id="mode-toggle" class="toggle__input">
+                    <label for="mode-toggle" class="toggle__label"></label>
+                </div>
+
+                <i class="fa fa-user-circle login"></i>
+            </section>
         </article>
 
         <nav class="stick">
@@ -30,8 +45,8 @@
 
 
     </header>
-    <nav id="navbar">
-        <a href="#">Home</a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
         <a href="games.html">Games</a>
         <a href="#">Merchandise</a>
         <a href="#">Contact</a>
@@ -42,28 +57,60 @@
             <a href="#"><img
                     src="img\banner1.png" id="banner1" class="banners"></a>
             <a href="#"><img src="img\banner2.png" alt="Rain World" id="banner2" class="banners"></a>
-            <a href="#"><img src="img\banner3.png" alt="Rain World" id="banner3" class="banners"></a>\
+            <a href="#"><img src="img\banner3.png" alt="Rain World" id="banner3" class="banners"></a>
             
             <div id="textvak">
-                <p id="top3">Top 3 games</p>
+                <p>Top 3 games</p>
                 <p id="gameTitle"><b>VALUE GAMETITLE</b></p>
             </div>
         </article>
+        <h1 id="hometitle">GameStars</h1>
 
         <section id="mainText">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <!-- <div id="homecontent">
+                <span>Gamestars collects reviews from users and allows you to ad your own review after you'e signed in.</span>
+
+                <ul id="home-featured">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+
+            </div>
+
+            <div id="home-featured">
+            </div>
+            <div id="home-featured">
+            </div>
+            <div id="home-featured">
+            </div> -->
         </section>
     </main>
 
     <footer>
+        <div class="footer-content">
+            <section class="footer-left">
+                <p class="footer-left">
+                    <h1 class="footer-header">Contact</h1>
+                    For any questions you can send us email directly through our <span class="footer-header2">contact page!</span>
+                </p>
+            </section>
 
+            <section class="footer-right">
+                <p>
+                    <span class="footer-header">Follow us</span>
+                    <div class="divider"></div>
+
+                    <section class="icons">
+                        <a href="" class="iconlinks"><img src="" alt=""></a> 
+                        <a href="" class="iconlinks"><img src="" alt=""></a> 
+                        <a href="" class="iconlinks"><img src="" alt=""></a> 
+                        <a href="" class="iconlinks"><img src="" alt=""></a> 
+                    </section>
+                </p>
+            </section>
+    </div>
     </footer>
     <script src="lib/index.js"></script>
 </body>
