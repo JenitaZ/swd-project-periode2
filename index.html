@@ -17,19 +17,20 @@
 </head>
 
 <body id="Home">
+    <!-- navigatie -->
     <header class="headerTemplate">
         <article class="logo">
             <img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"> <!--ok ew-->
-            <h1 class="Name">TITEL</h1><!--change font pls-->
+            <h1 class="Name">TITEL</h1><!--TODO: change font pls-->
 
-            <section class="zoekbalk"> <!-- alles aan de rechter kant van header -->
+            <section class="zoekbalk"> 
                 <input type="text" placeholder="search">
                 <div>
                     <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
                 </div>
 
 
-                <!-- light/dark mode toggle -->
+                <!-- light/dark mode toggle --> 
                 <div class="toggle">
                     <input type="checkbox" id="mode-toggle" class="toggle__input">
                     <label for="mode-toggle" class="toggle__label"></label>
@@ -42,7 +43,10 @@
         <nav class="stick">
         </nav>
 
+        <!-- Einde nav  -->
 
+
+<!-- start footer -->
 
     </header>
     <nav class="navbar">
@@ -54,8 +58,7 @@
 
     <main>
         <article id="container">
-            <a href="#"><img
-                    src="img\banner1.png" id="banner1" class="banners"></a>
+            <a href="#"><img src="img\banner1.png" id="banner1" class="banners"></a>
             <a href="#"><img src="img\banner2.png" alt="Rain World" id="banner2" class="banners"></a>
             <a href="#"><img src="img\banner3.png" alt="Rain World" id="banner3" class="banners"></a>
             
@@ -67,25 +70,27 @@
         </article>
 
 
-        <section id="mainText">
-            <!-- <div id="homecontent">
-                <span>Gamestars collects reviews from users and allows you to ad your own review after you'e signed in.</span>
-
-                <ul id="home-featured">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
-
+        <section class="homeCC"> <!-- homeContentContainer :P -->
+            <div class="indexContainer txt-one">
+                <p></p>
             </div>
 
-            <div id="home-featured">
+            <div class="indexContainer txt-two">
+                <p></p>
             </div>
-            <div id="home-featured">
+
+            <div class="indexContainer img-one">
+                <a href=""><img src="" alt=""></a>
             </div>
-            <div id="home-featured">
-            </div> -->
+
+            <div class="indexContainer img-two">
+                <a href=""><img src="" alt=""></a>
+            </div>
+
+            <div class="indexContainer img-three">
+                <a href=""><img src="" alt=""></a>
+            </div>
+
         </section>
     </main>
 
@@ -112,8 +117,12 @@
                 </p>
             </section>
     </div>
+
     </footer>
+
     <script src="lib/index.js"></script>
+
+    <!-- einde footer -->
 </body>
 
 </html>
