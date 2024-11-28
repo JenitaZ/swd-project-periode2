@@ -84,6 +84,15 @@ body.light-mode {
     padding: 22px 15px;
     text-decoration: none;
     font-size: 25px;
+
+    /* font-size: 90px;
+    height: 10vh;
+    padding-top: 6vh;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 2px 2px #3ca5c8; */
 }
 
 
@@ -132,7 +141,7 @@ body.light-mode {
     float: right;
     margin: 18px 150px;
     border-radius: 5px;
-    width: 15vw;
+    width: 17vw;
     background-color: transparent;
     color: white;
     border: none;
@@ -140,7 +149,16 @@ body.light-mode {
 
 .zoekbalk>input {
     background-color: transparent;
+    color: white;
+    border-color: transparent;
+    /* padding-left: 30px; */
 
+}
+
+.zoekbalk > input:focus {
+    outline: none !important;
+    border-color: var(--highlight-dark);
+    box-shadow: 0 0 10px var(--highlight-dark);
 }
 
 .searchbtn {
@@ -177,7 +195,7 @@ i.login {
     display: block;
     width: 60px;
     height: 30px;
-    background-color: var(--bg-dark-gray);
+    background-color: white;
     border-radius: 99px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -254,6 +272,35 @@ i.login {
     text-shadow: 2px 2px #3ca5c8;
 }
 
+/* -----------------------btns ----------------------------------- */
+.Ilink  {
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+#featured-txt {
+    margin-top: 5px;
+}
+#gamepagebtn:link, #gamepagebtn:visited {     /* FIXME: Dit ook in grid zetten? of manier vinden op dit goed te rescalen*/
+    margin-top: 5px;
+    background-color: var(--highlight-dark);
+    color: black;
+    /* font-weight: 50; */
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 15px;
+  }
+  
+
+  
+
 /* -----------------------index main content > grid and shit ----------------------------------- */
 
 .homeCC {
@@ -261,7 +308,7 @@ i.login {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 200px);
     column-gap: 30px;
-    margin: 60px 40px;
+    margin: 14px 40px 30px;
     
 }
 
