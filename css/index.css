@@ -116,7 +116,7 @@ body.light-mode {
     position: fixed;
     top: 70px;
     width: 100%;
-
+    z-index: 100;
     transition: top 0.3s;
 }
 
@@ -225,25 +225,6 @@ i.login {
 
 
 /* #region-----------------------------------------HOMEPAGE----------------------------------------*/
-#container {
-    width: 100vw;
-    /* overflow: hidden;
-    margin-top: 13vh; */
-
-}
-
-/* #banner1 {
-    display: inline;
-}
-
-#banner2 {
-    display: none;
-}
-
-#banner3 {
-    display: none; 
-
-}*/
 
 .header {
     margin-top: 106px;
@@ -267,11 +248,11 @@ i.login {
 .overlay-header{
     margin-top: 210px;
     width: 100%;
-    height: 40vh;
+    height: 100vh;
     background: linear-gradient(180deg,
     transparent,
-    rgb(0, 0, 0, .4),
-    rgb(0, 0, 0, .8));
+    rgb(0, 0, 0, .7),
+    rgb(0, 0, 0, 1));
     
     background-position: center;
     background-repeat: no-repeat;
@@ -321,7 +302,6 @@ i.login {
 
 #gamepagebtn:link,
 #gamepagebtn:visited {
-    /* FIXME: Dit ook in grid zetten? of manier vinden op dit goed te rescalen*/
     margin-top: 5px;
     background-color: var(--highlight-dark);
     color: black;
@@ -405,20 +385,42 @@ i.login {
     grid-area: 1 / 3 / 3 / 4;
     background-color: green;
     border-radius: 3px;
+    background-image: url('https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
 }
 
 .img-two {
     grid-area: 1 / 4 / 3 / 5;
     background-color: lightgreen;
     border-radius: 3px;
+
+    background-image: url('https://m.media-amazon.com/images/I/71IcDLw+8UL.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 
 .img-three {
     grid-area: 1 / 5 / 3 / 6;
     background-color: blue;
     border-radius: 3px;
+
+    background-image: url('https://m.media-amazon.com/images/I/61HR1cpzwtL.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 
+.wth {
+    text-decoration: none;
+    color: white;
+}
 .overlay {
     display: flex;
     flex-direction: column;
@@ -445,6 +447,174 @@ i.login {
 }
 
 
+/*#endregion */
+
+/* #region------------------------GAMES--------------------------------- */
+   
+#gameMain {
+    margin-top: 130px;
+
+}
+
+#gamesgames{
+    margin-left: 50px;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.gamesCC{
+    grid-template-columns: 1fr 1.5fr 0.1fr 1.2fr 1fr; 
+    row-gap: 30px;
+    margin: 20px 50px 30px;
+}
+
+.gamesCC2 {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+
+
+}
+
+
+.ugh {
+    height: 93.4%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.gameImg1 {
+    display: block;
+    grid-area: 1 / 1 / 3 / 3;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+
+    background-image: url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.gameImg2 {
+    grid-area: 1 / 4 / 2 / 6;
+    background-color: lightgreen;
+    border-radius: 3px;
+    overflow: hidden;
+    background-image: url(https://hisameartwork.wordpress.com/wp-content/uploads/2018/01/sdv-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.gameImg3 {
+    grid-area: 2 / 4 / 3 / 6;
+    background-color: gray;
+    border-radius: 3px;
+    overflow: hidden;
+    background-image: url(https://waytoomany.games/wp-content/uploads/2021/02/LN_2_1920_1080_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.gameImg4 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: gray;
+    border-radius: 3px;
+
+}
+.gameImg5 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: gray;
+    border-radius: 3px;
+
+}
+.gameImg6 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: gray;
+    border-radius: 3px;
+
+}
+.gameImg7 {
+    grid-area: 1 / 4 / 2 / 5;
+    background-color: gray;
+    border-radius: 3px;
+
+}
+
+/* FIXME: #12 waarom houdt het txt niet binnen??? agh mn thee is koud */
+.txt4 {
+    grid-area: 2 / 1 / 3 / 2;
+    
+
+}
+.txt5 {
+    grid-area: 2 / 2 / 3 / 3;
+    border-radius: 3px;
+
+}
+.txt6 {
+    grid-area: 2 / 3 / 3 / 4;
+    border-radius: 3px;
+
+}
+.txt7 {
+    grid-area: 2 / 4 / 3 / 5;
+    border-radius: 3px;
+
+}
+
+/* FIXME: #9 rating looks clunky, TAT */
+
+.rating {
+    position: absolute;
+    top: 200px;
+    left: 43vw;
+    padding: 15px 12px;
+    background-color: #5dbd42;
+    width: 40px;
+    text-align: center;
+    border-radius: 11px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+.r2 {
+    position: absolute;
+    top: 190px;
+    right: 4vw;
+    padding: 15px 14px 15px 12px;
+    background-color: #5dbd42;
+    width: 40px;
+    text-align: center;
+    border-radius: 11px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+} 
+.r3 {
+    position: absolute;
+    top: 420px;
+    right: 4vw;
+    padding: 15px 14px 15px 12px;
+    background-color: #5dbd42;
+    width: 40px;
+    text-align: center;
+    border-radius: 11px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+} 
+/* #endregion */
 
 /* #region--------FOOTER and stuff--------------------------------------------- */
 
@@ -515,7 +685,7 @@ footer {
     position: absolute;
     width: 370px;
     margin: 15px 45px;
-    top: 1000px;
+    top: 950px;
 }
 
 .footer-left .footer-header {
