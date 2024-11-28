@@ -227,14 +227,12 @@ i.login {
 /* #region-----------------------------------------HOMEPAGE----------------------------------------*/
 #container {
     width: 100vw;
-    height: 100%;
-    overflow: hidden;
-    margin-top: 13vh;
-    object-fit: cover;
+    /* overflow: hidden;
+    margin-top: 13vh; */
 
 }
 
-#banner1 {
+/* #banner1 {
     display: inline;
 }
 
@@ -243,16 +241,50 @@ i.login {
 }
 
 #banner3 {
-    display: none;
+    display: none; 
+
+}*/
+
+.header {
+    margin-top: 106px;
+    width: 100%;
+    height: 70vh;
+    background-color: #b5bad0;
+    background-image:
+     url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+.overlay-header{
+    margin-top: 210px;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(180deg,
+    transparent,
+    rgb(0, 0, 0, .4),
+    rgb(0, 0, 0, .8));
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 
 }
-
 #textvak {
     color: white;
     position: absolute;
     top: 50vh;
     left: 50vw;
-    margin: 7vw -23vh;
+    margin: 10vw -23vh;
     width: 20vw;
     text-align: center;
 }
@@ -264,12 +296,13 @@ i.login {
 #hometitle {
     font-size: 90px;
     height: 10vh;
-    padding-top: 6vh;
+    padding-top: 10vh;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: italic;
     text-shadow: 2px 2px #3ca5c8;
+    overflow: hidden;
 }
 
 /* -----------------------btns ----------------------------------- */
@@ -392,15 +425,13 @@ i.login {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    height: 92.7%;
+    height: 92.8%;
     background: linear-gradient(180deg,
             transparent,
             rgb(0, 0, 0, .3),
             rgb(0, 0, 0, .7));
 
     /* margin-top: 240px; */
-
-
 }
 
 .overlay p {
