@@ -605,9 +605,10 @@ i.login {
 
 }
 
-/* FIXME: #9 rating looks clunky, TAT */
+/* FIXME: #9 rating looks clunky, TAT , should we use ratings?? it looks cleaner without*/
 
-.rating {
+
+/* .rating {
     position: absolute;
     top: 200px;
     left: 43vw;
@@ -619,7 +620,7 @@ i.login {
     font-size: 30px;
     font-weight: 600;
     color: black;
-}
+} */
 
 .r2 {
     position: absolute;
