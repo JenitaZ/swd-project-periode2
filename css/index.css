@@ -445,6 +445,11 @@ i.login {
     text-overflow: ellipsis;
     font-size: 18px;
 }
+/* TODO: make txt rescale and stuff*/
+.oof p{
+    width: 37vw;
+
+}
 
 
 /*#endregion */
@@ -484,7 +489,12 @@ i.login {
     margin-top: 150px;
 }
 
-
+.imgtemp {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
 .gameImg1 {
     display: block;
     grid-area: 1 / 1 / 3 / 3;
@@ -493,10 +503,7 @@ i.login {
     color: white;
 
     background-image: url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+
 
 }
 
@@ -506,10 +513,7 @@ i.login {
     border-radius: 3px;
     overflow: hidden;
     background-image: url(https://hisameartwork.wordpress.com/wp-content/uploads/2018/01/sdv-banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+
 }
 
 .gameImg3 {
@@ -518,10 +522,7 @@ i.login {
     border-radius: 3px;
     overflow: hidden;
     background-image: url(https://waytoomany.games/wp-content/uploads/2021/02/LN_2_1920_1080_banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+
 
 }
 
@@ -529,28 +530,61 @@ i.login {
     grid-area: 1 / 1 / 2 / 2;
     background-color: gray;
     border-radius: 3px;
-
+    background-image: url(https://rocket-chainsaw.b-cdn.net/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg);
+    background-position: left;
 }
+
 .gameImg5 {
     grid-area: 1 / 2 / 2 / 3;
     background-color: gray;
     border-radius: 3px;
-
+    background-image: url(https://www.trueachievements.com/imgs/100340/overwatch-hero-bans.jpg);
+    background-position: top;
 }
 .gameImg6 {
     grid-area: 1 / 3 / 2 / 4;
     background-color: gray;
     border-radius: 3px;
+    background-image: url(https://i.redd.it/ensha-is-on-the-cover-art-v0-e8rekf404bx81.jpg?width=1920&format=pjpg&auto=webp&s=69626420ed739516a73f07e44426ada70907af13);
 
 }
 .gameImg7 {
     grid-area: 1 / 4 / 2 / 5;
     background-color: gray;
     border-radius: 3px;
+    background-image: url(https://www.zelda.com/breath-of-the-wild/assets/icons/BOTW-Share_icon.jpg);
+
+    background-position-x: -50px;
+}
+.gameImg7-4 {
+    grid-area: 1 / 4 / 2 / 5;
+    background-color: gray;
+    border-radius: 3px;
+    background-image: url(https://preview.redd.it/alwc1nswqdw51.png?width=767&format=png&auto=webp&s=faccb3a0e05ae47af89d56c071a1c204eed5ec73);
+
+}
+.gameImg6-3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: gray;
+    border-radius: 3px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/8/81/OneShot_cover_art.png);
+
+}
+.gameImg5-2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: gray;
+    border-radius: 3px;
+    background-image: url(https://www.riotgames.com/darkroom/1440/8d5c497da1c2eeec8cffa99b01abc64b:5329ca773963a5b739e98e715957ab39/ps-f2p-val-console-launch-16x9.jpg);
+
+}
+.gameImg4-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: gray;
+    border-radius: 3px;
+    background-image: url(https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1150690/header.jpg?t=1671584768);
 
 }
 
-/* FIXME: #12 waarom houdt het txt niet binnen??? agh mn thee is koud */
 .txt4 {
     grid-area: 2 / 1 / 3 / 2;
     
