@@ -232,7 +232,7 @@ i.login {
     height: 70vh;
     background-color: #b5bad0;
     background-image:
-     url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
+     url(img/games/37107d39373c202221d6672722f514cf.webp);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -240,10 +240,6 @@ i.login {
     overflow: hidden;
     
 }
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
 
 .overlay-header{
     margin-top: 210px;
@@ -503,7 +499,7 @@ i.login {
     border-radius: 3px;
     color: white;
 
-    background-image: url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
+    background-image: url(../img/games/37107d39373c202221d6672722f514cf.png);
     
 
 
@@ -515,7 +511,7 @@ i.login {
     background-color: lightgreen;
     border-radius: 3px;
     overflow: hidden;
-    background-image: url(https://hisameartwork.wordpress.com/wp-content/uploads/2018/01/sdv-banner.jpg);
+    background-image: url(../img/games/sdv-banner.jpg);
 
 }
 
@@ -524,7 +520,7 @@ i.login {
     background-color: gray;
     border-radius: 3px;
     overflow: hidden;
-    background-image: url(https://waytoomany.games/wp-content/uploads/2021/02/LN_2_1920_1080_banner.jpg);
+    background-image: url(../img/games/LN_2_1920_1080_banner.jpg);
 
 
 }
@@ -533,7 +529,7 @@ i.login {
     grid-area: 1 / 1 / 2 / 2;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://rocket-chainsaw.b-cdn.net/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg);
+    background-image: url(../img/games/cfd69cc1-5f28-424e-8f4e-543e974a1184.jpg);
     background-position: left;
 }
 
@@ -541,21 +537,21 @@ i.login {
     grid-area: 1 / 2 / 2 / 3;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://www.trueachievements.com/imgs/100340/overwatch-hero-bans.jpg);
+    background-image: url(../img/games/overwatch-hero-bans.webp);
     background-position: top;
 }
 .gameImg6 {
     grid-area: 1 / 3 / 2 / 4;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://i.redd.it/ensha-is-on-the-cover-art-v0-e8rekf404bx81.jpg?width=1920&format=pjpg&auto=webp&s=69626420ed739516a73f07e44426ada70907af13);
+    background-image: url(../img/games/ensha-is-on-the-cover-art-v0-e8rekf404bx81.jpg);
 
 }
 .gameImg7 {
     grid-area: 1 / 4 / 2 / 5;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://www.zelda.com/breath-of-the-wild/assets/icons/BOTW-Share_icon.jpg);
+    background-image: url(../img/games/BOTW-Share_icon.jpg);
 
     background-position-x: -50px;
 }
@@ -570,14 +566,14 @@ i.login {
     grid-area: 1 / 3 / 2 / 4;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/en/8/81/OneShot_cover_art.png);
+    background-image: url(../img/games/OneShot_cover_art.png);
 
 }
 .gameImg5-2 {
     grid-area: 1 / 2 / 2 / 3;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://www.riotgames.com/darkroom/1440/8d5c497da1c2eeec8cffa99b01abc64b:5329ca773963a5b739e98e715957ab39/ps-f2p-val-console-launch-16x9.jpg);
+    background-image: url(../img/games/ps-f2p-val-console-launch-16x9.jpg);
 
 }
 .gameImg4-1 {
