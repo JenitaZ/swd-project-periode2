@@ -492,6 +492,7 @@ i.login {
     background-size: cover;
     overflow: hidden;
 }
+
 .RW {
     display: block;
     grid-area: 1 / 1 / 3 / 3;
@@ -499,19 +500,22 @@ i.login {
     border-radius: 3px;
     color: white;
 
-    background-image: url(../img/games/37107d39373c202221d6672722f514cf.png);
     
-
-
 }
 
+.imgtemp img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .stardew {
     grid-area: 1 / 4 / 2 / 6;
     background-color: lightgreen;
     border-radius: 3px;
     overflow: hidden;
-    background-image: url(../img/games/sdv-banner.jpg);
+    background-image: url(../);
 
 }
 
@@ -520,7 +524,7 @@ i.login {
     background-color: gray;
     border-radius: 3px;
     overflow: hidden;
-    background-image: url(../img/games/LN_2_1920_1080_banner.jpg);
+    background-image: url(../);
 
 
 }
@@ -529,7 +533,7 @@ i.login {
     grid-area: 1 / 1 / 2 / 2;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(../img/games/cfd69cc1-5f28-424e-8f4e-543e974a1184.jpg);
+    background-image: url(../);
     background-position: left;
 }
 
@@ -537,21 +541,21 @@ i.login {
     grid-area: 1 / 2 / 2 / 3;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(../img/games/overwatch-hero-bans.webp);
+    background-image: url(../);
     background-position: top;
 }
 .ER {
     grid-area: 1 / 3 / 2 / 4;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(../img/games/ensha-is-on-the-cover-art-v0-e8rekf404bx81.jpg);
+    background-image: url(../);
 
 }
 .zelda {
     grid-area: 1 / 4 / 2 / 5;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(../img/games/BOTW-Share_icon.jpg);
+    background-image: url(../);
 
     background-position-x: -50px;
 }
@@ -559,28 +563,28 @@ i.login {
     grid-area: 1 / 4 / 2 / 5;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://preview.redd.it/alwc1nswqdw51.png?width=767&format=png&auto=webp&s=faccb3a0e05ae47af89d56c071a1c204eed5ec73);
+    background-image: url();
 
 }
 .oneshot {
     grid-area: 1 / 3 / 2 / 4;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(../img/games/OneShot_cover_art.png);
+    background-image: url(../);
 
 }
 .valorant {
     grid-area: 1 / 2 / 2 / 3;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(../img/games/ps-f2p-val-console-launch-16x9.jpg);
+    background-image: url(../);
 
 }
 .omori {
     grid-area: 1 / 1 / 2 / 2;
     background-color: gray;
     border-radius: 3px;
-    background-image: url(https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1150690/header.jpg?t=1671584768);
+    background-image: url();
 
 }
 
