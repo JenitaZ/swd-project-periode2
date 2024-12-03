@@ -1,3 +1,5 @@
+<?php include "lib/library.php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,15 +60,18 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
+                <img src=<?=$img?> alt="Image of the game" id="reviewImg" >
             </article>
 
             <section class="containerReview">
                 <div class="reviewContent">
-                <?php include "library.php";?>
+
+
+
                     <h1 id="title"><?= $title?></h1>
-                    <p id="releaseDate">Releasedate:</p>
-                    <p id="releaseDate">Platforms:</p>
-                    <p id="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. e the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p> 
+                    <p id="releaseDate">Releasedate: <?=$releaseDate?></p>
+                    <p id="releaseDate">Platforms: <?=$platforms?></p>
+                    <p id="description"><?=$desc?></p> 
                 </div>       
             </section>
         </section>
