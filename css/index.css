@@ -428,8 +428,8 @@ i.login {
             transparent,
             rgb(0, 0, 0, .3),
             rgb(0, 0, 0, .7));
+    margin-top: 20px;
 
-    /* margin-top: 240px; */
 }
 
 .overlay p {
@@ -447,6 +447,7 @@ i.login {
     width: 37vw;
 
 }
+
 
 
 /*#endregion */
@@ -499,7 +500,7 @@ i.login {
     background-color: green;
     border-radius: 3px;
     color: white;
-
+    background-image: url(../img/games/37107d39373c202221d6672722f514cf.png);
     
 }
 
@@ -515,7 +516,7 @@ i.login {
     background-color: lightgreen;
     border-radius: 3px;
     overflow: hidden;
-    background-image: url(../);
+    background-image: url(../img/games/sdv-banner.jpg);
 
 }
 
@@ -524,7 +525,7 @@ i.login {
     background-color: gray;
     border-radius: 3px;
     overflow: hidden;
-    background-image: url(../);
+    background-image: url(../img/games/LN_2_1920_1080_banner.jpg);
 
 
 }

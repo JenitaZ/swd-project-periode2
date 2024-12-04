@@ -1,9 +1,6 @@
 <?php
-
-    // Access the passed variable
+    //Jenita Zheng, php info dinges voor rainworld en stardew valley
     $value = $_GET['var'];
-
-
 
     if ($value == 'RW') {
         $title = "Rain World";
@@ -24,9 +21,5 @@
     } else {
     echo "Oops, i think something broke";
     }
-
-
-    
-
 
 ?>  
