@@ -778,6 +778,9 @@ footer {
     align-items: center;
 }
 
+.php-header {
+    padding-left: 18.6px;
+}
 #phpcontainer{
     min-height: 100vh;
     width: fit-content;

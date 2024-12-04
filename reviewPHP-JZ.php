@@ -21,7 +21,7 @@
 
 <body class="Home Homephp">
     <!-- navigatie -->
-    <header class="headerTemplate">
+    <header class="headerTemplate php-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <h1 class="Name">GameStars</a></h1>
