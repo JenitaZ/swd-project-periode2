@@ -854,3 +854,15 @@ footer {
     height: 200px;
     border-radius: 5px;
 }
+
+/* FOR RED DEATH REDEMPTION AND ELDEN RINGS */
+
+div.rdd {
+    margin: 40px;
+    position: sticky;
+}
+
+section.textrdd {
+    float: right;
+    position: sticky;
+}

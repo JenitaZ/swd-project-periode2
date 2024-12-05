@@ -58,6 +58,7 @@ span.footer-header2 {
 div.hat {
     float: right;
     margin: -255px 200px;
+    position: absolute;
 }
 
 div.div {

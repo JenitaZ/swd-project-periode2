@@ -57,13 +57,13 @@ span.footer-header2 {
 }
 
 div.merchs {
-flex-direction: column;
 margin: 10px;
 }
 
 div.hat {
   float: right;
-  margin: 20px 600px;
+  margin: 5px 600px;
+  position: absolute;
 }
 
 div.div {
@@ -109,7 +109,7 @@ font-style: italic;
 }
 
 .topnav a:hover {
-  background-color: #6f9e95;
+  background-color: #659d93;
   color: #222222;
 }
 
