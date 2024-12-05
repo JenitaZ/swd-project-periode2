@@ -860,6 +860,7 @@ footer {
 div.rdd {
     margin: 40px;
     position: sticky;
+    padding-top: 30px;
 }
 
 section.textrdd {

@@ -70,6 +70,11 @@ div.div {
 color: #fefefe;
 }
 
+div.telephone {
+  color: #fefefe;
+  float: right;
+}
+
 /* region-------------------------------------FOOTER---------------------------------------- */
 footer {
   position: sticky;
