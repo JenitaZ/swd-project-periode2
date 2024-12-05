@@ -233,10 +233,6 @@ i.login {
     background-color: #b5bad0;
     background-image:
      url(img/games/37107d39373c202221d6672722f514cf.webp);
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     overflow: hidden;
     
 }
@@ -249,12 +245,6 @@ i.login {
     transparent,
     rgb(0, 0, 0, .7),
     rgb(0, 0, 0, 1));
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
-
 }
 #textvak {
     color: white;
@@ -382,9 +372,7 @@ i.login {
     background-color: green;
     border-radius: 3px;
     background-image: url('https://i.pinimg.com/736x/d4/16/ac/d416ac062be6772119d84c8ba19a00fb.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
  
     
 }
@@ -395,10 +383,6 @@ i.login {
     border-radius: 3px;
 
     background-image: url('https://m.media-amazon.com/images/I/91h8FaqkWKL._AC_UF1000,1000_QL80_.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
 }
 
 .img-three {
@@ -407,12 +391,13 @@ i.login {
     border-radius: 3px;
 
     background-image: url('https://m.media-amazon.com/images/I/61HR1cpzwtL.jpg');
+ 
+}
+.img-cover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
 }
-
 .wth {
     text-decoration: none;
     color: white;
@@ -493,10 +478,10 @@ i.login {
 }
 
 .imgtemp {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     overflow: hidden;
+    background-color: gray;
+    border-radius: 3px;
+
 }
 
 .RW {
@@ -515,18 +500,8 @@ i.login {
     object-fit: cover;
 }
 
-#mainrw{
-    height: 100%;
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    overflow: hidden;
-}
 
 .overlaylinks {
-    height: 100%;
     display: block;
     height: 100%;
     width: 100%;
@@ -537,81 +512,40 @@ i.login {
 
 .stardew {
     grid-area: 1 / 4 / 2 / 6;
-    background-color: lightgreen;
-    border-radius: 3px;
-    overflow: hidden;
     background-image: url(../img/games/sdv-banner.jpg);
 
 }
 
 .LN {
     grid-area: 2 / 4 / 3 / 6;
-    background-color: gray;
-    border-radius: 3px;
-    overflow: hidden;
     background-image: url(../img/games/LN_2_1920_1080_banner.jpg);
 
 
 }
 
-.RDR {
+.RDR, .omori {
     grid-area: 1 / 1 / 2 / 2;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url(../);
     background-position: left;
 }
 
-.overwatch {
+.overwatch, .valorant{
     grid-area: 1 / 2 / 2 / 3;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url(../);
     background-position: top;
 }
-.ER {
+.ER, .oneshot {
     grid-area: 1 / 3 / 2 / 4;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url(../);
 
 }
-.zelda {
+.zelda{
     grid-area: 1 / 4 / 2 / 5;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url(../);
-
     background-position-x: -50px;
 }
 .MC {
     grid-area: 1 / 4 / 2 / 5;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url();
 
 }
-.oneshot {
-    grid-area: 1 / 3 / 2 / 4;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url(../);
 
-}
-.valorant {
-    grid-area: 1 / 2 / 2 / 3;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url(../);
 
-}
-.omori {
-    grid-area: 1 / 1 / 2 / 2;
-    background-color: gray;
-    border-radius: 3px;
-    background-image: url();
-
-}
 
 .txt4 {
     grid-area: 2 / 1 / 3 / 2;
@@ -665,17 +599,7 @@ i.login {
     color: black;
 } 
 .r3 {
-    position: absolute;
     top: 420px;
-    right: 4vw;
-    padding: 15px 14px 15px 12px;
-    background-color: #5dbd42;
-    width: 40px;
-    text-align: center;
-    border-radius: 11px;
-    font-size: 30px;
-    font-weight: 600;
-    color: black;
 } 
 /* #endregion */
 
@@ -798,7 +722,6 @@ footer {
     width: 600px;
     height: 400px;
     overflow: hidden;
-    background-image: url();
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -853,17 +776,4 @@ footer {
     margin-top: 10px;
     height: 200px;
     border-radius: 5px;
-}
-
-/* FOR RED DEATH REDEMPTION AND ELDEN RINGS */
-
-div.rdd {
-    margin: 40px;
-    position: sticky;
-    padding-top: 30px;
-}
-
-section.textrdd {
-    float: right;
-    position: sticky;
 }
