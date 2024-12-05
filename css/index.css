@@ -772,13 +772,13 @@ footer {
 
 /* region----------Game review 1, php----------- */
 
-.Homephp {
+.Homereview {
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.php-header {
+.review-header {
     padding-left: 18.6px;
 }
 #phpcontainer{
