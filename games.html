@@ -2,26 +2,28 @@
 <html lang="en">
 
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Games overzicht">
-        <meta name="keywords" content="Games overzicht reviews">
-        <meta name="author" content="Jenita Zheng">
+    <meta name="description" content="Games overzicht">
+    <meta name="keywords" content="Games overzicht reviews">
+    <meta name="author" content="Jenita Zheng">
 
-        <title>Games</title>
-        <link rel="icon" href="###" type="img/x-icon">  
-        <link rel="stylesheet" href="css/index.css" type="text/css">
+    <title>Games</title>
+    <link rel="icon" href="###" type="img/x-icon"> <!-- brrr -->
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="Home">
+<body class="Home">
+    <!-- navigatie -->
     <header class="headerTemplate">
-        <article class="logo">
-            <img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"> <!--ok ew-->
-            <h1 class="Name">TITEL</h1><!--change font pls-->
+        <article class="logo gameslog">
+            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+            <h1 class="Name">GameStars</a></h1>
 
-            <section class="zoekbalk"> <!-- alles aan de rechter kant van header -->
+            <section class="zoekbalk">
                 <input type="text" placeholder="search">
                 <div>
                     <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
@@ -46,38 +48,160 @@
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="games.html">Games</a>
-        <a href="#">Merch</a>
-        <a href="#">Contact</a>
+        <a href="Merchandise.html">Merchandise</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
-    <main>
+    <main id="gameMain">
+        <h1 id="gamesgames">Games</h1>
+        <!-- <p class="rating">89</p>
+        <p class="r2">89</p>
+        <p class="r2 r3">89</p> -->
+        <section class="homeCC gamesCC">
+            <!-- FIXME: #14  games-overlay broke-->
+            <div class="RW imgtemp"><!-- Rain World -->
+                <a href="reviewPHP-JZ.php?var=RW" id="mainrw">
+                    <div class="overlay ugh">Rainworld<br>You're playing as a slugcat at pretty much the bottom of the foodchain</div>
+                </a>
+            </div>
 
+            <div class="stardew imgtemp"> <!-- Stardew valley -->
+                <a href="reviewPHP-JZ.php?var=SV" class="overlaylinks"></a>
+                <div class="overlay oof">
+                    <p>Stardew Valley<br>farming game placeholder text</p>
+                </div>
+            </div>
+
+            <div class="LN imgtemp"> <!-- Little nightmares -->
+                <a href="" class="overlaylinks"></a>
+                <div class="overlay oof">
+                    <p>Little nightmares<br>horror-ish</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <h1 id="gamesgames">All Games</h1>
+
+        <section class="homeCC gamesCC2">
+
+            <div class="RDR imgtemp"> <!--Red dead redemption  -->
+                <a href=""><img src="img/games/cfd69cc1-5f28-424e-8f4e-543e974a1184.jpg" alt=""></a>
+
+            </div>
+
+            <div class="overwatch imgtemp"> <!-- Overwatch -->
+                <a href=""><img src="img/games/overwatch-hero-bans.webp" alt=""></a>
+
+            </div>
+
+            <div class="ER imgtemp"><!-- Elden ring -->
+                <a href=""><img src="img/games/ensha-is-on-the-cover-art-v0-e8rekf404bx81.jpg" alt=""></a>
+
+
+            </div>
+
+            <div class="zelda imgtemp"><!-- The Legend of Zelda -->
+                <a href=""><img src="img/games/BOTW-Share_icon.jpg" alt=""></a>
+
+
+            </div>
+
+            <div class="txt4">
+                <p>Red dead redemption 2, Is a action-adventure game set in America 1899.</p>
+
+            </div>
+
+            <div class="txt5">
+                <p>Overwatch, shooting game were you team up and go against people across the globe.</p>
+            </div>
+
+            <div class="txt6">
+                <p>Elden ring, story/fighting game with multiple amazing bosses and music.</p>
+            </div>
+
+            <div class="txt7">
+               <p>The legend of Zelda, an adventures story game with great world explore features.</p>
+            </div>
+        </section>
+
+        <section class="homeCC gamesCC2">
+
+            <div class="omori imgtemp">
+                <a href=""><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1150690/header.jpg?t=1671584768" alt=""></a>
+
+            </div>
+
+            <div class="valorant imgtemp">
+                <a href=""><img src="img/games/ps-f2p-val-console-launch-16x9.jpg" alt=""></a>
+
+            </div>
+
+            <div class="oneshot imgtemp">
+                <a href=""><img src="img/games/OneShot_cover_art.png" alt=""></a>
+
+
+            </div>
+
+            <div class="MC imgtemp">
+                <a href=""><img src="https://preview.redd.it/alwc1nswqdw51.png?width=767&format=png&auto=webp&s=faccb3a0e05ae47af89d56c071a1c204eed5ec73" alt=""></a>
+
+
+            </div>
+
+            <div class="txt4">
+                <p>Omori! game about two kids deealing with trauma after basically killing the other kid's sister</p>
+
+            </div>
+
+            <div class="txt5">
+                <p>Valorant, shooting game??</p>
+            </div>
+
+            <div class="txt6">
+                <p>Oneshot, 4th-wall breaking puzzle game</p>
+
+
+            </div>
+
+            <div class="txt7">
+               <p>Minecraft, a clasic</p>
+
+
+            </div>
+        </section>
     </main>
 
+    <!-- start footer -->
     <footer>
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
-                    <h1 class="footer-header">Contact</h1>
-                    For any questions you can send us email directly through our <span class="footer-header2">contact page!</span>
+                <h1 class="footer-header">Contact</h1>
+                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a>
                 </p>
             </section>
 
             <section class="footer-right">
                 <p>
                     <span class="footer-header">Follow us</span>
-                    <div class="divider"></div>
+                <div class="divider"></div>
 
-                    <section class="icons">
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                    </section>
+                <section class="icons">
+                    <a href="" class="iconlinks"><img src="img\socialmedia\yt-logo.png" alt="Youtube link"></a>
+                    <a href="" class="iconlinks"><img src="img\socialmedia\ig-logo.png" alt="Instagram link"></a>
+                    <a href="" class="iconlinks"><img src="img\socialmedia\X-logo.png" alt="X(Twitter) link"></a>
+                    <a href="" class="iconlinks"><img src="img\socialmedia\tk-logo.png" alt="Tiktok link"
+                            class="annoyance"></a>
+                </section>
                 </p>
             </section>
-    </div>
+        </div>
     </footer>
     <script src="lib/index.js"></script>
+
+</body>
 
 </html>

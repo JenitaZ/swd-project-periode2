@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="en"> <!--engels of nederlands??-->
+<html lang="en"> 
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description" content="Homepage voor de gameshop">
-    <meta name="keywords" content="Games Review Top3">
+    <meta name="description" content="Homepage voor de gamereview pagina">
+    <meta name="keywords" content="Games Review Top3 home">
     <meta name="author" content="Jenita Zheng">
 
-    <title>GameShop</title>
-    <link rel="icon" href="###" type="img/x-icon">
+    <title>Gamestars</title>
+    <link rel="icon" href="###" type="img/x-icon"><!-- niet vergeten -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="Home">
+ <body class="Home">
+
     <header class="headerTemplate">
         <article class="logo">
-            <img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"> <!--ok ew-->
-            <h1 class="Name">TITEL</h1><!--change font pls-->
+            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+            <!--TODO: #6 make final version of logo-->
+            <h1 class="Name">GameStars</h1>
 
-            <section class="zoekbalk"> <!-- alles aan de rechter kant van header -->
+            <section class="zoekbalk">
                 <input type="text" placeholder="search">
                 <div>
                     <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
@@ -42,77 +44,131 @@
         <nav class="stick">
         </nav>
 
-
-
     </header>
+
+
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="games.html">Games</a>
-        <a href="#">Merchandise</a>
-        <a href="#">Contact</a>
+        <a href="Merchandise.html">Merchandise</a>
+        <a href="contact.html">Contact</a> 
     </nav>
 
     <main>
-        <article id="container">
-            <a href="#"><img
-                    src="img\banner1.png" id="banner1" class="banners"></a>
-            <a href="#"><img src="img\banner2.png" alt="Rain World" id="banner2" class="banners"></a>
-            <a href="#"><img src="img\banner3.png" alt="Rain World" id="banner3" class="banners"></a>
-            
+        <article class="header">
+            <div class="overlay-header"></div>
             <div id="textvak">
                 <p>Top 3 games</p>
-                <p id="gameTitle"><b>VALUE GAMETITLE</b></p>
+                <p id="gameTitle"><b>RAIN WORLD</b></p>
             </div>
         </article>
-        <h1 id="hometitle">GameStars</h1>
 
-        <section id="mainText">
-            <!-- <div id="homecontent">
-                <span>Gamestars collects reviews from users and allows you to ad your own review after you'e signed in.</span>
 
-                <ul id="home-featured">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                </ul>
+        
+        <article id="container">
+
+            <h1 id="hometitle">GameStars</h1>
+
+            <div class="Ilink">
+                <h3 id="featured-txt"> featured </h3>
+                <a href="games.html" target="_blank" id="gamepagebtn">view all games</a>
+            </div>
+        </article>
+
+
+        <section class="homeCC"> <!-- homeContentContainer :P -->
+            <div class="txt-one">
+                <p><span>Gamestars</span> collects reviews from users and allows you to add your own review after you've
+                    signed in.<br> It provides an accurate rating of the game!</p>
+            </div>
+
+            <div class="divider" id="divider1"></div>
+            <div class="dividerV"></div>
+
+            <div class="txt-two"><!-- ????? -->
+                <div class="txt-two">
+                    <table>
+                        <tr>
+                            <td id="news">News</td>
+                        </tr>
+                        <tr>
+                            <td>wordt nog aangepast</td>
+                        </tr>
+                        <tr>
+                            <td>Best deals for black friday Best deals for black friday</td>
+                        </tr>
+                        <tr>
+                            <td>sinterklaas??</td>
+                        </tr>
+                        <tr>
+                            <td>Chistmas events testestestestyaaaaaaaay</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+
+                <a href="reviewPHP-JZ.php?var=RW" class="img-one wth"><img src="" alt="">
+                <div class="overlay">
+                    <p>Rain World</p>
+                </div>
+            </a>
+
+
+
+                <a href="" class="img-two wth"> <img src="" alt="">
+                <div class="overlay">
+                    <p>Legend of Zelda</p>
+                </div>
+            </a>
+
+                <a href="" class="img-three wth"><img src="" alt="">   <div class="overlay">
+                    <p>Little nightmares</p>
+                </div></a>
+             
 
             </div>
 
-            <div id="home-featured">
-            </div>
-            <div id="home-featured">
-            </div>
-            <div id="home-featured">
-            </div> -->
         </section>
     </main>
+
+    <section class="disclaimer">
+        <p>Disclaimer: We assume no responsibility or liability for any errors or emissions in the content of this
+            site.<br>If you do spot anything amiss, please <a href="##" target="_blank" id="contact-link">contact
+                us!</a></p>
+    </section>
 
     <footer>
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
-                    <h1 class="footer-header">Contact</h1>
-                    For any questions you can send us email directly through our <span class="footer-header2">contact page!</span>
+                <h1 class="footer-header">Contact</h1>
+                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a>
                 </p>
             </section>
 
             <section class="footer-right">
                 <p>
                     <span class="footer-header">Follow us</span>
-                    <div class="divider"></div>
+                <div class="divider"></div>
 
-                    <section class="icons">
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                        <a href="" class="iconlinks"><img src="" alt=""></a> 
-                    </section>
+                <section class="icons">
+                    <a href="" class="iconlinks"><img src="img\socialmedia\yt-logo.png" alt="Youtube link"></a>
+                    <a href="" class="iconlinks"><img src="img\socialmedia\ig-logo.png" alt="Instagram link"></a>
+                    <a href="" class="iconlinks"><img src="img\socialmedia\X-logo.png" alt="X(Twitter) link"></a>
+                    <a href="" class="iconlinks"><img src="img\socialmedia\tk-logo.png" alt="Tiktok link"
+                            class="annoyance"></a>
+                </section>
                 </p>
             </section>
-    </div>
+        </div>
+
     </footer>
+
     <script src="lib/index.js"></script>
+
+
 </body>
 
 </html>
