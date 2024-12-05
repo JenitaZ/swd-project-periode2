@@ -73,6 +73,8 @@ color: #fefefe;
 div.telephone {
   color: #fefefe;
   float: right;
+  margin: 0px 600px;
+  position: absolute;
 }
 
 /* region-------------------------------------FOOTER---------------------------------------- */
