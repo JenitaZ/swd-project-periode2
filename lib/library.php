@@ -1,5 +1,4 @@
 <?php
-    //Jenita Zheng, php info dinges voor rainworld en stardew valley
     $value = $_GET['var'];
 
     if ($value == 'RW') {

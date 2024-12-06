@@ -36,10 +36,34 @@
 
         <nav class="stick">
         </nav>
-
-
-
     </header>
+
+    <?php 
+        $value = $_GET['var'];
+
+        if ($value == '') {
+            $gameInfo = [
+                "title" => "",
+                "release_date" => "",
+                "platforms" => "",
+                "description" => "",
+                "image" => ""
+            ];
+        } elseif ($value == '') {
+            $gameInfo = [
+                "title" => "",
+                "release_date" => "",
+                "platforms" => "",
+                "description" => "",
+                "image" => ""
+            ];
+    
+        } else {
+        echo "Oops, i think something broke";
+        }    
+    ?>
+
+
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="games.html">Games</a>
@@ -54,21 +78,26 @@
             </article>
 
         </div>
-        <main>
-    
-                <section class="containerReview">
-                    <div class="reviewContent">
-                        <h1 id="tItle"></h1>
-                        <p id="release"></p>
-                        <p id="Accessplatforms"></p>
-                        <p id="Description"></p>
-                    </div>
-                </section>
+        <main id="phpcontainer">
+        <section class="flex-contatiner">
+            <article class="reviewContainer1">
+                <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
+    </article>
+
+            <section class="containerReview">
+                <div class="reviewContent">
+                    <h1 id="title"><?= $gameInfo["title"]?></h1>
+                    <p id="releaseDate">Releasedate: <?=$gameInfo["release_date"]?></p>
+                    <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
+                    <div class="divider divider2"></div>
+                    <p id="description"><?=$gameInfo["description"]?></p> 
+                </div>       
             </section>
-    
-            <section class="ratingContainer"></section>
-        </main>
-    
+        </section>
+
+        <section class="ratingContainer"></section>
+    </main>
+
     
     <footer>
         <div class="footer-content">
@@ -96,4 +125,3 @@
                 </section>
             </div>
         </footer>
-<?php 
