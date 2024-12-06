@@ -68,6 +68,7 @@
                     <h1 id="title"><?= $gameInfo["title"]?></h1>
                     <p id="releaseDate">Releasedate: <?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
+                    <div class="divider divider2"></div>
                     <p id="description"><?=$gameInfo["description"]?></p> 
                 </div>       
             </section>
@@ -82,8 +83,7 @@
             <section class="footer-left">
                 <p class="footer-left">
                 <h1 class="footer-header">Contact</h1>
-                For any questions you can send us email directly through our <span class="footer-header2">contact
-                    page!</span>
+                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
                 </p>
             </section>
 
