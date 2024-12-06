@@ -791,6 +791,7 @@ footer {
 
 #description {
     margin-top: 6%;
+    width: 370px;
 }
 
 .ratingContainer {
@@ -803,5 +804,5 @@ footer {
 
 /* -----------------ELDEN RING AND RED DEATH REDEMPTION-------------------- */
 #Description {
-    position: absolute;
+
 }

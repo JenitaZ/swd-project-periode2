@@ -8,10 +8,10 @@
     <meta name="description" content="Gameshop Website">
     <meta name="keywords" content="Review games">
     <meta name="author" content="Bingyi Zhou">
-    <link rel="stylesheet" href="swd-project-periode2/css/index.css">   <!--stylesheet-->
+    <link rel="stylesheet" href="css/index.css"> 
 </head>
 
-<body class="Home">
+<body class="Home Homereview">
     <!-- navigatie -->
     <header class="headerTemplate">
         <article class="logo gameslog">
