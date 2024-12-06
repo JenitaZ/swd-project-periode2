@@ -56,12 +56,11 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
                 <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
-            </article>
+    </article>
 
             <section class="containerReview">
                 <div class="reviewContent">
