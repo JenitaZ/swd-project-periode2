@@ -316,6 +316,8 @@ i.login {
 
 .txtafstand{
     margin-top: 10px;
+    font-size: 1.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .txt-one {
     grid-area: 1 / 1 / 2 / 3;
