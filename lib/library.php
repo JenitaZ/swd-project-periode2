@@ -9,7 +9,7 @@ if ($value == 'RW') {
         "description" => "Rain World simulates a harsh, complex ecosystem- one where you are both predator and prey, hunter and hunted in unforgiving, apocalyptic climes. You are a slugcat. The world around you is full of danger, and you must face it – alone.",
         "image" => "img/games/37107d39373c202221d6672722f514cf.png",
         "PEGI" => 7,
-        "genre" =>"survival", "exploration", "multiplayer",
+        "genre" =>"survival", "exploration", "multiplayer","singleplayer",
         "yt" =>""
     ];
 } elseif ($value == 'SV') {
@@ -20,28 +20,12 @@ if ($value == 'RW') {
         "description" => "You've inherited your grandfather's old farm plot in Stardew Valley.",
         "image" => "https://www.stardewvalley.net/wp-content/uploads/2018/12/1_1screenshot15.png",
         "PEGI" => 12,
-        "genre" =>"farming sim", "life sim", "multiplayer",
+        "genre" =>"farming", "life", "multiplayer", "singleplayer",
         "yt"=> ""
     ];
-} elseif ($value == '0') {
-    $gameInfo = [
-        "title" => "",
-        "release_date" => "",
-        "platforms" => "",
-        "description" => ".",
-        "image" => ""
-    ];
-} elseif ($value == '1') {
-    $gameInfo = [
-        "title" => "",
-        "release_date" => "",
-        "platforms" => "",
-        "description" => ".",
-        "image" => ""
-    ];
-
-} else {
-    echo "Oops, i think something broke";
+} 
+ else {
+    echo "Oops, something broke again";
 }
 
 ?>
