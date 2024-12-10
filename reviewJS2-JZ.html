@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description" content="Games overzicht">
-    <meta name="keywords" content="Games overzicht reviews">
+    <meta name="description" content="reviewpage for omori and little nightmaresII using JS">
+    <meta name="keywords" content="assassin's creed mirage nier: automata JS review">
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
-<body class="Home">
+<body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate">
+    <header class="headerTemplate review-header">
         <article class="logo gameslog">
-            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop"
+                    class="logo-main"></a>
             <h1 class="Name">GameStars</a></h1>
 
             <section class="zoekbalk">
@@ -55,15 +55,47 @@
     </nav>
 
 
+    <main id="phpcontainer">
+        <section class="flex-contatiner">
+            <article class="reviewContainer1">
+                <img src="" alt="" id="reviewImg" class="reviewImg-AC">
+            </article>
+
+            <section class="containerReview">
+                <div class="reviewContent">
+                    <h1 id="title"></h1>
+                    <p id="releaseDate"></p>
+                    <p id="releasedPlatforms"></p>
+                    <div class="divider divider2"></div>
+                    <p id="description"></p>
+                </div>
+            </section>
+        </section>
+        
+        <section class="ratingContainer">
+            <div class="userRating averageRating">
+                <h1 class="avgRatingTxt"><span class="bs">Overall rating: </span> </h1>
+                <h2 class="avgRatingTxt">LOGIN to add your own review</h2>
+            </div>
+
+            <!-- <div class="userRating">
+            </div>
+
+            <div class="userRating">
+            </div> -->
+        </section>
+
+    </main>
 
 
+    <!-- start footer -->
     <footer>
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
                 <h1 class="footer-header">Contact</h1>
-                For any questions you can send us email directly through our <span class="footer-header2">contact
-                    page!</span>
+                For any questions you can send us email directly through our <a href="contact.html"
+                    class="footer-header2">contact page!</a>
                 </p>
             </section>
 
@@ -83,7 +115,12 @@
             </section>
         </div>
     </footer>
-    <script src="lib/index.js"></script>
+
+    <script src="lib/index.js"> </script>
+    <script src="lib/paramsReview2.js"> </script>
+
+       
+   
 
 </body>
 

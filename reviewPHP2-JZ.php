@@ -59,7 +59,7 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
-                <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
+                <img src=<?=$gameInfo["image"]["img1"];?> alt="Image of the game" id="reviewImg" >
     </article>
 
             <section class="containerReview">
@@ -106,6 +106,7 @@
 
 
     <script src="lib/index.js"></script>
+    <!-- <script src="lib/gameSlides.js"></script> -->
 
 
 </body>
