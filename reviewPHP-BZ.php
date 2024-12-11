@@ -41,25 +41,25 @@
     <?php 
         $value = $_GET['var'];
 
-        if ($value == '') {
+        if ($value == 'OV') {
             $gameInfo = [
-                "title" => "",
-                "release_date" => "",
-                "platforms" => "",
-                "description" => "",
-                "image" => ""
+                "title" => "OverWatch",
+                "release_date" => "24 May, 2016",
+                "platforms" => "supported across all platforms",
+                "description" => "OverWatch is an online team-based game generally played as a first-person shooter. The game featured several different game modes, principally designed around squad-based combat with two opposing teams of six players each. Players selected one of over two dozen pre-made hero characters from one of three class types",
+                "image" => "https://m.media-amazon.com/images/M/MV5BOWIxNmFmZGEtZDk2NS00MjA5LTk5NWItODQ2OTE2ZmI5ZGE2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
             ];
-        } elseif ($value == '') {
+        } elseif ($value == 'LOZ') {
             $gameInfo = [
-                "title" => "",
-                "release_date" => "",
-                "platforms" => "",
-                "description" => "",
-                "image" => ""
+                "title" => "The Legend of Zelda: Breath of The Wild",
+                "release_date" => "March 3, 2017",
+                "platforms" => "Nintendo Switch and Wii U",
+                "description" => "Set at the end of the Zelda (including all Zelda game before Breath of The Wild) timeline, the player controls an amnesiac Link as he sets out to save Princess Zelda and prevent Calamity Ganon from destroying the world. Players explore the open world of Hyrule while they collect items and complete objectives such as puzzles or side quests.",
+                "image" => "https://th.bing.com/th/id/OIP.cJXZgDS3YxYdfEg82coMOwHaJ4?rs=1&pid=ImgDetMain"
             ];
     
         } else {
-        echo "Oops, i think something broke";
+        echo "Oops, I don't think that works!";
         }    
     ?>
 
@@ -68,7 +68,7 @@
         <a href="index.html">Home</a>
         <a href="games.html">Games</a>
         <a href="Merchandise.html">Merchandise</a>
-        <a href="swd-project-periode2/contact.html">Contact</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <main id="phpcontainer">
@@ -85,10 +85,10 @@
     </article>
 
             <section class="containerReview">
-                <div class="reviewContent">
+                <div class="reviewContenttwo">
                     <h1 id="title"><?= $gameInfo["title"]?></h1>
-                    <p id="releaseDate">Releasedate: <?=$gameInfo["release_date"]?></p>
-                    <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
+                    <p id="releaseDate"><?=$gameInfo["release_date"]?> releaseDate:</p>
+                    <p id="releaseDate"><?=$gameInfo["platforms"]?> platforms:</p>
                     <div class="divider divider2"></div>
                     <p id="description"><?=$gameInfo["description"]?></p> 
                 </div>       
