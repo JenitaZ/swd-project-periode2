@@ -73,6 +73,15 @@
             </section>
         </section>
 
+        <section class="reviewContainerC">
+            <p id="wallOfText"><?=$gameInfo["gameDesc"]?>/p>
+            <article class="reviewImgContainer">
+                <img src=<?=$gameInfo["image"]["img4"];?> alt="cover image" id="reviewImgL">
+                <img src=<?=$gameInfo["image"]["img2"];?> alt="gameplay image" id="reviewImgC">
+                <img src=<?=$gameInfo["image"]["img3"];?> alt="gameplay image" id="reviewImgR">
+            </article>
+        </section>
+
         <section class="ratingContainer"></section>
     </main>
 

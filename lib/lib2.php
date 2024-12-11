@@ -9,14 +9,17 @@ $games = [
         "description" => "Stray is a third-person cat adventure game set amidst the detailed neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly.",
         "image" => array(
             "img1" => "https://i.ytimg.com/vi/4uP2MyUL49s/sddefault.jpg",
-            "img2" => "https://i.ytimg.com/vi/okRKEZdE1Cc/maxresdefault.jpg"
+            "img2" => "https://i.ytimg.com/vi/okRKEZdE1Cc/maxresdefault.jpg",
+            "img3" => "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1332010/ss_2221af260c64362fdc835a9dca65f6f1d1192b25.1920x1080.jpg?t=1733260906",
+            "img4" => "https://assets-prd.ignimgs.com/2022/07/15/stray-blogroll-1657911894347.jpg"
         ),
         
         "PEGI" => 12,
-        "genre" => "cats",
-        "exploration",
-        "adventure",
-        "multiplayer",
+        "gameDesc" => "<span id='title'>Stray</span> <br> <span id='smallGrayText'>released on: July 19th, 2022, Developed by:  BlueTwelve Studio and released by Annapurna Interactive </span> <br><br>",
+        // "genre" => "cats",
+        // "exploration",
+        // "adventure",
+        // "multiplayer",
         "yt" => ""
     ],
     "1" => [
@@ -30,8 +33,8 @@ $games = [
         ),
 
         "PEGI" => "E",
-        "genre" => "casual",
-        "singleplayer",
+        // "genre" => "casual",
+        // "singleplayer",
         "yt" => ""
     ]
 ];
