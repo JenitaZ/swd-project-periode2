@@ -59,7 +59,7 @@
             ];
     
         } else {
-        echo "Oops, i think something broke";
+        echo "Oops, I don't think that works!";
         }    
     ?>
 
@@ -68,7 +68,7 @@
         <a href="index.html">Home</a>
         <a href="games.html">Games</a>
         <a href="Merchandise.html">Merchandise</a>
-        <a href="swd-project-periode2/contact.html">Contact</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <main id="phpcontainer">
@@ -85,10 +85,10 @@
     </article>
 
             <section class="containerReview">
-                <div class="reviewContent">
+                <div class="reviewContenttwo">
                     <h1 id="title"><?= $gameInfo["title"]?></h1>
-                    <p id="releaseDate">Releasedate: <?=$gameInfo["release_date"]?></p>
-                    <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
+                    <p id="releaseDate"><?=$gameInfo["release_date"]?> releaseDate:</p>
+                    <p id="releaseDate"><?=$gameInfo["platforms"]?> platforms:</p>
                     <div class="divider divider2"></div>
                     <p id="description"><?=$gameInfo["description"]?></p> 
                 </div>       
