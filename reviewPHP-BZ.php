@@ -9,13 +9,15 @@
     <meta name="keywords" content="Review games">
     <meta name="author" content="Bingyi Zhou">
     <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate">
+    <header class="headerTemplate review-header">
         <article class="logo gameslog">
-            <a href="index.html"><img src="img/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <h1 class="Name">GameStars</a></h1>
 
             <section class="zoekbalk">
@@ -74,19 +76,12 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
-                <img src="" alt="Image of the game" id="picture">
-            </article>
-
-        </div>
-        <main id="phpcontainer">
-        <section class="flex-contatiner">
-            <article class="reviewContainer1">
                 <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
-    </article>
+            </article>
 
             <section class="containerReview">
                 <div class="reviewContenttwo">
-                    <h1 id="title"><?= $gameInfo["title"]?></h1>
+                    <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
                     <p id="releaseDate"><?=$gameInfo["release_date"]?> releaseDate:</p>
                     <p id="releaseDate"><?=$gameInfo["platforms"]?> platforms:</p>
                     <div class="divider divider2"></div>
