@@ -74,7 +74,7 @@
         </section>
 
         <section class="reviewContainerC">
-            <p id="wallOfText"><?=$gameInfo["gameDesc"]?>/p>
+            <p id="wallOfText"><?=$gameInfo["gameDesc"]?></p>
             <article class="reviewImgContainer">
                 <img src=<?=$gameInfo["image"]["img4"];?> alt="cover image" id="reviewImgL">
                 <img src=<?=$gameInfo["image"]["img2"];?> alt="gameplay image" id="reviewImgC">
