@@ -732,6 +732,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
+
 }
 
 #reviewImg{
@@ -744,6 +745,7 @@ footer {
    width: 120% !important; 
    height: 100%;
    object-fit: cover;
+  
 }
 
 
@@ -770,6 +772,7 @@ footer {
     height: 50px;
     overflow: hidden;
     margin-top: 20px;
+    margin-left: -3+2px;
 }
 
 #releaseDate {
@@ -808,6 +811,48 @@ footer {
     height: auto;
 }
 
+#btnRight {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 190px;
+    border: none;
+    border-radius: 6px;
+    height: 80px;
+    width: 50px;
+    font-size: 30px;
+    padding: 0 0 3px 5px;
+    color: rgb(255, 255, 255, .9);
+    
+    /* background-color: rgb(255, 255, 255, .7); */
+    background-color: rgb(0, 0, 0, .4);
+
+}
+
+#btnLeft {
+    position: absolute;
+    margin-top: 170px;
+    margin-right: 990px;
+    border: none;
+    border-radius: 6px;
+    height: 80px;
+    width: 50px;
+    font-size: 30px;
+    padding: 0 0 0 0;
+    color: rgb(255, 255, 255, .9);
+    
+    /* background-color: rgb(255, 255, 255, .7); */
+    background-color: rgb(0, 0, 0, .4);
+
+}
+#btnRight:hover, #btnLeft:hover {
+    background-color: rgb(0, 0, 0, .6);
+    color: white;
+    transition: .2s ease;
+}
+
+/* .test:hover{
+    cursor:pointer;
+} */
 
 .reviewImgContainer img + img{
     margin-left: 40px;

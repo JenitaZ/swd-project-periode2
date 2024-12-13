@@ -59,7 +59,7 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
-                <img src=<?=$gameInfo["image"]["img1"];?> alt="Image of the game" id="reviewImg" >
+                <img src="" alt="Image of the game" id="reviewImg" >
     </article>
 
             <section class="containerReview">
@@ -71,16 +71,20 @@
                     <p id="description"><?=$gameInfo["description"]?></p> 
                 </div>       
             </section>
+            <button onclick="changeGameImg()" id="btnRight">&#9654</button>
+            <button onclick="changeGameImgL()" id="btnLeft">&#9664;</button>
+        
         </section>
 
         <section class="reviewContainerC">
-            <p id="wallOfText"><?=$gameInfo["gameDesc"]?>/p>
+            <p id="wallOfText"><?=$gameInfo["gameDesc"]?></p>
             <article class="reviewImgContainer">
                 <img src=<?=$gameInfo["image"]["img4"];?> alt="cover image" id="reviewImgL">
                 <img src=<?=$gameInfo["image"]["img2"];?> alt="gameplay image" id="reviewImgC">
                 <img src=<?=$gameInfo["image"]["img3"];?> alt="gameplay image" id="reviewImgR">
             </article>
         </section>
+        
 
         <section class="ratingContainer"></section>
     </main>
@@ -115,7 +119,7 @@
 
 
     <script src="lib/index.js"></script>
-    <!-- <script src="lib/gameSlides.js"></script> -->
+    <script src="lib/gameSlides.js"></script>
 
 
 </body>
