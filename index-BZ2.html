@@ -108,10 +108,15 @@
             const description = document.getElementById("Description");
             const picture = document.getElementById("reviewImg");
     
-        const params = window.location.search;
-        let game =""
+        const gameSwitch ={
+            game0: {
+                title: "Minecraft",
+                
 
-        if(game = true) {
+
+            }}
+
+        if(gameSwitch = true) {
                 title.innerText = "Minecraft";
                 releaseDate.innerText = "18 Nov, 2011";
                 releasedPlatforms.innerText = " Windows, OS X, iOS, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Wii U and Nintendo Switch";
@@ -119,7 +124,7 @@
                 picture.src = "https://store-images.s-microsoft.com/image/apps.60323.14294656681058683.4d17bdd8-7026-429a-846f-cf7836bc9e56.a69e6905-8926-4a48-b243-14a039b97aae?mode=scale&q=90&h=1080&w=1920&format=jpg";
                 picture.alt = "Minecraft img";
 
-        }else if(game = false) {
+        }else if(gameSwitch = false) {
                 title.innerText = "One shot";
                 releaseDate.innerText = "8 Dec ,2016";
                 releasedPlatforms.innerText = "PlayStation 4, Xbox One, Switch and PC (on steamdeck)";

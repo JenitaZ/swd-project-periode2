@@ -70,6 +70,10 @@
             </section>
     
             <section class="ratingContainer"></section>
+
+            <article>
+                <p id="textbz"></p>
+            </article>
         </main>
     
     
@@ -107,6 +111,7 @@
             const releasedPlatforms = document.getElementById("Accessplatforms");
             const description = document.getElementById("Description");
             const picture = document.getElementById("reviewImg");
+            const text = document.getElementById("textbz")
     
     const params = window.location.search;
     const game = params.includes("RDR");
@@ -116,9 +121,10 @@
                 title.innerText = "Red Death Redemption";
                 releaseDate.innerText = "26 Oct, 2018";
                 releasedPlatforms.innerText = "PS4, Xbox One and PC (available at the Epic Games Store)";
-                description.innerText = "Red Death redemption, is a action-adventure game taking fictional place in 1899 in America and it the second game off a prequel.The game is presented through first- and third-person perspectives,and the player may freely roam its interactive open world. You are following allow an member of Van der Linde gang: Arthur Morgan. You are up against the decline of the wild west while attempting to survive against multiple groups.";
+                description.innerText = "Red Death redemption, is a action-adventure game taking fictional place in 1899 in America and it the second game off a prequel.";
                 picture.src = "img/games/cfd69cc1-5f28-424e-8f4e-543e974a11842.jpg";
                 picture.alt = "red death redemption";
+                text.innerText = "The game is presented through first- and third-person perspectives,and the player may freely roam its interactive open world. You are following allow an member of Van der Linde gang: Arthur Morgan. You are up against the decline of the wild west while attempting to survive against multiple groups."
             break;
     
                     
