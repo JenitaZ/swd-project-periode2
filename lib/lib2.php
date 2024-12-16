@@ -1,12 +1,12 @@
-<!-- /
+<!-- 
+*
 * game review 2
-* JS game pagina's || stray + banana
+* PHP game pagina's || games: stray + banana
 *
 -->
 
 <?php
 $value = $_GET['var'];
-// $key = "1";
 $games = [
     "0" => [
         "title" => "Stray",
