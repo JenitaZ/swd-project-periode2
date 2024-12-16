@@ -49,7 +49,7 @@
                 "release_date" => "24 May, 2016",
                 "platforms" => "supported across all platforms",
                 "description" => "OverWatch is an online team-based game generally played as a first-person shooter. The game featured several different game modes, principally designed around squad-based combat with two opposing teams of six players each. Players selected one of over two dozen pre-made hero characters from one of three class types",
-                "image" => "https://th.bing.com/th/id/OIP.XhKNh1n8Nf6WFqsIq03G6wHaDP?rs=1&pid=ImgDetMain"
+                "image" => "https://th.bing.com/th/id/R.da5b80a7b2168b28de75f83ce9aba411?rik=BBQsiSvTAOfkKQ&pid=ImgRaw&r=0"
             ];
         } elseif ($value == 'LOZ') {
             $gameInfo = [
