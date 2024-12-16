@@ -103,7 +103,8 @@
     
         <script>
             const params = window.location.search;
-            const value = params.includes("0");
+            // const value = params.includes("0");
+            const gameSwitch = "0"
 
             const title = document.getElementById("tItle");
             const releaseDate = document.getElementById("release");
@@ -111,7 +112,7 @@
             const description = document.getElementById("Description");
             const picture = document.getElementById("reviewImg");
 
-        if(gameSwitch = 0) {
+        if(gameSwitch == true) {
                 title.innerText = "Minecraft";
                 releaseDate.innerText = "18 Nov, 2011";
                 releasedPlatforms.innerText = "Windows, OS X, iOS, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Wii U and Nintendo Switch";
@@ -119,7 +120,7 @@
                 picture.src = "https://store-images.s-microsoft.com/image/apps.60323.14294656681058683.4d17bdd8-7026-429a-846f-cf7836bc9e56.a69e6905-8926-4a48-b243-14a039b97aae?mode=scale&q=90&h=1080&w=1920&format=jpg";
                 picture.alt = "Minecraft img";
 
-        }else if(gameSwitch = 1) {
+        }else if(gameSwitch == false) {
                 title.innerText = "One shot";
                 releaseDate.innerText = "8 Dec ,2016";
                 releasedPlatforms.innerText = "PlayStation 4, Xbox One, Switch and PC (on steamdeck)";
@@ -127,7 +128,7 @@
                 picture.src = "https://th.bing.com/th/id/R.71aee5c12753382afc3cc0a15f3bf714?rik=X3pysyRDkVC9Iw&pid=ImgRaw&r=0";
                 picture.alt = "One shot";
         } else {
-            ""
+            "Oops, Something broke!"
         } 
 
         

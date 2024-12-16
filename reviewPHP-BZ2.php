@@ -49,7 +49,7 @@
                 "release_date" => "June 2, 2020",
                 "platforms" => "Windows, Xbox Series X/S and Playstation 5",
                 "description" => "Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents. Every player starts each round with a 'classic' pistol and one or more 'signature ability' charges.",
-                "image" => "https://upload.wikimedia.org/wikipedia/en/b/ba/Valorant_cover.jpg",
+                "image" => "https://th.bing.com/th/id/OIP.IuzMPOgbOqudVVmXeExuggHaEK?rs=1&pid=ImgDetMain",
                 "PEGI" => 16
                 ],
                 "1" => [
