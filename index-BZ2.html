@@ -103,8 +103,7 @@
     
         <script>
             const params = window.location.search;
-            // const value = params.includes("0");
-            const gameSwitch = "0"
+            const gameSwitch = params.includes("0");
 
             const title = document.getElementById("tItle");
             const releaseDate = document.getElementById("release");
@@ -159,14 +158,14 @@
         //     releaseDate.innerText = gameSwitch.game0.releaseDate;
         //     releasedPlatforms.innerText = gameSwitch.game0.releasedPlatforms;
         //     description.innerText = gameSwitch.game0.description;
-        //     picture.src = gameSwitch.game0.picture[0];
+        //     picture.src = gameSwitch.game0.picture[1];
         //     pegi = "E";
         // } else {
         //     title.innerText = gameInfo.game1.title;
         //     rD.innerText = gameInfo.game1.release_date;
         //     platforms.innerText = gameInfo.game1.platforms;
         //     desc.innerText = gameInfo.game1.description;
-        //     reviewImg.src = gameInfo.game1.image[1];
+        //     reviewImg.src = gameInfo.game1.image[0];
         //     reviewImg.alt = gameInfo.game1.alt;
         //     pegi = 7;
         // } 
