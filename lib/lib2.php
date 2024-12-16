@@ -1,3 +1,9 @@
+<!-- /
+* game review 2
+* JS game pagina's || stray + banana
+*
+-->
+
 <?php
 $value = $_GET['var'];
 // $key = "1";
@@ -39,38 +45,6 @@ $games = [
         // "genre" => "casual",
         // "singleplayer",
         "yt" => ""
-    ],
-    "2" => [
-        "title" => "",
-        "release_date" => "",
-        "platforms" => "",
-        "description" => "",
-        "image" => array(
-            "img1" => "",
-            "img2" => "",
-            "img3" => "",
-            "img4" => "",
-        ),
-        
-        "PEGI" =>0,
-         "gameDesc" => "<span id='title'>###</span> <br> <span id='smallGrayText'>released on: ###, Developed by:###",
-        "yt" => ""
-    ],
-   "3" => [
-        "title" => "",
-        "release_date" => "",
-        "platforms" => "",
-        "description" => "",
-        "image" => array(
-            "img1" => "",
-            "img2" => "",
-            "img3" => "",
-            "img4" => "",
-        ),
-        
-        "PEGI" => 0,
-         "gameDesc" => "<span id='title'>###</span> <br> <span id='smallGrayText'>released on: ###, Developed by:###",
-        "yt" => ""
     ]
 ];
 
@@ -83,15 +57,6 @@ switch ($value) {
     case '1':
         $gameInfo = $games['1'];
         break;
-    
-    case '2':
-        $gameInfo = $games[''];
-        break;
-
-    case '3':
-        $gameInfo = $games[''];
-        break;
-        
     default:
         echo "iets brak weer";
 
