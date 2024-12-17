@@ -4,6 +4,7 @@
 * PHP
 *
 -->
+
 <?php
 $value = $_GET['var'];
 

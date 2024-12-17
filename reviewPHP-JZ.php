@@ -1,5 +1,5 @@
 <?php include "lib/library.php";?>
-
+<!-- review 1, PHP -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="description" content="Review 1 | PHP">
-    <meta name="keywords" content="Rainworld Stardew-valley review php">
+    <meta name="keywords" content="Rainworld Stardew-valley review PHP">
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
