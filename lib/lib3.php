@@ -19,9 +19,9 @@ $value = $_GET['var'];
 $games = [
     "TR" => [
         "title" => "Terraria",
-        "release_date" => "",
-        "platforms" => "PC, PS4/5, XBOX One, Switch",
-        "description" => "Stray is a third-person cat adventure game set amidst the detailed neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly.",
+        "release_date" => "August 16th, 2012",
+        "platforms" => "Nintendo, mobile, pc, ps4",
+        "description" => "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
         "image" => array(
             "img1" => "https://www.brashgames.co.uk/wp-content/uploads/2014/11/Terraria-Review-Screen-3.jpg",
             "img2" => "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1731252354",
@@ -30,16 +30,17 @@ $games = [
         ),
         
         "PEGI" => 12,
-         "gameDesc" => "<span id='title'>Stray</span> <br> <span id='smallGrayText'>released on: July 19th, 2022, Developed by:  BlueTwelve Studio and released by Annapurna Interactive </span> <br><br> Is is a third-person cat adventure game set amidst the detailed, neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly and follows a stray cat who falls into a walled city populated by robots, machines, and mutant bacteria, and sets out to return to the surface with the help of a drone companion, B-12",
+          "gameDesc" => "<span id='title'>Terraria</span> <br> <span id='smallGrayText'>released on: August 16th, 2012, Developed and released by:  Re-Logic </span> <br><br> Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory.<br> Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics?<br><br> Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat?<br><br> Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels?<br><br>In the World of Terraria, the choice is yours!
+",
         "genre" => "sandbox", "survival", "2d",
         "yt" => "https://www.youtube.com/embed/w7uOhFTrrq0?si=K9ud0bxzsfHG3W4M",
         "rating" => 8.1
     ],
     "HK" => [
-        "title" => "Hollowkight",
-        "release_date" => "April 23rd, 2024",
-        "platforms" => "Microsoft, Linux, Mac OS",
-        "description" => "Banana is a clicker Game, in which you click a Banana! Get a random banana every 3 hours and grow your collection! 3 hour drop pool chances",
+        "title" => "Hollow Knight",
+        "release_date" => "February 24th, 2017",
+        "platforms" => "Playstation4, Xbox, pc, switch",
+        "description" => "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
         "image" => array(
             "img1" => "https://bananaclicker.io/data/image/posts/banana-clicker-banner.jpg",
             "img2" => "https://plays.org/screenshots/clicker-banana-game-progress.png",
@@ -48,12 +49,14 @@ $games = [
         ),
 
         "PEGI" => 12,
-        "gameDesc" => "<span id='title'>Banana</span> <br> <span id='smallGrayText'>released on: April 23rd, 2024, Developed by:  BlueTwelve Studio and released by Annapurna Interactive </span> <br><br>The core mechanic of Banana Clicker is as simple as it gets. Clicking on the banana increases your banana count. There's no strategy or complex controls involved, just pure, clicky fun<br><br>While clicking the Banana is the main activity, the real excitement comes from the random banana drops. These special bananas, featuring unique designs from cherry blossoms to gentlemen attire, are added to your Steam inventory.<br><br>The fun doesn't stop with collecting unique banana. These special bananas can be sold on the Steam Marketplace, opening the door to potentially lucrative (and strange) digital banana trading. Rarity plays a major role here, with some bananas fetching hundreds of dollars.",
+        "gameDesc" => "<span id='title'>Hollow Knight</span> <br> <span id='smallGrayText'>released on: February 24th, 2017, Developed and released by: Team Cherry </span> <br><br>Hollow Knight is a 2D side-scrolling Metroidvania. <br><br>The player controls a silent insectoid protagonist called \"the Knight\" who explores an underground fallen kingdom called Hallownest.<br><br> The Knight can strike enemies with a sword-like weapon called a Nail and can learn spells that allow for long-range attacks.",
         "genre" => "difficult", "platformer",
         "yt" => "https://www.youtube.com/embed/UAO2urG23S4?si=h57Cb664WEaKcCiR" ,
         "rating" => 9
     ]
 ];
+
+/* it accepts text..oh and change desc of hollow knight... */
 
 switch ($value) {
     case 'TR':
