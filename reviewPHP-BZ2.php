@@ -59,17 +59,16 @@
                 "description" => "Call of Duty: Modern Warfare III is a 2023 first-person shooter game. Modern Warfare III retains the realistic, modern setting of its predecessors and continues the sub-series storyline. Players have access to an on-screen map of the area, including a tactical map that outlines objectives and usual equipment, with caches of weapons, gear and specialized equipment on hand.",
                 "PEGI" => 18
                 ]
-            
             ];
 
             switch ($value) {
                 case '0':
-                    $gameInfo = $games['0'];
+                    $gameInfo = $value['0'];
                     break;
             
             
                 case '1':
-                    $gameInfo = $games['1'];
+                    $gameInfo = $value['1'];
                     break;
             
                 default:
