@@ -63,12 +63,12 @@
 
             switch ($value) {
                 case '0':
-                    $gameInfo = $value['0'];
+                    $gameInfo = $gameInfo['0'];
                     break;
             
             
                 case '1':
-                    $gameInfo = $value['1'];
+                    $gameInfo = $gameInfo['1'];
                     break;
             
                 default:
