@@ -735,7 +735,7 @@ footer {
 
 }
 
-#reviewImg{
+#reviewImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -746,6 +746,17 @@ footer {
    height: 100%;
    object-fit: cover;
   
+}
+
+#reviewVid {
+    width: 655px;
+    height: 400px;
+    position: absolute;
+    border: none;
+    object-fit: cover;
+    /* margin-left: -655px; */
+    border: none;
+    display: block;
 }
 
 
