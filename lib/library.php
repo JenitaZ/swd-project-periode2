@@ -1,8 +1,10 @@
 <!-- 
+*
 * game review 1
 * PHP
 *
 -->
+
 <?php
 $value = $_GET['var'];
 

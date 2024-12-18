@@ -1,4 +1,7 @@
 <?php include "lib/lib2.php";?>
+<?php include "lib/lib3.php";?>
+
+<!-- review 2 & 3 PHP-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description" content="Review 2 | PHP">
-    <meta name="keywords" content="stray banana review php">
+    <meta name="description" content="Review 2 & 3 | PHP">
+    <meta name="keywords" content="stray, banana review PHP">
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
@@ -78,11 +81,11 @@
 
         <section class="reviewContainerC">
             <p id="wallOfText"><?=$gameInfo["gameDesc"]?></p>
-            <article class="reviewImgContainer">
+<!--             <article class="reviewImgContainer">   
                 <img src=<?=$gameInfo["image"]["img4"];?> alt="cover image" id="reviewImgL">
                 <img src=<?=$gameInfo["image"]["img2"];?> alt="gameplay image" id="reviewImgC">
                 <img src=<?=$gameInfo["image"]["img3"];?> alt="gameplay image" id="reviewImgR">
-            </article>
+            </article> -->
         </section>
         
 
