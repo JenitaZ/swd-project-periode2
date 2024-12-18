@@ -47,7 +47,7 @@
             "UGG" => [
                 "title" => "Untitled Goose Game",
             "genre" => "puzzle stealth",
-            "PEGI" => "All"
+            "PEGI" => "All",
             "release_date" => "20 Sep, 2019",
             "platforms" => "macOS, Switch, Windows, PlayStation 4 and Xbox One",
             "description" => "Players control a goose who bothers the inhabitants of an English village. Players must use the goose's abilities to manipulate objects and non-player characters to complete objectives.",
@@ -57,8 +57,8 @@
             ],
             "SKY" => [
                 "title" => "Sky : Childeren of the light",
-            "genre" => "Adventure Game"
-            "PEGI" => "All"
+            "genre" => "Adventure Game",
+            "PEGI" => "All",
             "release_date" => "18 Jul, 2019",
             "platforms" => "iOS, Android, Nintendo Switch, PlayStation 4, Windows",
             "description" => "Call of Duty: Modern Warfare III is a 2023 first-person shooter game. Modern Warfare III retains the realistic, modern setting of its predecessors and continues the sub-series storyline. Players have access to an on-screen map of the area, including a tactical map that outlines objectives and usual equipment, with caches of weapons, gear and specialized equipment on hand.",
