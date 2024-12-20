@@ -128,7 +128,7 @@
 
             <!-- IMGS -->
         <img src="<?=$gameInfo["imgs1"]?>" id="imgs1"></img>
-        <img src="<?=$gameInfo["imgs2"]?>" id="imgs30"></img>
+        <img src="<?=$gameInfo["imgs2"]?>" id="imgs2"></img>
         <img src="<?=$gameInfo["img3"]?>" id="imgs3"></img>
         </div>
 
