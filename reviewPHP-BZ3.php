@@ -127,9 +127,9 @@
             <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
 
             <!-- IMGS -->
-        <img src="<?=$gameInfo["imgs"]["imgs1"];?>"></img>
-        <img src="<?=$gameInfo["imgs"]["imgs2"];?>"></img>
-        <img src="<?=$gameInfo["imgs"]["imgs3"];?>"></img>
+        <img height="200" width="400" src="<?=$gameInfo["imgs"]["imgs1"];?>"></img>
+        <img height="200" width="400" src="<?=$gameInfo["imgs"]["imgs2"];?>"></img>
+        <img height="200" width="400" src="<?=$gameInfo["imgs"]["imgs3"];?>"></img>
         </div>
 
         <section class="ratingContainer"></section>
