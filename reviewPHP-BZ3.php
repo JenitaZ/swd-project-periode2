@@ -73,7 +73,7 @@
             "imgs" => array (
                 "imgs1" => "https://www.pockettactics.com/wp-content/uploads/2020/08/sky-children-of-the-light-friends.jpg",
                 "imgs2" => "https://cdn.mos.cms.futurecdn.net/Q6f4xr7UgeE2iNmSk3UU34.jpg",
-                "img3" => "https://nichegamer.com/wp-content/uploads/2022/08/sky-children-of-the-light-08-16-22-1.jpg"
+                "imgs3" => "https://nichegamer.com/wp-content/uploads/2022/08/sky-children-of-the-light-08-16-22-1.jpg"
             ),
             ]
         ];
@@ -127,9 +127,9 @@
             <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
 
             <!-- IMGS -->
-        <img id="imgs1" src="<?=$gameInfo["imgs1"]?>"></img>
-        <img id="imgs2" src="<?=$gameInfo["imgs2"]?>"></img>
-        <img id="imgs3" src="<?=$gameInfo["imgs3"]?>"></img>
+        <img id="imgs1" src="<?=$gameInfo["imgs1"];?>"></img>
+        <img id="imgs2" src="<?=$gameInfo["imgs2"];?>"></img>
+        <img id="imgs3" src="<?=$gameInfo["imgs3"];?>"></img>
         </div>
 
         <section class="ratingContainer"></section>
