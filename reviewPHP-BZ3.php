@@ -57,7 +57,7 @@
             "imgs" => array (
                 "imgs1" => "https://steamcdn-a.akamaihd.net/steam/apps/837470/ss_6c0fa7da01f010b3de476cd3de9369687256de44.1920x1080.jpg?t=1550704977",
                 "imgs2" => "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/07/untitled-goose-gameplay.jpg",
-                "img3s" => "https://vulcan.dl.playstation.net/img/rnd/201912/D628_ZZ/tnrg2HDMLNt0gYYaVW.jpg"
+                "imgs3" => "https://vulcan.dl.playstation.net/img/rnd/201912/D628_ZZ/tnrg2HDMLNt0gYYaVW.jpg"
             ),
             ],
             "SKY" => [
