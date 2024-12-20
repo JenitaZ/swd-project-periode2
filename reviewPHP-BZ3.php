@@ -57,7 +57,7 @@
             "imgs" => array (
                 "imgs1" => "https://steamcdn-a.akamaihd.net/steam/apps/837470/ss_6c0fa7da01f010b3de476cd3de9369687256de44.1920x1080.jpg?t=1550704977",
                 "imgs2" => "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/07/untitled-goose-gameplay.jpg",
-                "img3" => "https://cdn.mos.cms.futurecdn.net/4V8XB4AetaAipVSTiLw544.jpeg"
+                "img3s" => "https://cdn.mos.cms.futurecdn.net/4V8XB4AetaAipVSTiLw544.jpeg"
             ),
             ],
             "SKY" => [
@@ -127,9 +127,9 @@
             <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
 
             <!-- IMGS -->
-        <img id="imgs1" src="<?=$gameInfo["imgs1"];?>"></img>
-        <img id="imgs2" src="<?=$gameInfo["imgs2"];?>"></img>
-        <img id="imgs3" src="<?=$gameInfo["imgs3"];?>"></img>
+        <img src="<?=$gameInfo["imgs1"];?>"></img>
+        <img src="<?=$gameInfo["imgs2"];?>"></img>
+        <img src="<?=$gameInfo["imgs3"];?>"></img>
         </div>
 
         <section class="ratingContainer"></section>
