@@ -93,7 +93,7 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
-            <iframe width="650" height="420" src="" id="Youtube"><?=$gameInfo["ytvideo"]?></iframe>
+            <iframe width="650" height="420" src="<?=$gameInfo["ytvideo"]?>" id="Youtube"></iframe>
             </article>
 
             <section class="containerReview">
@@ -110,6 +110,12 @@
                 </div>       
             </section>
         </section>
+
+        <div>
+        <p id= "extradesc"><?=$gameInfo["extradesc"]?></p>
+                <br>
+            <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
+        </div>
 
         <section class="ratingContainer"></section>
     </main>
