@@ -52,8 +52,8 @@
             "platforms" => "macOS, Switch, Windows, PlayStation 4 and Xbox One",
             "description" => "Players control a goose who bothers the inhabitants of an English village. Players must use the goose's abilities to manipulate objects and non-player characters to complete objectives.",
             "extradesc" => "Set in a quiet English village, the game follows a domestic goose controlled by the player that can honk, duck down, run, flap its wings, and grab objects with its beak to bother villagers.",
-            "extradesctwo" => "The village is split up into multiple areas,[1] each of which has a 'to do' list of objectives, such as stealing certain objects or tricking humans into doing specific things",
-            "ytvideo" => "https://www.youtube.com/embed/9LL2AtHo1gk?si=Ocp9KI7N3qRiX2hj",
+            "extradesctwo" => "The village is split up into multiple areas, one each of which has a 'to do' list of objectives, such as stealing certain objects or tricking humans into doing specific things",
+            "ytvideo" => "https://www.youtube.com/embed/A3DNTfhUy0k?si=FBfvBAdRkfmuYLm0",
             ],
             "SKY" => [
                 "title" => "Sky : Childeren of the light",
@@ -61,9 +61,9 @@
             "PEGI" => "All",
             "release_date" => "18 Jul, 2019",
             "platforms" => "iOS, Android, Nintendo Switch, PlayStation 4, Windows",
-            "description" => "Call of Duty: Modern Warfare III is a 2023 first-person shooter game. Modern Warfare III retains the realistic, modern setting of its predecessors and continues the sub-series storyline. Players have access to an on-screen map of the area, including a tactical map that outlines objectives and usual equipment, with caches of weapons, gear and specialized equipment on hand.",
-            "extradesc" => "In Sky, players explore a once-prosperous kingdom using a cape that allows them to fly. The in-game world consists of seven unique realms, each with a variety of areas to explore, and a theme representing different stages of life.",
-            "extradesctwo" => "The game places heavy focus on social mechanics. Players are able to meet and befriend one another, and can unlock new abilities such as chat and sending gifts as their friendship grows.",
+            "description" => "In Sky, players explore a once-prosperous kingdom using a cape that allows them to fly. The in-game world consists of seven unique realms, each with a variety of areas to explore, and a theme representing different stages of life.",
+            "extradesc" => "The game places heavy focus on social mechanics. Players are able to meet and befriend one another, and can unlock new abilities such as chat and sending gifts as their friendship grows.",
+            "extradesctwo" => "Sky has multiple in-game currencies. 'Candles' are the main currency of Sky, and are exchanged with spirits and friends in return for items and abilities. Candles are obtained by collecting pieces of light (called wax in game) and forging them, or by purchasing them for real money.",
             "ytvideo" => "https://www.youtube.com/embed/A3DNTfhUy0k?si=0jtjkriGhiFZT3vX",
             ]
         ];
@@ -93,7 +93,7 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
-            <iframe src="" width="650" height="420" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="ytvideo"></iframe>
+            <iframe width="650" height="420" src="" id="Youtube"><?=$gameInfo["ytvideo"]?></iframe>
             </article>
 
             <section class="containerReview">
