@@ -53,7 +53,12 @@
             "description" => "Players control a goose who bothers the inhabitants of an English village. Players must use the goose's abilities to manipulate objects and non-player characters to complete objectives.",
             "extradesc" => "Set in a quiet English village, the game follows a domestic goose controlled by the player that can honk, duck down, run, flap its wings, and grab objects with its beak to bother villagers.",
             "extradesctwo" => "The village is split up into multiple areas, one each of which has a 'to do' list of objectives, such as stealing certain objects or tricking humans into doing specific things",
-            "ytvideo" => "https://www.youtube.com/embed/A3DNTfhUy0k?si=FBfvBAdRkfmuYLm0",
+            "ytvideo" => "https://www.youtube.com/embed/9LL2AtHo1gk?si=1x1SZJStnBIh9CPO",
+            "imgs" => array (
+                "imgs1" => "https://steamcdn-a.akamaihd.net/steam/apps/837470/ss_6c0fa7da01f010b3de476cd3de9369687256de44.1920x1080.jpg?t=1550704977",
+                "imgs2" => "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/07/untitled-goose-gameplay.jpg",
+                "img3" => "https://cdn.mos.cms.futurecdn.net/4V8XB4AetaAipVSTiLw544.jpeg"
+            ),
             ],
             "SKY" => [
                 "title" => "Sky : Childeren of the light",
@@ -65,6 +70,11 @@
             "extradesc" => "The game places heavy focus on social mechanics. Players are able to meet and befriend one another, and can unlock new abilities such as chat and sending gifts as their friendship grows.",
             "extradesctwo" => "Sky has multiple in-game currencies. 'Candles' are the main currency of Sky, and are exchanged with spirits and friends in return for items and abilities. Candles are obtained by collecting pieces of light (called wax in game) and forging them, or by purchasing them for real money.",
             "ytvideo" => "https://www.youtube.com/embed/A3DNTfhUy0k?si=0jtjkriGhiFZT3vX",
+            "imgs" => array (
+                "imgs1" => "https://www.pockettactics.com/wp-content/uploads/2020/08/sky-children-of-the-light-friends.jpg",
+                "imgs2" => "https://cdn.mos.cms.futurecdn.net/Q6f4xr7UgeE2iNmSk3UU34.jpg",
+                "img3" => "https://nichegamer.com/wp-content/uploads/2022/08/sky-children-of-the-light-08-16-22-1.jpg"
+            ),
             ]
         ];
 
@@ -115,6 +125,11 @@
         <p id= "extradesc"><?=$gameInfo["extradesc"]?></p>
                 <br>
             <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
+
+            <!-- IMGS -->
+        <img src="<?=$gameInfo["imgs1"]?>" id="imgs1"></img>
+        <img src="<?=$gameInfo["imgs2"]?>" id="imgs30"></img>
+        <img src="<?=$gameInfo["img3"]?>" id="imgs3"></img>
         </div>
 
         <section class="ratingContainer"></section>
