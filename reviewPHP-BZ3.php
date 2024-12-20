@@ -127,9 +127,9 @@
             <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
 
             <!-- IMGS -->
-        <img src="<?=$gameInfo["imgs1"];?>"></img>
-        <img src="<?=$gameInfo["imgs2"];?>"></img>
-        <img src="<?=$gameInfo["imgs3"];?>"></img>
+        <img src="<?=$gameInfo["imgs"]["imgs1"];?>"></img>
+        <img src="<?=$gameInfo["imgs"]["imgs2"];?>"></img>
+        <img src="<?=$gameInfo["imgs"]["imgs3"];?>"></img>
         </div>
 
         <section class="ratingContainer"></section>
