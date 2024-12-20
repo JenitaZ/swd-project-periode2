@@ -944,3 +944,24 @@ footer {
     height: 35px;
 
 }
+/* -------------------------MERCH AND CONTACT---------------------------------- */
+div.merchs {
+    margin: 75px 0px;
+    }
+
+div.div {
+    color: #fefefe;
+    margin: 75px 0px;
+    }
+div.telephone {
+    color: #fefefe;
+    float: right;
+    margin: 75px 600px;
+    position: absolute;
+    }
+div.hat {
+    color: #fefefe;
+    float: right;
+    margin: 75px 600px;
+    position: absolute;
+}
