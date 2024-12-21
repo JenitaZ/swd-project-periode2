@@ -77,6 +77,9 @@ body.light-mode {
     margin-right: 5px;
 }
 
+#logo-txt-link {
+    color: white;
+}
 
 .stick a,
 .Name {
