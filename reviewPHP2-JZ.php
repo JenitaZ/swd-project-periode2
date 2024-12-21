@@ -1,7 +1,7 @@
-<?php include "lib/lib2.php";?>
-<?php include "lib/lib3.php";?>
+<?php include "lib/gamesPHP/lib2.php";?>
+<?php include "lib/gamesPHP/lib3.php";?>
 
-<!-- review 2 & 3 PHP-->
+<!-- review 2, 3, 4 PHP-->
 
 <!DOCTYPE html>
 <html lang="en">

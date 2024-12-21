@@ -1,6 +1,6 @@
 <!-- 
 *
-* game review 3
+* game review 3 en 4
 * PHP game pagina's || games: Terraria + Hollowknight
 *
 -->
@@ -52,6 +52,22 @@ $games = [
         "gameDesc" => "<span id='title'>Hollow Knight</span> <br> <span id='smallGrayText'>released on: February 24th, 2017, Developed and released by: Team Cherry </span> <br><br>Hollow Knight is a 2D side-scrolling Metroidvania. <br><br>The player controls a silent insectoid protagonist called \"the Knight\" who explores an underground fallen kingdom called Hallownest.<br><br> The Knight can strike enemies with a sword-like weapon called a Nail and can learn spells that allow for long-range attacks.",
         "genre" => "difficult", "platformer",
         "yt" => "https://www.youtube.com/embed/UAO2urG23S4?si=h57Cb664WEaKcCiR" ,
+        "rating" => 9
+    ],
+    "BOK" => [
+        "title" => "",
+        "release_date" => "",
+        "platforms" => "",
+        "descriptions" => "", 
+        "image" => array(
+            "img1" => "",
+            "img2" => "",
+            "img3" => "",
+            "img4" => "",
+            "img5" => ""
+        ),
+        "PEGI" => 12,
+        "gameDesc" => "",
         "rating" => 9
     ]
 ];
