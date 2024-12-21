@@ -8,6 +8,8 @@
 <?php
 $value = $_GET['var'];
 
+// shows content based on value 
+
 if ($value == 'RW') {
     $gameInfo = [
         "title" => "Rain World",

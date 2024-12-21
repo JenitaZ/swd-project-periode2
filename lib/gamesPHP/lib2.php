@@ -48,6 +48,7 @@ $games = [
     ]
 ];
 
+// shows content based on value 
 switch ($value) {
     case '0':
         $gameInfo = $games['0'];

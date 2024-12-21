@@ -44,7 +44,7 @@ body {
     background-color: var(--bg-dark);
 }
 
-/* #region------------------------------LIGHT MODE-------------------------- */
+/* #region----------------------LIGHT MODE-------------------------- */
 body.light-mode {
     background-color: var(--bg-light);
     color: black;
@@ -54,7 +54,7 @@ body.light-mode {
 
 
 
-/*#region-------------------------------------- NAV ----------------------------------------------*/
+/*#region------------------------ NAV ----------------------------------------------*/
 .headerTemplate {
     border: black 1px solid;
     position: fixed;
@@ -230,7 +230,7 @@ i.login {
 /* #endregion */
 
 
-/* #region-----------------------------------------HOMEPAGE----------------------------------------*/
+/* #region----------------------HOMEPAGE----------------------------------------*/
 
 .headerimg {
     margin-top: 106px;
@@ -598,7 +598,7 @@ i.login {
 } 
 /* #endregion */
 
-/* #region--------FOOTER and stuff--------------------------------------------- */
+/* #region-------------------FOOTER and stuff--------------------------------------------- */
 
 .disclaimer p,
 .disclaimer p a {
@@ -876,7 +876,7 @@ footer {
 }
 /* #endregion */
 
-/* #region -------REVIEW SECTION----------- */
+/* #region--------------------REVIEW SECTION--------------------------------------------- */
 .userRating {
     /* border: 1px white solid; */
     width: auto;
@@ -957,3 +957,4 @@ footer {
     font-weight: 400;
     font-style: normal;
 }
+/* #endregion */

@@ -13,7 +13,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+<!-- arrays met gameinfo -->
 <?php
 $value = $_GET['var'];
 $games = [
@@ -71,11 +72,12 @@ $games = [
     ]
 ];
 
-/* it accepts text..oh and change desc of hollow knight... */
+/* FIXME: #15 it accepts text..oh and change desc of hollow knight... */
+/* checks age and show content based on value */
 
 switch ($value) {
     case 'TR':
-        echo "<script>let pegi = '" . $games['TR']['PEGI'] . "';</script>";
+        echo "<script>let pegi = '" . $games['TR']['PEGI'] . "';</script>"; 
         echo "<script type='text/javascript'>
             let age = prompt('Confirm your age:');
             if (age < pegi ){
