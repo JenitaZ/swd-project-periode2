@@ -1,7 +1,7 @@
 <!-- 
 *
 * game review 3 en 4
-* PHP game pagina's || games: Terraria + Hollowknight
+* PHP game pagina's || games: Terraria + Hollowknight + BOKURA
 *
 -->
 
@@ -55,19 +55,18 @@ $games = [
         "rating" => 9
     ],
     "BOK" => [
-        "title" => "",
-        "release_date" => "",
-        "platforms" => "",
-        "descriptions" => "", 
+        "title" => "BOKURA",
+        "release_date" => "August 9th, 2023",
+        "platforms" => "PS4/5", "switch", "desktop",
+        "description" => "BOKURA is a two-player puzzle adventure game. Play as two boys who ran away from their homes and work together to take yourselves somewhere far, far away. ", 
         "image" => array(
-            "img1" => "",
-            "img2" => "",
-            "img3" => "",
-            "img4" => "",
-            "img5" => ""
+            "img1" => "https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/08/BOKURA-A-Two-Player-Cooperative-Puzzle-Game-Officially-Launches-on-Mobile-Switch-and-PC-via-Steam.jpeg",
+
         ),
         "PEGI" => 12,
-        "gameDesc" => "",
+        "gameDesc" => "<span id='title'>BOKURA</span> <br> <span id='smallGrayText'>released on: August 9th, 2023, developed by: <span id='jp'>ところにょり</span> and released by Kodansha </span><br><br> BOKURA is a puzzle adventure game that can only be played with two players. <br>To play the game, two people must play on two separate machines.While you have to work together, what you see on your game screens is completely different.<br><br>Even though the same character should be displayed on both of your screens, to one of you, they might look like an animal out of a picture book, while to the other, they might look like a robot. (The objects you can interact with might move differently for each of you too!)You will need to talk to each other to find out what you can and cannot see. <br><br>Work together to solve the puzzles and continue your journey.",
+
+        "genre" =>  "Action", "Adventure", "Casual",
         "rating" => 9
     ]
 ];
@@ -99,6 +98,19 @@ switch ($value) {
 
         $gameInfo = $games['HK'];
         break;
+
+    case 'BOK':
+        echo "<script>let pegi = '" . $games['BOK']['PEGI'] . "';</script>";
+        echo "<script type='text/javascript'>
+            let age = prompt('Confirm your age:');
+            if (age < pegi ){
+                alert('This game is not suitable for your age.');
+                window.location.href = 'games.html';}
+        </script>";
+
+        $gameInfo = $games['BOK'];
+        break;
+
     default:
         echo "iets brak weer";
 

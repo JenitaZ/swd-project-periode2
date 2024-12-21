@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Doto:wght@500&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 :root {
     --bg-dark: #111;
     --bgNav-dark: #4c7a72;
@@ -616,13 +616,15 @@ footer {
     background-color: transparent;
     margin-top: auto;
     padding-bottom: 3vh;
+    overflow: hidden;
 }
 
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    margin: 60px 70px 30px 40px;
+    margin: 9vh 70px 30px 40px;
+    padding-bottom: 30vh;
     font-style: italic;
     color: var(--bg-dark-gray);
 
@@ -644,7 +646,8 @@ footer {
 .footer-header {
     font-size: 28px;
     font-weight: 550;
-    height: 34px;
+    height: 37px;
+    line-height: 2rem;
 }
 
 .divider {
@@ -943,4 +946,11 @@ footer {
     width: 70px;
     height: 35px;
 
+}
+
+#jp {
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
