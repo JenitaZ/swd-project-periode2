@@ -888,9 +888,11 @@ footer {
 }
 
 .pfps{
-    width: 80px;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
     border: 2px var(--highlight-dark) solid;
-    margin-bottom: 10px;
+    object-fit: cover;
 }
 .username {
     float: left;
@@ -909,7 +911,7 @@ footer {
 
 }
 
-.rTextContainer input[type="text"]{
+.rTextContainer input[type="text"] {
     width: 100%;
     height: 90%;
 
@@ -933,7 +935,7 @@ footer {
     }
 }
 
-textarea[name="review-txt"], textarea[name="review-txt"]:focus{
+textarea[name="review-txt"], textarea[name="review-txt"]:focus, #nameInput, #nameInput:focus{
     font-weight: 500;
     border: 1px var(--text-field-border) solid;
     outline: none; 
@@ -941,6 +943,12 @@ textarea[name="review-txt"], textarea[name="review-txt"]:focus{
     background-color: var(--text-field);
     color: white;
 }
+
+#nameInput {
+    width: fit-content;
+    margin: 10px 0;
+}
+
 
 #jp {
     font-family: "Noto Sans JP", serif;
@@ -996,4 +1004,6 @@ fieldset {
     margin-left: 20px;
     font-size: 18px;
 }
+
+
 /* #endregion */

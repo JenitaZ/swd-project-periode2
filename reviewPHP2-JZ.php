@@ -1,5 +1,6 @@
 <?php include "lib/gamesPHP/lib2.php";?>
 <?php include "lib/gamesPHP/lib3.php";?>
+<?php include "lib/gamesPHP/reviews.php"?>
 
 <!-- review 2, 3, 4 PHP-->
 
@@ -84,7 +85,31 @@
         </section>
         
 
-        <section class="ratingContainer"></section>
+        <div class="userRating averageRating">
+                <h1 class="avgRatingTxt"><span id="bs">Overall rating: <?=$Bokura["avg"]?> </span> </h1>
+                <div class="dividerNeon"></div>
+                
+                <section class="rProfileContainer">
+                   <section class="profileContainerL">
+                        <img src="https://www.njmt.nl/wp-content/uploads/2021/01/anoniem_avatar_pixabay-973460_1280-495x400.png" class="pfps">
+                        <section class="ratingCircles"></section>
+                    </section>
+
+                    <form class="rTextContainer" action="" method="post">
+                        <input type="text" placeholder="name" name="name" id="nameInput" autocomplete="off" required>
+                        <textarea rows="3" cols="74"  name="review-txt"></textarea>
+                        <input type="submit" value="submit review" name="inputValue">
+                        <fieldset class="reviewBtns">
+                            <input type=radio name=r class="" value="2">
+                            <input type=radio name=r class="" value="4">
+                            <input type=radio name=r class="" value="6">
+                            <input type=radio name=r class="" value="8">
+                            <input type=radio name=r class="" value="10">
+                          </fieldset>
+                    </form>
+                </section>
+            </div>
+
     </main>
 
 
