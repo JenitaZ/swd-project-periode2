@@ -166,8 +166,7 @@ body.light-mode {
 
     &:focus {
         outline: none !important;
-        border-color: var(--highlight-dark);
-        box-shadow: 0 0 10px var(--highlight-dark);
+
     }
 }
 

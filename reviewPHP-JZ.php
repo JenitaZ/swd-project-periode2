@@ -26,9 +26,9 @@
             <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
             <section class="zoekbalk">
-                <input type="text" placeholder="search">
+                <input type="text" placeholder="search" name="search">
                 <div>
-                    <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="searchbtn" name="searchbtn"><i class="fa fa-search"></i></button>
                 </div>
 
 
