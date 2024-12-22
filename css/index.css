@@ -845,8 +845,8 @@ footer {
 /* #region--------------------REVIEW SECTION--------------------------------------------- */
 .userRating {
     /* border: 1px white solid; */
-    width: auto;
-    height: 200px;
+    width: 1010px;
+    height: fit-content;
     margin-top: 30px;
     padding: 26px;  
     border-radius: 5px;
@@ -855,7 +855,7 @@ footer {
 
 .averageRating {
     height: fit-content;
-    width: 1010px;
+
 }
 
 .avgRatingTxt {
@@ -871,6 +871,13 @@ footer {
     border-bottom: 3px var(--highlight-dark) solid;
     margin: 15px 0;
 }
+.dividerNeon1 {
+    border-bottom: 3px var(--highlight-dark) solid;
+    margin: 15px 0;
+    width: 80%
+}
+
+
 
 
 /* section below divider */
@@ -976,6 +983,17 @@ fieldset {
         color:teal;
       }
     }
-  } 
+} 
   
+.reviewed {
+    margin-top: -35px;
+}
+
+.reviewedTxt {
+    /* background-color: black; */
+    width: 80%;
+    height: fit-content;
+    margin-left: 20px;
+    font-size: 18px;
+}
 /* #endregion */
