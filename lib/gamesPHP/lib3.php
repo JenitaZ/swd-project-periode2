@@ -123,7 +123,7 @@
             break;
 
         default:
-            echo "iets brak weer";
+            echo "loading...";
 
     }
 

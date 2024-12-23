@@ -871,11 +871,7 @@ footer {
     border-bottom: 3px var(--highlight-dark) solid;
     margin: 15px 0;
 }
-.dividerNeon1 {
-    border-bottom: 3px var(--highlight-dark) solid;
-    margin: 15px 0;
-    width: 80%
-}
+
 
 
 
@@ -897,6 +893,10 @@ footer {
 .username {
     float: left;
     width: fit-content;
+}
+
+.userName {
+    margin-left: 10px;
 }
 .profileContainerL {
     width: 15%;
@@ -1001,8 +1001,17 @@ fieldset {
     /* background-color: black; */
     width: 80%;
     height: fit-content;
-    margin-left: 20px;
+    margin: 15px 20px 0 0;
     font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.reviewTxtDate {
+    color: gray;
+    font-size: 17px;
+    /* float: right;
+    margin-right: 10px;
+    margin-top: -5px; */
 }
 
 

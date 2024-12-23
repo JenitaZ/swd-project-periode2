@@ -86,7 +86,7 @@
         
 
         <div class="userRating averageRating">
-                <h1 class="avgRatingTxt"><span id="bs">Overall rating: <?=$Bokura["avg"]?> </span> </h1>
+                <h1 class="avgRatingTxt"><span id="bs">Overall rating: <?=$averageRating?> </span> </h1>
                 <div class="dividerNeon"></div>
                 
                 <section class="rProfileContainer">
@@ -108,7 +108,9 @@
                           </fieldset>
                     </form>
                 </section>
+                
             </div>
+            <?=$output?>
 
     </main>
 
