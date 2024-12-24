@@ -1,7 +1,6 @@
 <?php include "lib/gamesPHP/lib2.php";?>
 <?php include "lib/gamesPHP/lib3.php";?>
 <?php include "lib/gamesPHP/reviews.php"?>
-
 <!-- review 2, 3, 4 PHP-->
 
 <!DOCTYPE html>
@@ -91,7 +90,7 @@
                 
                 <section class="rProfileContainer">
                    <section class="profileContainerL">
-                        <img src="https://www.njmt.nl/wp-content/uploads/2021/01/anoniem_avatar_pixabay-973460_1280-495x400.png" class="pfps">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="pfps">
                         <section class="ratingCircles"></section>
                     </section>
 
@@ -100,11 +99,16 @@
                         <textarea rows="3" cols="74"  name="review-txt"></textarea>
                         <input type="submit" value="submit review" name="inputValue">
                         <fieldset class="reviewBtns">
-                            <input type=radio name=r class="" value="2">
-                            <input type=radio name=r class="" value="4">
-                            <input type=radio name=r class="" value="6">
-                            <input type=radio name=r class="" value="8">
                             <input type=radio name=r class="" value="10">
+                            <input type=radio name=r class="" value="9">
+                            <input type=radio name=r class="" value="8">
+                            <input type=radio name=r class="" value="7">
+                            <input type=radio name=r class="" value="6">
+                            <input type=radio name=r class="" value="5">
+                            <input type=radio name=r class="" value="4">
+                            <input type=radio name=r class="" value="3">
+                            <input type=radio name=r class="" value="2">
+                            <input type=radio name=r class="" value="1">
                           </fieldset>
                     </form>
                 </section>
@@ -141,11 +145,16 @@
         </div>
     </footer>
 
+    <?php            
+        $_SESSION["name"] = $_POST["name"];
+        $_SESSION["reviewText"] = $_POST["review-txt"];
+        $_SESSION["rating"] = $_POST["r"];
+    ?>
 
 
     <script src="lib/index.js"></script>
     <script src="lib/gameSlides.js"></script>
-
+    <script src="lib/ratingCircles.js"></script>
 
 </body>
 
