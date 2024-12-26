@@ -1,6 +1,7 @@
 <?php include "lib/gamesPHP/lib2.php";?>
 <?php include "lib/gamesPHP/lib3.php";?>
 <?php include "lib/gamesPHP/reviews.php"?>
+
 <!-- review 2, 3, 4 PHP-->
 
 <!DOCTYPE html>
@@ -144,13 +145,6 @@
             </section>
         </div>
     </footer>
-
-    <?php            
-        $_SESSION["name"] = $_POST["name"];
-        $_SESSION["reviewText"] = $_POST["review-txt"];
-        $_SESSION["rating"] = $_POST["r"];
-    ?>
-
 
     <script src="lib/index.js"></script>
     <script src="lib/gameSlides.js"></script>

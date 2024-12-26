@@ -42,27 +42,24 @@ test your communication skills with your friend as you play the game of two frie
         ];
 
      
-
-        $name = $_SESSION["name"];
-        $reviewText = $_SESSION["reviewText"];
-        $rating = $_SESSION["rating"];
-        
         if (!isset($_SESSION['Bokura'])) {
             $_SESSION['Bokura'] = [];
         }
         
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $Bokura['new_user'] = [
-                "pfp" => "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
-                "username" => $name,
-                "review" => $reviewText,
-                "rated" => $rating,
-                "dateRated" => date("M d, Y"),
-            ];
+            if(isset($_POST["name"])){
+                $Bokura['new_user'] = [
+                    "pfp" => "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+                    "username" => $_POST["name"],
+                    "review" => $_POST["review-txt"],
+                    "rated" => $_POST["r"],
+                    "dateRated" => date("M d, Y"),
+                ];
 
-            uasort($Bokura, function($a, $b) {
-                return strtotime($b['dateRated']) - strtotime($a['dateRated']);
-            });
+                uasort($Bokura, function($a, $b) {
+                    return strtotime($b['dateRated']) - strtotime($a['dateRated']);
+                });
+            };
         };
         
         $averageRating = array_sum(array_column($Bokura, 'rated')) / count($Bokura);
