@@ -1,6 +1,9 @@
-<?php include "lib/gamesPHP/lib2.php";?>
-<?php include "lib/gamesPHP/lib3.php";?>
-<?php include "lib/gamesPHP/reviews.php"?>
+<?php 
+include "lib/PHP/lib2.php";
+include "lib/PHP/lib3.php";
+include "lib/PHP/reviews.php"
+?>
+
 
 <!-- review 2, 3, 4 PHP-->
 
@@ -120,7 +123,7 @@
     </main>
 
 
-    <footer>
+    <footer class="footer-reviews">
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">

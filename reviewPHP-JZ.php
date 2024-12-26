@@ -1,4 +1,4 @@
-<?php include "lib/gamesPHP/library.php";?>
+<?php include "lib/PHP/library.php";?>
 <!-- review 1, PHP -->
 <!DOCTYPE html>
 <html lang="en">

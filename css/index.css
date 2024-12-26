@@ -680,6 +680,10 @@ footer {
     margin: 2px;
 }
 
+.footer-reviews {
+    margin-top: 40px;
+}
+
 
 /* region----------Game review 1,2, php----------- */
 
@@ -905,7 +909,9 @@ footer {
 }
 
 .userName {
-    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 150px;
 }
 .profileContainerL {
     width: 15%;
@@ -1010,7 +1016,7 @@ fieldset {
     /* background-color: black; */
     width: 80%;
     height: fit-content;
-    margin: 15px 20px 0 0;
+    margin: 45px 20px 0 0;
     font-size: 18px;
     padding-bottom: 30px;
 }
