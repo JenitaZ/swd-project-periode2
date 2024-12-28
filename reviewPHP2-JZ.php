@@ -1,7 +1,7 @@
 <?php 
 include "lib/PHP/lib2.php";
 include "lib/PHP/lib3.php";
-include "lib/PHP/reviews.php"
+include "lib/PHP/reviews.php";
 ?>
 
 
@@ -76,7 +76,7 @@ include "lib/PHP/reviews.php"
                     <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
                     <p id="description"><?=$gameInfo["description"]?></p> 
-                </div>       
+                </div>       <!-- TODO: genres -->
             </section>
             <button onclick="changeGameImg()" id="btnRight">&#9654</button>
             <button onclick="changeGameImgL()" id="btnLeft">&#9664;</button>
