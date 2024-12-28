@@ -1,10 +1,10 @@
 <!--
 *
-*
-*reviews zitten hier
+* reviews zitten hier
 *
 *
 *-->
+
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -195,7 +195,7 @@
 
                 uasort($Bokura, function($a, $b) {
                     return strtotime($b['dateRated']) - strtotime($a['dateRated']);
-                });
+                }); /* FIXME: one of the two is an impostor, excessive, useless, overkill */
             };
         };
         

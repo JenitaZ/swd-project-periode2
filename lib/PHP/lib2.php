@@ -3,7 +3,8 @@
 * game review 2
 * PHP game pagina's || games: stray + banana
 *
--->
+*-->
+
 <!DOCTYPE html>
 <html lang="en">
 
