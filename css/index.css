@@ -244,25 +244,16 @@ i.login {
 
 /* #region----------------------HOMEPAGE----------------------------------------*/
 
-.headerimg {
-    margin-top: 106px;
-    width: 100%;
-    height: 70vh;
-    background-color: #b5bad0;
-    /* background-image:
-     url(img/games/37107d39373c202221d6672722f514cf.webp); */
-    overflow: hidden;
-    
-}
 
 .overlay-header{
-    margin-top: 210px;
+    margin-top: 110px;
     width: 100%;
-    height: 100vh;
     background: linear-gradient(180deg,
     transparent,
-    rgb(0, 0, 0, .7),
-    rgb(0, 0, 0, 1));
+    rgb(0, 0, 0, .2),
+    rgb(0, 0, 0, .5));
+    position: absolute;
+    height: 70vh;
 }
 #textvak {
     color: white;
@@ -282,6 +273,7 @@ i.login {
     font-size: 90px;
     height: 10vh;
     padding-top: 8vh;
+    margin-top: 30px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -507,7 +499,7 @@ i.login {
 
 .imgtemp {
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
     border-radius: 3px;
 
 }
@@ -526,6 +518,12 @@ i.login {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    &:hover {
+        /* opacity: .9; */
+        transition: .3s;
+        transform: scale(1.03);
+    }
 }
 
 
@@ -725,6 +723,35 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+.reviewImg {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    margin-top: 106px;
+    opacity: 1;
+}
+
+.slide-text {
+    color: gray;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: -5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.3s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
 
 .reviewImg-AC { 
    width: 120% !important; 
