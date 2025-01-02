@@ -67,7 +67,7 @@ include "lib/PHP/reviews.php";
             <article class="reviewContainer1">
                 <img src="" alt="" id="reviewImg">
                 <iframe src="" id="reviewVid"></iframe>
-    </article>
+            </article>
 
             <section class="containerReview">
                 <div class="reviewContent">

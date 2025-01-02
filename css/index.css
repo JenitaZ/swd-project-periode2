@@ -325,9 +325,16 @@ i.login {
 }
 
 .txtafstand{
+    position: absolute;
+    width: 20vw;
+    max-height: 30vh;
     margin-top: 10px;
     font-size: 1.1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.txtafstand p {
+    text-overflow: ellipsis;
 }
 .txt-one {
     grid-area: 1 / 1 / 2 / 3;
@@ -463,6 +470,24 @@ i.login {
 
 }
 
+#search {
+    float: right;
+    margin: 18px 150px;
+    border-radius: 5px;
+    width: 17vw;
+    background-color: transparent;
+    color: white;
+    border: none;
+    /* padding-left: 30px; */
+
+    &:focus {
+        outline: none !important;
+
+    }
+
+}
+
+
 #gamesgames{
     margin-left: 40px;
     margin-right: 50px;
@@ -548,7 +573,7 @@ i.login {
 
 }
 
-.game1 {
+/* .game1 {
     grid-area: 1 / 1 / 2 / 2;
     background-position: left;
 }
@@ -565,7 +590,7 @@ i.login {
 .game4 {
     grid-area: 1 / 4 / 2 / 5;
 
-}
+} */
 
 
 /* #endregion */
