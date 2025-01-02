@@ -331,11 +331,9 @@ i.login {
     margin-top: 10px;
     font-size: 1.1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
 }
 
-.txtafstand p {
-    text-overflow: ellipsis;
-}
 .txt-one {
     grid-area: 1 / 1 / 2 / 3;
     margin-left: 50px;
@@ -508,8 +506,16 @@ i.login {
 .gamesCC2 {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
+}
 
+.testing {
+    row-gap: 250px;
+    padding-bottom: 200px;
+}
 
+.testing div {
+    height: 30vh;
+    max-height: 300px;
 }
 
 .ugh {
@@ -526,6 +532,10 @@ i.login {
     background-color: black;
     border-radius: 3px;
 
+    &:hover p {
+        color: white;
+        transition: .3s;
+    }
 }
 
 .RW {
@@ -544,7 +554,6 @@ i.login {
     object-fit: cover;
 
     &:hover {
-        /* opacity: .9; */
         transition: .3s;
         transform: scale(1.03);
     }
@@ -681,8 +690,9 @@ footer {
 .dividerGamepage{
     width: 95%;
     margin-left: 35px;
-    margin-top: -50px;
+    margin-top: 150px;
     margin-bottom: 60px;
+    position: absolute;
 }
 .footer-left .footer-header {
     margin-bottom: 15px;
