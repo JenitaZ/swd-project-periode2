@@ -269,6 +269,8 @@ i.login {
     text-align: center;
 }
 
+
+
 #hometitle {
     font-size: 90px;
     height: 10vh;
@@ -469,13 +471,15 @@ i.login {
 }
 
 #search {
-    float: right;
-    margin: 18px 150px;
+    right: 30px;
+    position: absolute;
+    margin: 35px 20px;
     border-radius: 5px;
     width: 17vw;
     background-color: transparent;
     color: white;
-    border: none;
+    border: 2px var(--that-gray) solid;
+    padding: 2px;
     /* padding-left: 30px; */
 
     &:focus {
@@ -485,16 +489,16 @@ i.login {
 
 }
 
-
-#gamesgames{
-    margin-left: 40px;
-    margin-right: 50px;
+.gamesgames{
+    margin: 12px 50px 40px 40px;
     font-size: 30px;
     overflow: hidden;
-    margin-bottom: 50px;
     border-bottom: var(--that-gray) 2px solid;
     padding-bottom: 25px;
+}
 
+.arrg {
+    width: 75%;
 }
 
 .gamesCC{
@@ -537,6 +541,17 @@ i.login {
         transition: .3s;
     }
 }
+.show {
+    display: inline;
+  }
+
+.game-title {
+    color: var(--bg-light);
+    font-size: 20px;
+}
+/* .cod-title {
+    font-size: 18px;
+} */
 
 .RW {
     display: block;
@@ -1164,3 +1179,4 @@ fieldset {
     color: var(--rating-color-bad);
   }
   
+ 
