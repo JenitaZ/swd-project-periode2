@@ -25,21 +25,13 @@
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
-            <section class="zoekbalk">
-                <input type="text" placeholder="search" name="search">
-                <div>
-                    <button type="submit" class="searchbtn" name="searchbtn"><i class="fa fa-search"></i></button>
-                </div>
+            
+            <div class="toggle">
+                <input type="checkbox" id="mode-toggle" class="toggle__input">
+                <label for="mode-toggle" class="toggle__label"></label>
+            </div>
 
-
-                <!-- light/dark mode toggle -->
-                <div class="toggle">
-                    <input type="checkbox" id="mode-toggle" class="toggle__input">
-                    <label for="mode-toggle" class="toggle__label"></label>
-                </div>
-
-                <i class="fa fa-user-circle login"></i>
-            </section>
+            <i class="fa fa-user-circle login"></i>
         </article>
 
         <nav class="stick">
