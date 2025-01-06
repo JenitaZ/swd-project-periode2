@@ -25,21 +25,13 @@
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
-            <section class="zoekbalk">
-                <input type="text" placeholder="search" name="search">
-                <div>
-                    <button type="submit" class="searchbtn" name="searchbtn"><i class="fa fa-search"></i></button>
-                </div>
+            
+            <div class="toggle">
+                <input type="checkbox" id="mode-toggle" class="toggle__input">
+                <label for="mode-toggle" class="toggle__label"></label>
+            </div>
 
-
-                <!-- light/dark mode toggle -->
-                <div class="toggle">
-                    <input type="checkbox" id="mode-toggle" class="toggle__input">
-                    <label for="mode-toggle" class="toggle__label"></label>
-                </div>
-
-                <i class="fa fa-user-circle login"></i>
-            </section>
+            <i class="fa fa-user-circle login"></i>
         </article>
 
         <nav class="stick">
@@ -59,7 +51,7 @@
         <section class="flex-contatiner">
             <article class="reviewContainer1">
                 <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
-    </article>
+            </article>
 
             <section class="containerReview">
                 <div class="reviewContent">
@@ -80,14 +72,13 @@
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
-                <h1 class="footer-header">Contact</h1>
-                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
+                <h1 class="footer-header">Contact</h1> For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
                 </p>
             </section>
 
             <section class="footer-right">
                 <p>
-                    <span class="footer-header">Follow us</span>
+                <span class="footer-header">Follow us</span>
                 <div class="divider"></div>
 
                 <section class="icons">

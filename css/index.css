@@ -156,27 +156,8 @@ body.light-mode {
 
 }
 
-
-.zoekbalk {
-    float: right;
-    margin: 18px 150px;
-    border-radius: 5px;
-    width: 17vw;
-    background-color: transparent;
-    color: white;
-    border: none;
-}
-
-.zoekbalk input {
-    background-color: transparent;
-    color: white;
-    border-color: transparent;
-    /* padding-left: 30px; */
-
-    &:focus {
-        outline: none !important;
-
-    }
+#current-site {
+    background-color: blue;
 }
 
 .searchbtn {
@@ -527,8 +508,11 @@ i.login {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 170px;
     
+    & span{
+        margin-left: 10px;
+    }
 }
 
 .imgtemp {
@@ -549,9 +533,7 @@ i.login {
     color: var(--bg-light);
     font-size: 20px;
 }
-/* .cod-title {
-    font-size: 18px;
-} */
+
 
 .RW {
     display: block;
