@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-    <body class="background">
+    <body class="Home">
         <header class="headerTemplate">
-                <img class="cat" src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main" height="65" width="65">
-            <h1 class="Name">GAMESTARS</h1> <!--gaan we het zo houden?-->
-            <article class="logo">
+            <article class="logo gameslog">
+                <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop"
+                        class="logo-main"></a>
+                <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
                 <section class="zoekbalk">
-                    <input type="text" placeholder="search">
+                    <input type="text" placeholder="search" name="search">
                     <div>
-                        <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                        <button type="submit" class="searchbtn" name="searchbtn"><i class="fa fa-search"></i></button>
                     </div>
-    
     
                     <!-- light/dark mode toggle -->
                     <div class="toggle">
@@ -38,20 +38,12 @@
     
     
         </header>
-        <div class="topnav">
+        <div class="navbar">
             <a class="active" href="index.html">Home</a>
             <a href="games.html">Games</a>
             <a href="Merchandise.html">Merchandise</a>
             <a href="contact.html">Contact</a>
-            <div class="search-container">
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
-            </div>
-          </div>
-                <div id="textvak">
-                </div>
+        </div>
             </article>
             <h1>Merchandise</h1>
 
