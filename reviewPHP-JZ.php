@@ -51,7 +51,7 @@
         <section class="flex-contatiner">
             <article class="reviewContainer1">
                 <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
-    </article>
+            </article>
 
             <section class="containerReview">
                 <div class="reviewContent">
@@ -72,14 +72,13 @@
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
-                <h1 class="footer-header">Contact</h1>
-                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
+                <h1 class="footer-header">Contact</h1> For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
                 </p>
             </section>
 
             <section class="footer-right">
                 <p>
-                    <span class="footer-header">Follow us</span>
+                <span class="footer-header">Follow us</span>
                 <div class="divider"></div>
 
                 <section class="icons">

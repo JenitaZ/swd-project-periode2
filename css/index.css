@@ -508,8 +508,11 @@ i.login {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 170px;
     
+    & span{
+        margin-left: 10px;
+    }
 }
 
 .imgtemp {

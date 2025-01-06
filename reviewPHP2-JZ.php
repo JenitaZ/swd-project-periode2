@@ -16,7 +16,7 @@ include "lib/PHP/reviews.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="description" content="Review 2 , 3, 4 | PHP">
-    <meta name="keywords" content="stray, banana review PHP">
+    <meta name="keywords" content="Stray, Banana, Terraria, HollowKnight, Bokura, review PHP">
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
@@ -63,7 +63,7 @@ include "lib/PHP/reviews.php";
 
             <section class="containerReview">
                 <div class="reviewContent">
-                    <h1 id="title"><?= $gameInfo["title"]?></h1>
+                    <h1 id="title"><?=$gameInfo["title"]?></h1>
                     <p id="releaseDate">Releasedate: <?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
@@ -81,36 +81,36 @@ include "lib/PHP/reviews.php";
         
 
         <div class="userRating averageRating">
-                <h1 class="avgRatingTxt"><span id="bs">Overall rating: <?=$averageRating?> </span> </h1>
-                <div class="dividerNeon"></div>
-                
-                <section class="rProfileContainer">
-                   <section class="profileContainerL">
-                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="pfps">
-                        <section class="ratingCircles"></section>
-                    </section>
-
-                    <form class="rTextContainer" action="" method="post">
-                        <input type="text" placeholder="name" name="name" id="nameInput" autocomplete="off" required>
-                        <textarea rows="3" cols="74"  name="review-txt"></textarea>
-                        <input type="submit" value="submit review" name="inputValue">
-                        <fieldset class="reviewBtns">
-                            <input type=radio name=r class="" value="10">
-                            <input type=radio name=r class="" value="9">
-                            <input type=radio name=r class="" value="8">
-                            <input type=radio name=r class="" value="7">
-                            <input type=radio name=r class="" value="6">
-                            <input type=radio name=r class="" value="5">
-                            <input type=radio name=r class="" value="4">
-                            <input type=radio name=r class="" value="3">
-                            <input type=radio name=r class="" value="2">
-                            <input type=radio name=r class="" value="1">
-                          </fieldset>
-                    </form>
+            <h1 class="avgRatingTxt"><span id="bs">Overall rating: <?=$averageRating?> </span> </h1>
+            <div class="dividerNeon"></div>
+            
+            <section class="rProfileContainer">
+                <section class="profileContainerL">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="pfps">
+                    <section class="ratingCircles"></section>
                 </section>
-                
-            </div>
-            <?=$output?>
+
+                <form class="rTextContainer" action="" method="post">
+                    <input type="text" placeholder="name" name="name" id="nameInput" autocomplete="off" required>
+                    <textarea rows="3" cols="74"  name="review-txt"></textarea>
+                    <input type="submit" value="submit review" name="inputValue">
+                    <fieldset class="reviewBtns">
+                        <input type=radio name=r class="" value="10">
+                        <input type=radio name=r class="" value="9">
+                        <input type=radio name=r class="" value="8">
+                        <input type=radio name=r class="" value="7">
+                        <input type=radio name=r class="" value="6">
+                        <input type=radio name=r class="" value="5">
+                        <input type=radio name=r class="" value="4">
+                        <input type=radio name=r class="" value="3">
+                        <input type=radio name=r class="" value="2">
+                        <input type=radio name=r class="" value="1">
+                        </fieldset>
+                </form>
+            </section>
+            
+        </div>
+         <?=$output?>
 
     </main>
 
@@ -119,22 +119,20 @@ include "lib/PHP/reviews.php";
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
-                <h1 class="footer-header">Contact</h1>
-                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
+                <h1 class="footer-header">Contact</h1> For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
                 </p>
             </section>
 
             <section class="footer-right">
                 <p>
-                    <span class="footer-header">Follow us</span>
+                <span class="footer-header">Follow us</span>
                 <div class="divider"></div>
 
                 <section class="icons">
                     <a href="" class="iconlinks"><img src="img/socialmedia/yt-logo.png" alt="Youtube link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/ig-logo.png" alt="Instagram link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/X-logo.png" alt="X(Twitter) link"></a>
-                    <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link"
-                            class="annoyance"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link" class="annoyance"></a>
                 </section>
                 </p>
             </section>
