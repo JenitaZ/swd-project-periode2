@@ -17,9 +17,8 @@
     <!-- navigatie -->
     <header class="headerTemplate review-header">
         <article class="logo gameslog">
-            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
-            <h1 class="Name">GameStars</a></h1>
-
+            <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+            <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
             <section class="zoekbalk">
                 <input type="text" placeholder="search">
                 <div>
@@ -122,10 +121,10 @@
                     <div class="divider"></div>
     
                 <section class="icons">
-                    <a href="" class="iconlinks"><img src="img\socialmedia\yt-logo.png" alt="Youtube link"></a>
-                    <a href="" class="iconlinks"><img src="img\socialmedia\ig-logo.png" alt="Instagram link"></a>
-                    <a href="" class="iconlinks"><img src="img\socialmedia\X-logo.png" alt="X(Twitter) link"></a>
-                    <a href="" class="iconlinks"><img src="img\socialmedia\tk-logo.png" alt="Tiktok link"
+                    <a href="" class="iconlinks"><img src="img/socialmedia/yt-logo.png" alt="Youtube link"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/ig-logo.png" alt="Instagram link"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/X-logo.png" alt="X(Twitter) link"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link"
                             class="annoyance"></a>
                     </section>
                     </p>

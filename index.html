@@ -19,15 +19,15 @@
  <body class="Home">
 
     <header class="headerTemplate">
-        <article class="logo">
-            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+        <a class="logo">
+            <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <!--TODO: #6 make final version of logo-->
-            <h1 class="Name">GameStars</h1>
+            <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
 
             <section class="zoekbalk">
-                <input type="text" placeholder="search">
+                <input type="text" placeholder="search" name="search">
                 <div>
-                    <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="searchbtn" name="searchbtn"><i class="fa fa-search"></i></button>
                 </div>
 
 
@@ -55,16 +55,33 @@
     </nav>
 
     <main>
-        <article class="headerimg img-cover">
+        <!-- <article class="headerimg img-cover">
             <div class="overlay-header img-cover"></div>
             <div id="textvak">
                 <p>Top 3 games</p>
                 <p id="gameTitle"><b>RAIN WORLD</b></p>
             </div>
-        </article>
+        </article> -->
 
 
-        
+        <class class="headerimg">
+            <div class="fade mySlides">
+              <img src="img/games/37107d39373c202221d6672722f514cf.png" class="reviewImg">
+              <div class="slide-text">Rainworld</div>
+            </div>
+
+            <div class="fade mySlides">
+              <img src="img/games/sdv-banner.jpg" class="reviewImg fade">
+              <div class="slide-text">Stardew Valley</div>
+            </div>
+
+            <div class="fade mySlides">
+              <img src="img/games/LN_2_1920_1080_banner.jpg" class="reviewImg fade">
+              <div class="slide-text">Little Nightmares II</div>
+            </div>
+        </class>
+
+
         <article id="container">
 
             <h1 id="hometitle">GameStars</h1>
@@ -137,7 +154,7 @@
 
     <section class="disclaimer">
         <p>Disclaimer: We assume no responsibility or liability for any errors or emissions in the content of this
-            site.<br>If you do spot anything amiss, please <a href="##" target="_blank" id="contact-link">contact
+            site.<br>If you do spot anything amiss, please <a href="contact.html" target="_blank" id="contact-link">contact
                 us!</a></p>
     </section>
 
@@ -156,10 +173,10 @@
                 <div class="divider"></div>
 
                 <section class="icons">
-                    <a href="" class="iconlinks"><img src="img\socialmedia\yt-logo.png" alt="Youtube link"></a>
-                    <a href="" class="iconlinks"><img src="img\socialmedia\ig-logo.png" alt="Instagram link"></a>
-                    <a href="" class="iconlinks"><img src="img\socialmedia\X-logo.png" alt="X(Twitter) link"></a>
-                    <a href="" class="iconlinks"><img src="img\socialmedia\tk-logo.png" alt="Tiktok link"
+                    <a href="" class="iconlinks"><img src="img/socialmedia/yt-logo.png" alt="Youtube link"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/ig-logo.png" alt="Instagram link"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/X-logo.png" alt="X(Twitter) link"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link"
                             class="annoyance"></a>
                 </section>
                 </p>

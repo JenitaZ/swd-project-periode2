@@ -11,41 +11,48 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body class="Home">
-    <!-- navigatie -->
-    <header class="headerTemplate">
-        <article class="logo gameslog">
-            <a href="index.html"><img src="img\logo\gameshoplogo-transparant~000.png" height="75" width="75" alt="Logo Gameshop"
-                    class="logo-main"></a>
-            <h1 class="Name">GameStars</a></h1>
-
-            <section class="zoekbalk">
-                <input type="text" placeholder="search">
-                <div>
-                    <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
-                </div>
-
-                <!-- light/dark mode toggle -->
-                <div class="toggle">
-                    <input type="checkbox" id="mode-toggle" class="toggle__input">
-                    <label for="mode-toggle" class="toggle__label"></label>
-                </div>
-
-                <i class="fa fa-user-circle login"></i>
-            </section>
-        </article>
-
-        <nav class="stick">
-        </nav>
-
-    </header>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="games.html">Games</a>
-        <a href="Merchandise.html">Merchandise</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <body class="background">
+        <header class="headerTemplate">
+                <img class="cat" src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main" height="65" width="65">
+                <h1 class="Name">GAMESTARS</h1> <!--gaan we het zo houden?-->
+            <article class="logo">
+                <section class="zoekbalk">
+                    <input type="text" placeholder="search">
+                    <div>
+                        <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+                    </div>
     
+    
+                    <!-- light/dark mode toggle -->
+                    <div class="toggle">
+                        <input type="checkbox" id="mode-toggle" class="toggle__input">
+                        <label for="mode-toggle" class="toggle__label"></label>
+                    </div>
+    
+                    <i class="fa fa-user-circle login"></i>
+                </section>
+            </article>
+    
+            <nav class="stick">
+            </nav>
+    
+    
+        </header>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="Merchandise.html">Merchandise</a>
+            <a href="contact.html">Contact</a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+                <div id="textvak">
+                </div>
+            </article>
             <h1>Contact</h1>
 
 

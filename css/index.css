@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Doto:wght@500&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 :root {
+    /* dark theme */
     --bg-dark: #111;
     --bgNav-dark: #4c7a72;
     --highlight-dark: #79b1a8;
@@ -10,12 +12,23 @@
     --bg-gray: #1b1b1b;
     --text-field: #2c2c2c;
     --text-field-border: #5c5c5c;
-
+    
+    /* light theme ?????*/
     --bg-light: #e0e0e2;
     --bgNav-light: #7390ae;
-    --bgNav2-light: #b5bad0;
+    --bgNav2-light: #b5bad0; 
     --highlight-light: #83b9b6;
 
+    /* Ratingcircles */
+    --rating-size: 5rem;
+    --bar-size: .45rem;
+    --background-rating: var(--bg-gray);
+    --rating-color-default: #2980b9;
+    --rating-color-background: #c7e1f3;
+    --rating-color-great: #48c57c;
+    --rating-color-good: #7dc45b;
+    --rating-color-meh: #d6d253;
+    --rating-color-bad: #e74c3c; 
 }
 
 * {
@@ -44,7 +57,7 @@ body {
     background-color: var(--bg-dark);
 }
 
-/* #region------------------------------LIGHT MODE-------------------------- */
+/* #region----------------------LIGHT MODE-------------------------- */
 body.light-mode {
     background-color: var(--bg-light);
     color: black;
@@ -54,7 +67,7 @@ body.light-mode {
 
 
 
-/*#region-------------------------------------- NAV ----------------------------------------------*/
+/*#region------------------------ NAV ----------------------------------------------*/
 .headerTemplate {
     border: black 1px solid;
     position: fixed;
@@ -77,6 +90,9 @@ body.light-mode {
     margin-right: 5px;
 }
 
+#logo-txt-link {
+    color: white;
+}
 
 .stick a,
 .Name {
@@ -132,13 +148,14 @@ body.light-mode {
     text-decoration: none;
     font-size: 17px;
 
+    &:hover {
+        background-color: var(--hover-dark);
+        color: black;
+        transition: .3s;
+    }
+
 }
 
-.navbar a:hover {
-    background-color: var(--hover-dark);
-    color: black;
-    transition: .9s;
-}
 
 .zoekbalk {
     float: right;
@@ -156,12 +173,10 @@ body.light-mode {
     border-color: transparent;
     /* padding-left: 30px; */
 
-}
+    &:focus {
+        outline: none !important;
 
-.zoekbalk input:focus {
-    outline: none !important;
-    border-color: var(--highlight-dark);
-    box-shadow: 0 0 10px var(--highlight-dark);
+    }
 }
 
 .searchbtn {
@@ -202,52 +217,43 @@ i.login {
     border-radius: 99px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 25px;
+        height: 25px;
+        background-color: var(--bg-dark);
+        border-radius: 50%;
+        transition: left 0.3s ease;
+    }
 }
 
 .dark-mode .toggle__label {
     background-color: var(--bg-dark);
 }
 
-.toggle__input:checked+.toggle__label::after {
+.toggle__input:checked + .toggle__label::after {
     left: 32px;
-}
-
-.toggle__label::after {
-    content: '';
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    width: 25px;
-    height: 25px;
-    background-color: var(--bg-dark);
-    border-radius: 50%;
-    transition: left 0.3s ease;
 }
 
 /* #endregion */
 
 
-/* #region-----------------------------------------HOMEPAGE----------------------------------------*/
+/* #region----------------------HOMEPAGE----------------------------------------*/
 
-.headerimg {
-    margin-top: 106px;
-    width: 100%;
-    height: 70vh;
-    background-color: #b5bad0;
-    /* background-image:
-     url(img/games/37107d39373c202221d6672722f514cf.webp); */
-    overflow: hidden;
-    
-}
 
 .overlay-header{
-    margin-top: 210px;
+    margin-top: 110px;
     width: 100%;
-    height: 100vh;
     background: linear-gradient(180deg,
     transparent,
-    rgb(0, 0, 0, .7),
-    rgb(0, 0, 0, 1));
+    rgb(0, 0, 0, .2),
+    rgb(0, 0, 0, .5));
+    position: absolute;
+    height: 70vh;
 }
 #textvak {
     color: white;
@@ -263,10 +269,13 @@ i.login {
     text-align: center;
 }
 
+
+
 #hometitle {
     font-size: 90px;
     height: 10vh;
     padding-top: 8vh;
+    margin-top: 30px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -318,10 +327,15 @@ i.login {
 }
 
 .txtafstand{
+    position: absolute;
+    width: 20vw;
+    max-height: 30vh;
     margin-top: 10px;
     font-size: 1.1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
 }
+
 .txt-one {
     grid-area: 1 / 1 / 2 / 3;
     margin-left: 50px;
@@ -436,7 +450,6 @@ i.login {
     font-size: 18px;
 }
 /* TODO: make txt rescale and stuff*/
-/* TODO: #13 add hover effect when hovering on game*/
 .oof p{
     width: 37vw;
     
@@ -457,15 +470,35 @@ i.login {
 
 }
 
-#gamesgames{
-    margin-left: 40px;
-    margin-right: 50px;
+#search {
+    right: 30px;
+    position: absolute;
+    margin: 35px 20px;
+    border-radius: 5px;
+    width: 17vw;
+    background-color: transparent;
+    color: white;
+    border: 2px var(--that-gray) solid;
+    padding: 2px;
+    /* padding-left: 30px; */
+
+    &:focus {
+        outline: none !important;
+
+    }
+
+}
+
+.gamesgames{
+    margin: 12px 50px 40px 40px;
     font-size: 30px;
     overflow: hidden;
-    margin-bottom: 50px;
     border-bottom: var(--that-gray) 2px solid;
     padding-bottom: 25px;
+}
 
+.arrg {
+    width: 75%;
 }
 
 .gamesCC{
@@ -477,8 +510,16 @@ i.login {
 .gamesCC2 {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
+}
 
+.testing {
+    row-gap: 250px;
+    padding-bottom: 200px;
+}
 
+.testing div {
+    height: 30vh;
+    max-height: 300px;
 }
 
 .ugh {
@@ -492,10 +533,25 @@ i.login {
 
 .imgtemp {
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
     border-radius: 3px;
 
+    &:hover p {
+        color: white;
+        transition: .3s;
+    }
 }
+.show {
+    display: inline;
+  }
+
+.game-title {
+    color: var(--bg-light);
+    font-size: 20px;
+}
+/* .cod-title {
+    font-size: 18px;
+} */
 
 .RW {
     display: block;
@@ -511,6 +567,11 @@ i.login {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    &:hover {
+        transition: .3s;
+        transform: scale(1.03);
+    }
 }
 
 
@@ -536,7 +597,7 @@ i.login {
 
 }
 
-.game1 {
+/* .game1 {
     grid-area: 1 / 1 / 2 / 2;
     background-position: left;
 }
@@ -553,49 +614,12 @@ i.login {
 .game4 {
     grid-area: 1 / 4 / 2 / 5;
 
-}
-
-
-
-
-
-
-/* FIXME: #9 rating looks clunky, TAT , should we use ratings?? it looks cleaner without*/
-
-
-/* .rating {
-    position: absolute;
-    top: 200px;
-    left: 43vw;
-    padding: 15px 12px;
-    background-color: #5dbd42;
-    width: 40px;
-    text-align: center;
-    border-radius: 11px;
-    font-size: 30px;
-    font-weight: 600;
-    color: black;
 } */
 
-.r2 {
-    position: absolute;
-    top: 190px;
-    right: 4vw;
-    padding: 15px 14px 15px 12px;
-    background-color: #5dbd42;
-    width: 40px;
-    text-align: center;
-    border-radius: 11px;
-    font-size: 30px;
-    font-weight: 600;
-    color: black;
-} 
-.r3 {
-    top: 420px;
-} 
+
 /* #endregion */
 
-/* #region--------FOOTER and stuff--------------------------------------------- */
+/* #region-------------------FOOTER and stuff--------------------------------------------- */
 
 .disclaimer p,
 .disclaimer p a {
@@ -616,13 +640,15 @@ footer {
     background-color: transparent;
     margin-top: auto;
     padding-bottom: 3vh;
+    overflow: hidden;
 }
 
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    margin: 60px 70px 30px 40px;
+    margin: 9vh 70px 30px 40px;
+    padding-bottom: 30vh;
     font-style: italic;
     color: var(--bg-dark-gray);
 
@@ -644,7 +670,8 @@ footer {
 .footer-header {
     font-size: 28px;
     font-weight: 550;
-    height: 34px;
+    height: 37px;
+    line-height: 2rem;
 }
 
 .divider {
@@ -678,8 +705,9 @@ footer {
 .dividerGamepage{
     width: 95%;
     margin-left: 35px;
-    margin-top: -50px;
+    margin-top: 150px;
     margin-bottom: 60px;
+    position: absolute;
 }
 .footer-left .footer-header {
     margin-bottom: 15px;
@@ -697,6 +725,10 @@ footer {
 .iconlinks img {
     width: 40px;
     margin: 2px;
+}
+
+.footer-reviews {
+    margin-top: 40px;
 }
 
 
@@ -740,6 +772,35 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+.reviewImg {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    margin-top: 106px;
+    opacity: 1;
+}
+
+.slide-text {
+    color: gray;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: -5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.3s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
 
 .reviewImg-AC { 
    width: 120% !important; 
@@ -870,11 +931,11 @@ footer {
 }
 /* #endregion */
 
-/* #region -------REVIEW SECTION----------- */
+/* #region--------------------REVIEW SECTION--------------------------------------------- */
 .userRating {
     /* border: 1px white solid; */
-    width: auto;
-    height: 200px;
+    width: 1010px;
+    height: fit-content;
     margin-top: 30px;
     padding: 26px;  
     border-radius: 5px;
@@ -901,6 +962,9 @@ footer {
 }
 
 
+
+
+
 /* section below divider */
 .rProfileContainer {
     display: flex;
@@ -909,31 +973,38 @@ footer {
 }
 
 .pfps{
-    width: 50px;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
     border: 2px var(--highlight-dark) solid;
+    object-fit: cover;
 }
 .username {
-    float: right;
+    float: left;
     width: fit-content;
 }
+
+.userName {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 150px;
+}
 .profileContainerL {
-    width: 20%;
+    width: 15%;
     margin-top: 10px;
 
 }
 
 .rTextContainer {
-    width: 80%;
+    width: 100%;
     margin-top: 10px;
-    height: 110px;
+    height: fit-content;
 
 }
 
-.rTextContainer input[type="text"]{
+.rTextContainer input[type="text"] {
     width: 100%;
     height: 90%;
-    background-color: var(--text-field);
-    border-color: var(--text-field-border);
 
 }
 .rTextContainer input[type="submit"]{
@@ -943,25 +1014,4 @@ footer {
     width: 70px;
     height: 35px;
 
-}
-/* -------------------------MERCH AND CONTACT---------------------------------- */
-div.merchs {
-    margin: 75px 0px;
-    }
-
-div.div {
-    color: #fefefe;
-    margin: 75px 0px;
-    }
-div.telephone {
-    color: #fefefe;
-    float: right;
-    margin: 75px 600px;
-    position: absolute;
-    }
-div.hat {
-    color: #fefefe;
-    float: right;
-    margin: 75px 600px;
-    position: absolute;
 }
