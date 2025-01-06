@@ -149,24 +149,21 @@
                         "username" => "Juice__",
                         "review" => "Stray is one of the best games I've ever played. Everything about Stray is absolutely perfect; the story, art style, OST, everything",
                         "rated" => 10,
-                        "dateRated" => "Dec 15, 2024
-",
+                        "dateRated" => "Dec 15, 2024",
                     ],
                     "user2" =>[
                         "pfp" => "https://i.pinimg.com/750x/48/a0/01/48a001e6e4b8c36e2c64a37ffd566566.jpg",
                         "username" => "The weatherman",
                         "review" => "Stray is a small pearl, an adventure that delivers truly suggestive sequences and a fascinating story, which rests on the solid foundations of a very well written lore. Of course, just like a stray cat the game happens to get scared for every little jolt, so the team created a comfortable bubble giving up to fully express its potential.",
                         "rated" => 8,
-                        "dateRated" => "Jul 18, 2022
-",
+                        "dateRated" => "Jul 18, 2022",
                     ],
                     "user3" =>[
                         "pfp" => "https://i.pinimg.com/736x/b3/93/94/b393943e478499642bef3542865b9bc8.jpg",
                         "username" => "Empyrea",
                         "review" => "It's not a bad game but I don't think it deserves more than a 7 or 7'5 but I've too say that I played many games and I'm getting older so you might score it higher if it's not your case. It took me almost 5 hours but I don't know if the times that I died are counted.",
                         "rated" => 7,
-                        "dateRated" => "Jan 13, 2024
-",
+                        "dateRated" => "Jan 13, 2024",
                     ],
                 ];
 
@@ -174,6 +171,97 @@
                     return strtotime($b['dateRated']) - strtotime($a['dateRated']);
                 });
 
+                break;
+            }
+
+            case "ITT": {
+                $Bokura = [
+                    "user1" =>[
+                        "pfp" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvbmOfmNYTTOIdhMXfWe4zUD5iYTcMtfr1Wg&s",
+                        "username" => "CGMagazine",
+                        "review" => "Bread & Fred has interesting ideas, but its frustrating execution and disrespect for the player’s time keep it from being enjoyable.",
+                        "rated" => 6,
+                        "dateRated" => "May 23, 2024",
+                    ],
+                    "user2" =>[
+                        "pfp" => "https://static.vecteezy.com/system/resources/previews/002/082/626/non_2x/cute-penguin-loves-coffee-cartoon-illustration-vector.jpg",
+                        "username" => "The games machine",
+                        "review" => "Bread & Fred is hard in solo, almost impossible in co-op, it still manages to be a lot of fun provided you have a lot of patience and understanding with your partner. Dedicated to those who love extreme platformers, but casual players might find it too frustrating.",
+                        "rated" => 8,
+                        "dateRated" => "Jun 5, 2023",
+                    ],
+                    "user3" =>[
+                        "pfp" => "https://avatarfiles.alphacoders.com/374/thumb-350-374791.webp",
+                        "username" => "Checkingpoint",
+                        "review" => "Bread & Fred is a delightfully enraging cooperative physics puzzle that combines charming pixel art, adorable animations, and a challenging platformer experience. The game’s world, filled with cute penguins and vibrant environments, will bring smiles to faces. The chaotic gameplay and repeating failure might bring frustration but will be followed by big laughs and lots of fun with your penguin partner. Still, for solo players without someone to play with local co-op, this game won’t be for you.",
+                        "rated" => 7,
+                        "dateRated" => "May 22, 2023",
+                    ],
+                ];
+
+                uasort($Bokura, function($a, $b) {
+                    return strtotime($b['dateRated']) - strtotime($a['dateRated']);
+                });
+                break;
+            }
+            case "STA": {
+                $Bokura = [
+                    "user1" =>[
+                        "pfp" => "https://i.iplsc.com/stalker-2-zaprezentowany-na-zwiastunie-zona-ma-powrocic-w-na/000AC82WPU56GSMQ-C459.jpg",
+                        "username" => "Bucket",
+                        "review" => "Completed the story finally, took my sweet time with it, had to wait for acouple of patches to fix some issues, but none more than a week.<br><br>Mostly satisfied, the atmosphere is all here, the zone I know and love, some of it does feel a bit like \"Oh yeah remember this!\" but it kept the vibe I remembered, the story which never honestly mattered too much to me in the previous games was actually fairly good in this one",
+                        "rated" => 9,
+                        "dateRated" => "Dec 8, 2024",
+                    ],
+                    "user2" =>[
+                        "pfp" => "https://preview.redd.it/rate-my-new-discord-pfp-v0-g96h2rt7187a1.png?width=640&crop=smart&auto=webp&s=c66c48591916628bdf50f3b8451d776215397570",
+                        "username" => "VDubskiii",
+                        "review" => "Stalking has never been better. <br>I am becoming a professional stalker in real life thanks to this game.<br><br> I love stalking. I have learned that if you stalk at night people seem to not notice you as well as they would during the day.<br> This is thanks to how well the S.T.A.L.K.E.R. 2: Heart of Chornobyl is teaching me to stalk.<br><br> I finally am getting to the point in real life that my stalking is getting so good I may start even learning more.",
+                        "rated" => 10,
+                        "dateRated" => "Dec 21, 2024",
+                    ],
+                    "user3" =>[
+                        "pfp" => "https://assetsio.gnwcdn.com/stalker-2-art-cropped.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+                        "username" => "TinyBabyMan",
+                        "review" => "Running the game with a rtx 4070 and still barely playing medium settings, you spend 10 mins compiling shaders every time you open the game before you can start playing, the game itself is brilliant but every time you die you spend the next 5-7 mins looking at a loading screen only to be killed by a low poly dog before your gun can load in ",
+                        "rated" => 3,
+                        "dateRated" => "Dec 7, 2024",
+                    ],
+                ];
+
+                uasort($Bokura, function($a, $b) {
+                    return strtotime($b['dateRated']) - strtotime($a['dateRated']);
+                });
+                break;
+            }
+            case "NR": {
+                $Bokura = [
+                    "user1" =>[
+                        "pfp" => "https://cdn.pfps.gg/pfps/7353-2b-27.png",
+                        "username" => "Edward Indeed",
+                        "review" => "Rating: 9/10 (Outstanding) <br><br>NieR: Automata is a beautifully unconventional masterpiece that combines thought-provoking storytelling, dynamic combat, and hauntingly atmospheric music. It’s an unforgettable journey, though not without a few rough edges.",
+                        "rated" => 9,
+                        "dateRated" => " Dec 23, 2024",
+                    ],
+                    "user2" =>[
+                        "pfp" => "https://i.pinimg.com/originals/9f/aa/a1/9faaa1fedc94c355a4256ba6207c7714.png",
+                        "username" => "Zayic",
+                        "review" => "Before playing this game you should play Nier Replicant first.<br><br>This game is really fun with a good story however the game play gets repetitive after a while. If you can buy it on sale you wont regret your purchase.<br><br>8/10",
+                        "rated" => 8,
+                        "dateRated" => "Dec 29, 2024",
+                    ],
+                    "user3" =>[
+                        "pfp" => "https://i.pinimg.com/236x/9b/da/e1/9bdae1549b96e09272726fe0bd4aaced.jpg",
+                        "username" => "Sufferez",
+                        "review" => "NieR: Automata is not for everybody. In fact, the game looks to be aimed at the most refined fans of the medium by not caring about the regular gaming conventions, in the same way the works of David Lynch are perfect for the hardcore moviegoers.",
+                        "rated" => 9,
+                        "dateRated" => "Oct 19, 2017",
+                    ],
+                ];
+
+                uasort($Bokura, function($a, $b) {
+                    return strtotime($b['dateRated']) - strtotime($a['dateRated']);
+                });
                 break;
             }
 
