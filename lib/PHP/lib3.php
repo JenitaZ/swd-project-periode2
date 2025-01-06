@@ -81,9 +81,7 @@
         ]
     ];
 
-    /* FIXME: #15 it accepts text..oh and change desc of hollow knight... */
-    /* checks age and show content based on value */
-
+    
     switch ($value) {
         case 'TR':
             echo "<script>let pegi = '" . $games['TR']['PEGI'] . "';</script>";
@@ -92,6 +90,8 @@
             if (age < pegi ){
                 alert('This game is not suitable for your age.');
                 window.location.href = 'games.html';}
+            while(isNaN(age)){
+                age = prompt('Enter a number');}
         </script>";
 
             $gameInfo = $games['TR'];
@@ -105,6 +105,8 @@
             if (age < pegi ){
                 alert('This game is not suitable for your age.');
                 window.location.href = 'games.html';}
+            while(isNaN(age)){
+                age = prompt('Enter a number');}
         </script>";
 
             $gameInfo = $games['HK'];
@@ -117,6 +119,8 @@
             if (age < pegi ){
                 alert('This game is not suitable for your age.');
                 window.location.href = 'games.html';}
+            while(isNaN(age) || age == ''){
+                age = prompt('Enter a number');}
         </script>";
 
             $gameInfo = $games['BOK'];
