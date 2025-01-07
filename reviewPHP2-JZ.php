@@ -22,7 +22,6 @@ include "lib/PHP/reviews.php";
     <title>Games</title>
     <link rel="icon" href="###" type="img/x-icon"> <!-- ooit -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
@@ -37,8 +36,6 @@ include "lib/PHP/reviews.php";
                 <input type="checkbox" id="mode-toggle" class="toggle__input">
                 <label for="mode-toggle" class="toggle__label"></label>
             </div>
-
-            <i class="fa fa-user-circle login"></i>
         </article>
 
         <nav class="stick">

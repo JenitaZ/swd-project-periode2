@@ -9,7 +9,6 @@
     <meta name="keywords" content="Review games">
     <meta name="author" content="Bingyi Zhou">
     <link rel="stylesheet" href="css/index.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -19,20 +18,13 @@
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
-            <section class="zoekbalk">
-                <input type="text" placeholder="search">
-                <div>
-                    <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
-                </div>
 
                 <!-- light/dark mode toggle -->
                 <div class="toggle">
                     <input type="checkbox" id="mode-toggle" class="toggle__input">
                     <label for="mode-toggle" class="toggle__label"></label>
                 </div>
-
-                <i class="fa fa-user-circle login"></i>
-            </section>
+        
         </article>
 
         <nav class="stick">
