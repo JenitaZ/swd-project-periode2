@@ -974,3 +974,27 @@ footer {
 
 }
 
+/* -------------------------SECTION merch and contact----------------------------- */
+div.hat {
+    float: right;
+    margin: 30px 50px;
+    padding: 40px 20px;
+}
+
+div.merchs{
+    margin: 30px 50px;
+    padding: 40px 20px;
+}
+
+div.email {
+    color: #fefefe;
+    padding: 100px 0px;
+}
+
+div.telephone {
+    color: #fefefe;
+    float: right;
+    margin: 0px 600px;
+    position: absolute;
+    padding: 100px 0px;
+}
