@@ -923,6 +923,7 @@ footer {
 
 
 
+
 /* section below divider */
 .rProfileContainer {
     display: flex;
@@ -967,12 +968,177 @@ footer {
 }
 .rTextContainer input[type="submit"]{
     float: right;
-    margin-top: -43px;
-    position: sticky;
-    width: 70px;
-    height: 35px;
+    margin: 10px 5.2px 0 0;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border: 2px black solid;
+    border-right: none;
+    border-radius: 3px;
+    background: linear-gradient(var(--highlight-light), var(--highlight-dark));
+    color: #003a43;
 
+    &:hover{
+        color: var(--highlight-light);
+        background: none;
+        background-color: var(--bgNav-dark);
+    }
 }
+
+textarea[name="review-txt"], textarea[name="review-txt"]:focus, #nameInput, #nameInput:focus{
+    font-weight: 500;
+    border: 1px var(--text-field-border) solid;
+    outline: none; 
+    resize: none;
+    background-color: var(--text-field);
+    color: white;
+}
+
+#nameInput {
+    width: fit-content;
+    margin: 10px 0;
+}
+
+
+#jp {
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    margin: 8px 10px 0 0;
+    border: none;
+    user-select: none;
+    overflow: hidden;
+    color: white;
+
+    &:has(input:hover:hover) input {
+      color: inherit;
+    }
+    input {
+      appearance: none;
+      overflow: hidden;
+      color: white;
+
+      &::before {
+        width: 70px;
+        content: '-';
+        cursor: pointer;
+        font-size: 95px;
+        margin: 0 -5px;
+      }        
+  
+      &:checked,        
+      &:hover:hover:hover,
+      &:checked ~ input,    
+      &:hover:hover ~ input {
+        color:teal;
+      }
+    }
+} 
+  
+.reviewed {
+    margin-top: -35px;
+}
+
+.reviewedTxt {
+    /* background-color: black; */
+    width: 80%;
+    height: fit-content;
+    margin: 45px 20px 0 0;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.reviewTxtDate {
+    color: gray;
+    font-size: 17px;
+    /* float: right;
+    margin-right: 10px;
+    margin-top: -5px; */
+}
+
+
+ /* Rating cirlces */
+
+ .userRated {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    overflow: hidden;
+    
+    background: var(--rating-color-default);
+    color: var(--rating-color-default);
+    width: var(--rating-size);
+    height: var(--rating-size);
+    margin: 20px 0 0 10px;
+  
+    font-size: calc(var(--rating-size) / 3);
+    line-height: 1;
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: var(--bar-size);
+        background: var(--background-rating);
+        border-radius: inherit;
+        z-index: 1;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: var(--bar-size);
+        border-radius: inherit;
+        box-shadow: 0 0 0 1rem var(--rating-color-background);
+        z-index: -1;
+    }
+    
+  }
+  
+  .userRated span {
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    z-index: 2;
+    font-size: 25px;
+    overflow: hidden;   
+  }
+  
+  .userRated span small {
+    font-size: 0.5em;
+    font-weight: 900;
+    align-self: center;
+  }
+  
+  .userRated.great {
+    background: var(--rating-color-great);
+    color: var(--rating-color-great);
+  }
+  .userRated.good {
+    background: var(--rating-color-good);
+    color: var(--rating-color-good);
+  }
+  
+  .userRated.meh {
+    background: var(--rating-color-meh);
+    color: var(--rating-color-meh);
+  }
+  
+  .userRated.bad {
+    background: var(--rating-color-bad);
+    color: var(--rating-color-bad);
+  }
+  
+ 
 
 /* -------------------------SECTION merch and contact----------------------------- */
 div.hat {
