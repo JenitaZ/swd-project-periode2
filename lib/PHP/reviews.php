@@ -173,37 +173,7 @@
 
                 break;
             }
-
-            case "ITT": {
-                $Bokura = [
-                    "user1" =>[
-                        "pfp" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvbmOfmNYTTOIdhMXfWe4zUD5iYTcMtfr1Wg&s",
-                        "username" => "CGMagazine",
-                        "review" => "Bread & Fred has interesting ideas, but its frustrating execution and disrespect for the player’s time keep it from being enjoyable.",
-                        "rated" => 6,
-                        "dateRated" => "May 23, 2024",
-                    ],
-                    "user2" =>[
-                        "pfp" => "https://static.vecteezy.com/system/resources/previews/002/082/626/non_2x/cute-penguin-loves-coffee-cartoon-illustration-vector.jpg",
-                        "username" => "The games machine",
-                        "review" => "Bread & Fred is hard in solo, almost impossible in co-op, it still manages to be a lot of fun provided you have a lot of patience and understanding with your partner. Dedicated to those who love extreme platformers, but casual players might find it too frustrating.",
-                        "rated" => 8,
-                        "dateRated" => "Jun 5, 2023",
-                    ],
-                    "user3" =>[
-                        "pfp" => "https://avatarfiles.alphacoders.com/374/thumb-350-374791.webp",
-                        "username" => "Checkingpoint",
-                        "review" => "Bread & Fred is a delightfully enraging cooperative physics puzzle that combines charming pixel art, adorable animations, and a challenging platformer experience. The game’s world, filled with cute penguins and vibrant environments, will bring smiles to faces. The chaotic gameplay and repeating failure might bring frustration but will be followed by big laughs and lots of fun with your penguin partner. Still, for solo players without someone to play with local co-op, this game won’t be for you.",
-                        "rated" => 7,
-                        "dateRated" => "May 22, 2023",
-                    ],
-                ];
-
-                uasort($Bokura, function($a, $b) {
-                    return strtotime($b['dateRated']) - strtotime($a['dateRated']);
-                });
-                break;
-            }
+            
             case "STA": {
                 $Bokura = [
                     "user1" =>[
