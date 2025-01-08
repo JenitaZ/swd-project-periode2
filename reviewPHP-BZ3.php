@@ -91,9 +91,10 @@
             </article>
 
             <section class="containerReview">
-                <div class="reviewContent">
+                <div class="reviewContenttwo">
                     <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
                     <h2 id="gEnre"><?= $gameInfo["genre"]?></h2>
+                    <p id="pegi"><?=$gameInfo["PEGI"]?></p>
                     <p id="releaseDate"><?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate"><?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
@@ -102,17 +103,16 @@
             </section>
         </section>
 
-        <div id="container-imgs">
-            <p id="wallOfText" class="BZ"><?=$gameInfo["extradesc"]?><br><br><?=$gameInfo["extradesctwo"]?></p>
-        
+        <div>
+        <p id= "extradesc"><?=$gameInfo["extradesc"]?></p>
+                <br>
+            <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
+
             <!-- IMGS -->
-            <article class="img-container">
-                <img src="<?=$gameInfo["imgs"]["imgs1"];?>"></img>
-                <img src="<?=$gameInfo["imgs"]["imgs2"];?>"></img>
-                <img src="<?=$gameInfo["imgs"]["imgs3"];?>"></img>
-            </article>
+        <img height="200" width="400" src="<?=$gameInfo["imgs"]["imgs1"];?>"></img>
+        <img height="200" width="400" src="<?=$gameInfo["imgs"]["imgs2"];?>"></img>
+        <img height="200" width="400" src="<?=$gameInfo["imgs"]["imgs3"];?>"></img>
         </div>
-        
 
         <section class="ratingContainer"></section>
     </main>

@@ -35,8 +35,8 @@
                 "release_date" => "September, 2006",
                 "platforms" => "Windows, macOS, iOS, Android, Xbox One, Meta Quest 2, Meta Quest Pro, PlayStation 4, PlayStation 5",
                 "description" => "Roblox is an online game platform and game that allows users to program and play games created by themselves or other users.",
-                "extradesc" => "Set in a quiet English village, the game follows a domestic goose controlled by the player that can honk, duck down, run, flap its wings, and grab objects with its beak to bother villagers.",
-                "extradesctwo" => "The village is split up into multiple areas, one each of which has a 'to do' list of objectives, such as stealing certain objects or tricking humans into doing specific things",
+                "extradesc" => "Roblox allows users to create and publish their own games, which can then be played by other users, by using its game engine, Roblox Studio. Roblox occasionally hosts real-life and virtual events. They have in the past hosted events such as BloxCon, which was a convention for ordinary players on the platform.",
+                "extradesctwo" => "Roblox allows players to buy, sell, and create virtual items which can be used to decorate their virtual character that serves as their avatar on the platform.",
                 "ytvideo" => "https://www.youtube.com/embed/eAvXhNlO-rA?si=P8ziomV-dhuoGbMU",
             ];
 
@@ -62,7 +62,8 @@
             <section class="containerReview">
                 <div class="reviewContenttwo">
                     <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
-                    <h2 id="gEnre"><?= $gameInfo["genre"]?></h2>
+                    <h2 id="gEnre">GENRE:<?= $gameInfo["genre"]?></h2>
+                    <p id="pegi">PEGI:<?=$gameInfo["PEGI"]?></p>
                     <p id="releaseDate"><?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate"><?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
@@ -71,9 +72,10 @@
             </section>
         </section>
 
-        <div class="reviewContainerC">
-             <p id="wallOfText" class="wallTextBz"><?=$gameInfo["extradesc"]?><br><br>
-             <?=$gameInfo["extradesctwo"]?></p>
+        <div>
+        <p id= "extradesc"><?=$gameInfo["extradesc"]?></p>
+                <br>
+            <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
         </div>
 
         <section class="ratingContainer"></section>
