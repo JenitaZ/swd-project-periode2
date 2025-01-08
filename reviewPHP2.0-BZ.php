@@ -71,10 +71,9 @@
             </section>
         </section>
 
-        <div>
-        <p id= "extradesc"><?=$gameInfo["extradesc"]?></p>
-                <br>
-            <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
+        <div class="reviewContainerC">
+             <p id="wallOfText" class="wallTextBz"><?=$gameInfo["extradesc"]?><br><br>
+             <?=$gameInfo["extradesctwo"]?></p>
         </div>
 
         <section class="ratingContainer"></section>
