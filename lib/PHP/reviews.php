@@ -253,13 +253,13 @@
 
                 uasort($Bokura, function($a, $b) {
                     return strtotime($b['dateRated']) - strtotime($a['dateRated']);
-                }); /* FIXME: one of the two is an impostor, excessive, useless, overkill */
+                });
             };
         };
         
         $averageRating = number_format(array_sum(array_column($Bokura, 'rated')) / count($Bokura), 1);
         
-        ob_start(); // Start output buffering
+        ob_start();
 
         foreach ($Bokura as $user => $userData) {
             echo '<div class="userRating">
@@ -277,7 +277,7 @@
                 </div>';
         }
         
-        $output = ob_get_clean(); // Get the buffered output and clear the buffer
+        $output = ob_get_clean();
 
     ?>
     

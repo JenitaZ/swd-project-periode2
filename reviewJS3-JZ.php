@@ -56,6 +56,7 @@
                     <p id="releasedPlatforms"></p>
                     <div class="divider divider2"></div>
                     <p id="description"></p>
+                    <p id="genres" class="smallGrayText genresjs">genres: </p>
                 </div>
             </section>
             <button onclick="changeGameImg()" id="btnRight">&#9654</button>

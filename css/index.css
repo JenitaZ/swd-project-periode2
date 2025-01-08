@@ -155,26 +155,6 @@ body {
     background-color: blue;
 }
 
-.searchbtn {
-    width: 4vw;
-    font-size: 23px;
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    right: 135px;
-    top: 22px;
-    color: white;
-}
-
-i.login {
-    position: absolute;
-    right: 30px;
-    top: 20px;
-    /*FIXME: clipping, fix it*/
-    font-size: 30px;
-}
-
-
 /* -----------------------------TOGGLE BUTTON -------------------------------------------------*/
 
 #counter {
@@ -266,7 +246,7 @@ i.login {
     justify-content: space-between;
     width: 55vw;
     float: right;
-    margin-right: 60px;
+    margin-right: 40px;
     margin-top: 20px;
 }
 
@@ -425,7 +405,7 @@ i.login {
     text-overflow: ellipsis;
     font-size: 18px;
 }
-/* TODO: make txt rescale and stuff*/
+
 .oof p{
     width: 37vw;
     
@@ -802,7 +782,7 @@ footer {
     height: 50px;
     overflow: hidden;
     margin-top: 20px;
-    margin-left: -3+2px;
+    margin-left: -2px;
 }
 
 #releaseDate {
@@ -812,9 +792,9 @@ footer {
 }
 
 #description {
-    margin-top: 6%;
     width: 370px;
 }
+
 
 #wallOfText{
     width: 1000px;
@@ -827,9 +807,19 @@ footer {
     font-size: 1rem;
 }
 
-#smallGrayText {
+.smallGrayText {
     color: gray;
     vertical-align: sub;
+
+}
+
+#genres {
+    position: absolute;
+    bottom: 130px; 
+}
+
+.genresjs {
+    bottom: 160px !important;
 }
 
 .reviewImgContainer {

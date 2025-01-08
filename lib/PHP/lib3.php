@@ -33,11 +33,9 @@
             ),
 
             "PEGI" => 12,
-            "gameDesc" => "<span id='title'>Terraria</span> <br> <span id='smallGrayText'>released on: August 16th, 2012, Developed and released by:  Re-Logic </span> <br><br> Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory.<br> Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics?<br><br> Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat?<br><br> Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels?<br><br>In the World of Terraria, the choice is yours!
+            "gameDesc" => "<span id='title'>Terraria</span> <br> <span class='smallGrayText'>released on: August 16th, 2012, Developed and released by:  Re-Logic </span><br><br> Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory.<br> Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics?<br><br> Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat?<br><br> Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels?<br><br>In the World of Terraria, the choice is yours!
 ",
-            "genre" => "sandbox",
-            "survival",
-            "2d",
+            "genre" => "sandbox, survival",
             "yt" => "https://www.youtube.com/embed/w7uOhFTrrq0?si=K9ud0bxzsfHG3W4M",
             "rating" => 8.1
         ],
@@ -54,9 +52,8 @@
             ),
 
             "PEGI" => 12,
-            "gameDesc" => "<span id='title'>Hollow Knight</span> <br> <span id='smallGrayText'>released on: February 24th, 2017, Developed and released by: Team Cherry </span> <br><br>Hollow Knight is a 2D side-scrolling Metroidvania. <br><br>The player controls a silent insectoid protagonist called \"the Knight\" who explores an underground fallen kingdom called Hallownest.<br><br> The Knight can strike enemies with a sword-like weapon called a Nail and can learn spells that allow for long-range attacks.",
-            "genre" => "difficult",
-            "platformer",
+            "gameDesc" => "<span id='title'>Hollow Knight</span> <br> <span class='smallGrayText'>released on: February 24th, 2017, Developed and released by: Team Cherry </span> <br><br>Hollow Knight is a 2D side-scrolling Metroidvania. <br><br>The player controls a silent insectoid protagonist called \"the Knight\" who explores an underground fallen kingdom called Hallownest.<br><br> The Knight can strike enemies with a sword-like weapon called a Nail and can learn spells that allow for long-range attacks.",
+            "genre" => "difficult, platformer",
             "yt" => "https://www.youtube.com/embed/UAO2urG23S4?si=h57Cb664WEaKcCiR",
             "rating" => 9
         ],
@@ -72,11 +69,9 @@
 
             ),
             "PEGI" => 12,
-            "gameDesc" => "<span id='title'>BOKURA</span> <br> <span id='smallGrayText'>released on: August 9th, 2023, developed by: <span id='jp'>ところにょり</span> and released by Kodansha </span><br><br> BOKURA is a puzzle adventure game that can only be played with two players. <br>To play the game, two people must play on two separate machines.While you have to work together, what you see on your game screens is completely different.<br><br>Even though the same character should be displayed on both of your screens, to one of you, they might look like an animal out of a picture book, while to the other, they might look like a robot. (The objects you can interact with might move differently for each of you too!)You will need to talk to each other to find out what you can and cannot see. <br><br>Work together to solve the puzzles and continue your journey.",
+            "gameDesc" => "<span id='title'>BOKURA</span> <br> <span class='smallGrayText'>released on: August 9th, 2023, developed by: <span id='jp'>ところにょり</span> and released by Kodansha </span><br><br> BOKURA is a puzzle adventure game that can only be played with two players. <br>To play the game, two people must play on two separate machines.While you have to work together, what you see on your game screens is completely different.<br><br>Even though the same character should be displayed on both of your screens, to one of you, they might look like an animal out of a picture book, while to the other, they might look like a robot. (The objects you can interact with might move differently for each of you too!)You will need to talk to each other to find out what you can and cannot see. <br><br>Work together to solve the puzzles and continue your journey.",
 
-            "genre" => "Action",
-            "Adventure",
-            "Casual",
+            "genre" => "Action, Adventure, Casual",
             "rating" => 9
         ]
     ];
