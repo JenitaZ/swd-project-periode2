@@ -65,8 +65,8 @@
                     <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
                     <h2 id="gEnre">GENRE:<?= $gameInfo["genre"]?></h2>
                     <p id="pegi">PEGI:<?=$gameInfo["PEGI"]?></p>
-                    <p id="releaseDate"><?=$gameInfo["release_date"]?></p>
-                    <p id="releaseDate"><?=$gameInfo["platforms"]?></p>
+                    <p id="releaseDate">RELEASE:<?=$gameInfo["release_date"]?></p>
+                    <p id="releaseDate">PLATFORMS:<?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
                     <p id="description"><?=$gameInfo["description"]?></p> 
                 </div>       
