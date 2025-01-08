@@ -195,7 +195,6 @@ body {
 
 /* #region----------------------INDEX-------------------------------------*/
 
-
 .overlay-header{
     margin-top: 110px;
     width: 100%;
@@ -376,7 +375,7 @@ body {
     text-decoration: none;
     color: white;
 }
-/* .overlay {
+.overlay {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -399,7 +398,7 @@ body {
     white-space: no-wrap;
     text-overflow: ellipsis;
     font-size: 18px;
-} */
+}
 
 .oof p{
     width: 37vw;
@@ -413,6 +412,15 @@ body {
 }
 
 /*#endregion */
+
+/* #region -------------------RECENT REVIEWS----------------------------- */
+
+#recent-reviews {
+    background-color: white;
+    width: 80px;
+}
+
+/* #endregion */
 
 /* #region------------------------GAMES OVERZICHT--------------------------------- */
    
