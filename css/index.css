@@ -269,42 +269,12 @@ body {
 
 .homeCC {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 200px);
     column-gap: 30px;
     margin: 14px 40px 30px;
 
 }
-
-/* recent reviews */
-
-.index {
-    grid-template-columns:  1fr 1.5fr;
-}
-
-#recent-reviews {
-    /* background-color: white; */
-    width: 50vw;
-    grid-area: 1 / 2 / 3 / 3;
-    border: 1px #fff solid;
-    background-color: var(--bg-gray);
-    padding: 30px;
-}
-
-#recent-review-txt {
-    height: 150px;
-    width: fit-content;
-}
-
-#index-img {
-    background-color: white;
-    width: 22vw;
-    height: 200px;
-    float: left;
-    margin-right: 20px;
-}
-/*  ------- */
-
 
 .txtafstand{
     position: absolute;
@@ -369,7 +339,7 @@ body {
 /**/
 
 /* uiteindelijk .imgtemp class toevoegen en dit stuk korter maken */
-/* .img-one {
+.img-one {
     display: block;
     grid-area: 1 / 3 / 3 / 4;
     background-color: green;
@@ -394,11 +364,8 @@ body {
     border-radius: 3px;
 
     background-image: url('https://m.media-amazon.com/images/I/61HR1cpzwtL.jpg');
-  
-}*/
-
-
-
+ 
+}
 .img-cover {
     background-position: center;
     background-repeat: no-repeat;
@@ -445,11 +412,6 @@ body {
 }
 
 /*#endregion */
-
-/* #region -------------------RECENT REVIEWS----------------------------- */
-
-
-/* #endregion */
 
 /* #region------------------------GAMES OVERZICHT--------------------------------- */
    
