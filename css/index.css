@@ -276,6 +276,36 @@ body {
 
 }
 
+/* recent reviews */
+
+.index {
+    grid-template-columns:  1fr 1.5fr;
+}
+
+#recent-reviews {
+    /* background-color: white; */
+    width: 50vw;
+    grid-area: 1 / 2 / 3 / 3;
+    border: 1px #fff solid;
+    background-color: var(--bg-gray);
+    padding: 30px;
+}
+
+#recent-review-txt {
+    height: 150px;
+    width: fit-content;
+}
+
+#index-img {
+    background-color: white;
+    width: 22vw;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+/*  ------- */
+
+
 .txtafstand{
     position: absolute;
     width: 20vw;
@@ -331,11 +361,11 @@ body {
     font-style:normal;
 }
 
+
 .txt-two tr:nth-child(even) {
     background-color: #272b2e;
     color: #fff;
 }
-
 /**/
 
 /* uiteindelijk .imgtemp class toevoegen en dit stuk korter maken */
@@ -366,6 +396,9 @@ body {
     background-image: url('https://m.media-amazon.com/images/I/61HR1cpzwtL.jpg');
   
 }*/
+
+
+
 .img-cover {
     background-position: center;
     background-repeat: no-repeat;
@@ -415,10 +448,6 @@ body {
 
 /* #region -------------------RECENT REVIEWS----------------------------- */
 
-#recent-reviews {
-    background-color: white;
-    width: 80px;
-}
 
 /* #endregion */
 
