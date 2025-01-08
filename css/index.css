@@ -269,7 +269,7 @@ body {
 
 .homeCC {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 200px);
     column-gap: 30px;
     margin: 14px 40px 30px;
@@ -331,15 +331,15 @@ body {
     font-style:normal;
 }
 
+
 .txt-two tr:nth-child(even) {
     background-color: #272b2e;
     color: #fff;
 }
-
 /**/
 
 /* uiteindelijk .imgtemp class toevoegen en dit stuk korter maken */
-/* .img-one {
+.img-one {
     display: block;
     grid-area: 1 / 3 / 3 / 4;
     background-color: green;
@@ -364,8 +364,8 @@ body {
     border-radius: 3px;
 
     background-image: url('https://m.media-amazon.com/images/I/61HR1cpzwtL.jpg');
-  
-}*/
+ 
+}
 .img-cover {
     background-position: center;
     background-repeat: no-repeat;
@@ -412,15 +412,6 @@ body {
 }
 
 /*#endregion */
-
-/* #region -------------------RECENT REVIEWS----------------------------- */
-
-#recent-reviews {
-    background-color: white;
-    width: 80px;
-}
-
-/* #endregion */
 
 /* #region------------------------GAMES OVERZICHT--------------------------------- */
    
