@@ -51,6 +51,7 @@
         <a href="games.html">Games</a>
         <a href="Merchandise.html">Merchandise</a>
         <a href="contact.html">Contact</a>
+        <a href="newestReview.html">Newest Reviews</a> 
     </nav>
 
     <main id="phpcontainer">
