@@ -93,7 +93,7 @@
             <section class="containerReview">
                 <div class="reviewContenttwo">
                     <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
-                    <h1 id="gEnre"><?= $gameInfo["genre"]?></h1>
+                    <h2 id="gEnre"><?= $gameInfo["genre"]?></h2>
                     <p id="releaseDate"><?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate"><?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>

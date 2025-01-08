@@ -31,11 +31,13 @@
             $gameInfo = [
                 "title" => "Roblox",
                 "genre" => "Any Genre",
+                "PEGI" => "All",
                 "release_date" => "September, 2006",
                 "platforms" => "Windows, macOS, iOS, Android, Xbox One, Meta Quest 2, Meta Quest Pro, PlayStation 4, PlayStation 5",
                 "description" => "Roblox is an online game platform and game that allows users to program and play games created by themselves or other users.",
-                "image" => "https://wallpaperaccess.com/full/4153849.jpg",
-                "ytvideo" => "https://www.youtube.com/embed/A3DNTfhUy0k?si=0jtjkriGhiFZT3vX",
+                "extradesc" => "Set in a quiet English village, the game follows a domestic goose controlled by the player that can honk, duck down, run, flap its wings, and grab objects with its beak to bother villagers.",
+                "extradesctwo" => "The village is split up into multiple areas, one each of which has a 'to do' list of objectives, such as stealing certain objects or tricking humans into doing specific things",
+                "ytvideo" => "https://www.youtube.com/embed/eAvXhNlO-rA?si=P8ziomV-dhuoGbMU",
             ];
 
         } else {
@@ -54,20 +56,26 @@
     <main id="phpcontainer">
         <section class="flex-contatiner">
             <article class="reviewContainer1">
-                <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
+            <iframe width="650" height="420" src="<?=$gameInfo["ytvideo"]?>" id="Youtube"></iframe>
             </article>
 
             <section class="containerReview">
                 <div class="reviewContenttwo">
                     <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
-                    <h1 id="gEnre"><?= $gameInfo["genre"]?></h1>
+                    <h2 id="gEnre"><?= $gameInfo["genre"]?></h2>
                     <p id="releaseDate"><?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate"><?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
-                    <p id="description"><?=$gameInfo["description"]?></p>
+                    <p id="description"><?=$gameInfo["description"]?></p> 
                 </div>       
             </section>
         </section>
+
+        <div>
+        <p id= "extradesc"><?=$gameInfo["extradesc"]?></p>
+                <br>
+            <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
+        </div>
 
         <section class="ratingContainer"></section>
     </main>
