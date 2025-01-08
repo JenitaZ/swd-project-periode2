@@ -30,10 +30,12 @@
         if ($value == 'RBLX') {
             $gameInfo = [
                 "title" => "Roblox",
+                "genre" => "Any Genre",
                 "release_date" => "September, 2006",
                 "platforms" => "Windows, macOS, iOS, Android, Xbox One, Meta Quest 2, Meta Quest Pro, PlayStation 4, PlayStation 5",
                 "description" => "Roblox is an online game platform and game that allows users to program and play games created by themselves or other users.",
-                "image" => "https://wallpaperaccess.com/full/4153849.jpg"
+                "image" => "https://wallpaperaccess.com/full/4153849.jpg",
+                "ytvideo" => "https://www.youtube.com/embed/A3DNTfhUy0k?si=0jtjkriGhiFZT3vX",
             ];
 
         } else {
@@ -58,10 +60,11 @@
             <section class="containerReview">
                 <div class="reviewContenttwo">
                     <h1 id="title smallerTitle"><?= $gameInfo["title"]?></h1>
+                    <h1 id="gEnre"><?= $gameInfo["genre"]?></h1>
                     <p id="releaseDate"><?=$gameInfo["release_date"]?></p>
                     <p id="releaseDate"><?=$gameInfo["platforms"]?></p>
                     <div class="divider divider2"></div>
-                    <p id="description"><?=$gameInfo["description"]?></p> 
+                    <p id="description"><?=$gameInfo["description"]?></p>
                 </div>       
             </section>
         </section>
