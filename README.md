@@ -6,7 +6,9 @@ Binyi Zhou: merch, contact
 
 
 jenita Zheng: home, games
-    game review1: reviewPHP-JZ.php, reviewJS-JZ.html, library.php, getparams.js <!-- rainworld, stardew, little nightmares, omori -->
-    game review2 : reviewPHP2-JZ.php, reviewJS2-JZ.html, lib2, paramsReview2.js <!-- stray, banana, p5, assassin's creed -->
-    game review3 : lib3.php, paramsReview3, de imgslides van php staan bij lib2 <!-- terraria, hollow knight, nier, stalker -->
+    game review1: PHP = reviewPHP-JZ.php, library.php || JS = reviewJS-JZ.html, , getparams.js 
+    game review2 : PHP = reviewPHP2-JZ.php,  lib/PHP/lib2.php || JS = reviewJS2-JZ.html, paramsReview2.js
+    game review3 : PHP =  reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = paramsReview3.js 
+    game review4 : PHP = reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = lib/gameSlides.js  
    
+    De Eindopdracht staat op index.html, code staat onderaan lib/PHP/lib3.php
