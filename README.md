@@ -9,7 +9,7 @@ jenita Zheng: home, games
     game review1: PHP = reviewPHP-JZ.php, library.php || JS = reviewJS-JZ.html, , getparams.js 
     game review2 : PHP = reviewPHP2-JZ.php,  lib/PHP/lib2.php || JS = reviewJS2-JZ.html, paramsReview2.js
     game review3 : PHP =  reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = paramsReview3.js 
-    game review4 : PHP = reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = lib/gameSlides.js  
+    game review4 : PHP = reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = lib/gameSlides.js  <!-- BOKURA -->
 
 Eindopdracht:
    

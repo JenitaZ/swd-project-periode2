@@ -83,6 +83,7 @@
             break;
 
         case 'BOK':
+            
             echo "<script>let pegi = '" . $games['BOK']['PEGI'] . "';</script>";
             echo "<script type='text/javascript'>
             let age = prompt('Confirm your age:');
