@@ -816,6 +816,10 @@ footer {
     bottom: 160px !important;
 }
 
+.game-genre1 {
+    bottom: 150px !important;
+}
+
 .reviewImgContainer {
     width: fit-content;
 }
