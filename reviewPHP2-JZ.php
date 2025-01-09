@@ -134,9 +134,9 @@ include "lib/PHP/reviews.php";
         </div>
     </footer>
 
-    <script src="lib/index.js"></script>
-    <script src="lib/gameSlides.js"></script>
-    <script src="lib/ratingCircles.js"></script>
+    <script src="lib/JS/index.js"></script>
+    <script src="lib/JS/gameSlides.js"></script>
+    <script src="lib/JS/ratingCircles.js"></script>
 
 </body>
 
