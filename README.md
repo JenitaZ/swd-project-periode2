@@ -10,5 +10,6 @@ jenita Zheng: home, games
     game review2 : PHP = reviewPHP2-JZ.php,  lib/PHP/lib2.php || JS = reviewJS2-JZ.html, paramsReview2.js
     game review3 : PHP =  reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = paramsReview3.js 
     game review4 : PHP = reviewPHP2-JZ.php, lib/PHP/lib3.php || JS = lib/gameSlides.js  
+
+Eindopdracht:
    
-    De Eindopdracht staat op index.html, code staat onderaan lib/PHP/lib3.php
