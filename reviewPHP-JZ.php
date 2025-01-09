@@ -90,7 +90,7 @@
 
 
 
-    <script src="lib/JS/index.js"></script>
+    <script src="lib/index.js"></script>
 
 
 </body>
