@@ -24,35 +24,6 @@
         </nav>
     </header>
 
-    <?php 
-        $value = $_GET['var']
-
-        $contactInfo = [
-            "TEL" => [
-                "text" => "Thank you for submitting! We will have a look at it and will see if we can text you back ;) , it could take multiple days.",
-                "text2" => "Don't forget to check out our latest review/ games!",
-            ],
-            "MAIL" => [
-                "text" => "Thank you for submitting! We will have a look at it and will see if we can write you a email back ;D, it could take multiple days. :D",
-                "text2" => "Don't forget to check out our latest review/ games!",
-            ]
-        ];
-
-        switch ($value) {
-            case 'TEL':
-                $gameInfo = $gameInfo['TEL'];
-                break;
-        
-        
-            case 'MAIL':
-                $gameInfo = $gameInfo['MAIL'];
-                break;
-        
-            default:
-                echo "Oops, something broke!";
-            }
-?>
-
 
 <nav class="navbar">
     <a href="index.html">Home</a>
@@ -60,17 +31,15 @@
     <a href="Merchandise.html">Merchandise</a>
     <a href="contact.html">Contact</a>
     <a href="newestReview.html">Newest Reviews</a> 
+        </nav>
 
-</nav>
-
-    <main >
-            <section class="containerReview">
-                <div class="reviewContenttwo">
-                    <h1 id="textes"><?= $contactInfo["text"]?></h1>
-                    <h1 id="textes2"><?= $contactInfo["text2"]?></h1>
-                </div>       
-            </section>
-        </section>
+        <form action="welcome.php" method="post">
+            First Name: <input type="text" name="first name"><br>
+            Last Name: <input type="text" name="last name"><br>
+            E-mail: <input type="text" name="email"><br>
+            Reasoning/problems <input type="text" name="reasoning/problems"><br>
+        <input type="submit!">
+    </form>
 
         <section class="ratingContainer"></section>
     </main>
