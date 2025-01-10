@@ -1,80 +1,80 @@
-<?php include "lib/PHP/library.php";?>
-<!-- review 1, PHP -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description" content="Review 1 | PHP">
-    <meta name="keywords" content="Rainworld Stardew-valley review PHP">
+    <meta name="description" content="Homepage voor de gamereview pagina">
+    <meta name="keywords" content="Games Review Top3 home">
     <meta name="author" content="Jenita Zheng">
 
-    <title>Games</title>
-    <link rel="icon" href="###" type="img/x-icon"> <!-- brrr -->
+    <title>Gamestars</title>
+    <link rel="icon" href="###" type="img/x-icon"><!-- niet vergeten -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
 </head>
 
+ <body class="Home">
 
-<body class="Home Homereview">
-    <!-- navigatie -->
-    <header class="headerTemplate review-header">
-        <article class="logo gameslog">
+    <header class="headerTemplate">
+        <a class="logo">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
+            <!--TODO: #6 make final version of logo-->
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
+
+            <div class="toggle">
+                <input type="checkbox" id="mode-toggle" class="toggle__input">
+                <label for="mode-toggle" class="toggle__label"></label>
+            </div>
         </article>
 
         <nav class="stick">
         </nav>
 
-
-   
     </header>
+
+
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="games.html">Games</a>
         <a href="Merchandise.html">Merchandise</a>
         <a href="contact.html">Contact</a>
         <a href="newestReview.html">Newest Reviews</a> 
-        <a href="newestReview.html">Newest Reviews</a> 
 
     </nav>
 
-    <main id="phpcontainer">
-        <section class="flex-contatiner">
-            <article class="reviewContainer1">
-                <img src=<?=$gameInfo["image"];?> alt="Image of the game" id="reviewImg" >
-            </article>
-
-            <section class="containerReview">
-                <div class="reviewContent">
-                    <h1 id="title"><?= $gameInfo["title"]?></h1>
-                    <p id="releaseDate">Releasedate: <?=$gameInfo["release_date"]?></p>
-                    <p id="releaseDate">Platforms: <?=$gameInfo["platforms"]?></p>
-                    <div class="divider divider2"></div>
-                    <p id="description"><?=$gameInfo["description"]?></p> 
-                    <p id="genres" class="smallGrayText game-genre1">genres: <?=$gameInfo["genre"]?></p>
-                </div>       
+    <main>
+        <section id="recent-reviews">
+            <div id="recentReviewC">
+                <img id="index-img" src=""></img>
+                <h1>fdfdfdf</h1>
+                <p class="smallGrayText">tetestest</p>
+                <p class="smallGrayText">tetestest</p>
+                <p class="smallGrayText">tetestest</p>
+                <p id="recent-review-txt">gfgfgdg fdgsgsdfgdfsg fsgbcxbvc bcvbx bvcb vcxbxcvbbxv bbcvcgfgfgdg fdgsgsdfgdfsg fsgbcxbvc bcvbx bvcb vcxbxcvbbxv bbcvcgfgfgdg fdgsgsdfgdfsg fsgbcxbvc bcvbx bvcb vcxbxcvbbxv bbcvc</p>
+            </div>
+        
+            <section id="newest-reviews">
+                <div><img src="" alt="" class="recent-pfp"><span>User1</span></div>
+                <div><img src="" alt="" class="recent-pfp"><span>Gebruiker23</span></div>
+                <div><img src="" alt="" class="recent-pfp"><span>&&&&&</span></div>
             </section>
         </section>
-
-        <section class="ratingContainer"></section>
     </main>
-
-
+    
     <footer>
         <div class="footer-content">
             <section class="footer-left">
                 <p class="footer-left">
-                <h1 class="footer-header">Contact</h1> For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
+                <h1 class="footer-header">Contact</h1>
+                For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a>
                 </p>
             </section>
 
             <section class="footer-right">
                 <p>
-                <span class="footer-header">Follow us</span>
+                    <span class="footer-header">Follow us</span>
                 <div class="divider"></div>
 
                 <section class="icons">
@@ -87,11 +87,12 @@
                 </p>
             </section>
         </div>
+
     </footer>
 
-
-
     <script src="lib/index.js"></script>
+    <script src="lib/toggle-count.js"></script> 
+    <script src="lib/slideshow.js"></script>
 
 
 </body>

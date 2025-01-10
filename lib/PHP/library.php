@@ -27,13 +27,9 @@
             "release_date" => "March 28th, 2017",
             "platforms" => "PC, PS4/5, XBOX One",
             "description" => "Rain World simulates a harsh, complex ecosystem- one where you are both predator and prey, hunter and hunted in unforgiving, apocalyptic climes. You are a slugcat. The world around you is full of danger, and you must face it – alone.",
-            "image" => "img/games/37107d39373c202221d6672722f514cf.png",
+           "image" => "img/games/37107d39373c202221d6672722f514cf.png",
             "PEGI" => 7,
-            "genre" => "survival",
-            "exploration",
-            "multiplayer",
-            "singleplayer",
-            "yt" => ""
+            "genre" => "survival, exploration, singleplayer",
         ];
     } elseif ($value == 'SV') {
         $gameInfo = [
@@ -43,11 +39,7 @@
             "description" => "You've inherited your grandfather's old farm plot in Stardew Valley.",
             "image" => "https://www.stardewvalley.net/wp-content/uploads/2018/12/1_1screenshot15.png",
             "PEGI" => 12,
-            "genre" => "farming",
-            "life",
-            "multiplayer",
-            "singleplayer",
-            "yt" => ""
+            "genre" => "farming, multiplayer, singleplayer",
         ];
     } else {
         echo "Oops, something broke again";
