@@ -132,5 +132,11 @@
         </footer>
         <script src="ratingTemplets.js"></script>
     <body>
-        
+        <script>
+            const leeftijdInput = prompt("How old are you?");
+
+            const leeftijd = parseInt(leeftijdInput);
+
+            console.log(leeftijd);
+        </script>
 <?
