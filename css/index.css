@@ -547,24 +547,24 @@ body {
 
 footer {
     width: 100vw;
-    height: 13vw;
+    height: 250px;
     border-top: var(--highlight-dark) 1px solid;
     background-color: transparent;
     margin-top: auto;
-    padding-bottom: 3vh;
     overflow: hidden;
 }
 
+.footer-reviews {
+    margin-top: 40px;
+
+}
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    margin: 9vh 70px 30px 40px;
-    padding-bottom: 30vh;
+    margin: 8vh 70px 30px 40px;
     font-style: italic;
     color: var(--bg-dark-gray);
-
-
 }
 
 .footer-right {
@@ -582,8 +582,9 @@ footer {
 .footer-header {
     font-size: 28px;
     font-weight: 550;
-    height: 37px;
-    line-height: 2rem;
+    height: 40px;
+    line-height: 3.5rem;
+
 }
 
 .divider {
@@ -639,9 +640,7 @@ footer {
     margin: 2px;
 }
 
-.footer-reviews {
-    margin-top: 40px;
-}
+
 /* #endregion */
 
 /* #region----------------------GAME PAGES-------------------------------------- */

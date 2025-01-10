@@ -101,30 +101,26 @@
 
     <!-- start footer -->
     <footer class="footer-reviews">
-        <div class="footer-content">
+       <div class="footer-content">
             <section class="footer-left">
-                <p class="footer-left">
-                <h1 class="footer-header">Contact</h1> For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
-                </p>
+                <span class="footer-header">Contact</span> 
+                <p class="footer-left">For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></p>
             </section>
 
             <section class="footer-right">
-                <p>
                 <span class="footer-header">Follow us</span>
                 <div class="divider"></div>
-
+                
                 <section class="icons">
                     <a href="" class="iconlinks"><img src="img/socialmedia/yt-logo.png" alt="Youtube link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/ig-logo.png" alt="Instagram link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/X-logo.png" alt="X(Twitter) link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link" class="annoyance"></a>
                 </section>
-                </p>
+               
             </section>
         </div>
-    </footer>
-
-    <script src="lib/index.js"> </script> <!-- nav -->
+    </footer> src="lib/index.js"> </script> <!-- nav -->
     <script src="lib/paramsReview3.js"> </script> <!-- array -->
     <script src="lib/ratingCircles.js"></script> <!-- ratingcircle color -->
         

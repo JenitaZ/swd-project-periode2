@@ -43,7 +43,7 @@ include "lib/PHP/reviews.php"; // arrays met reviews
     </nav>
 
     <main id="phpcontainer">
-        <section class="flex-contatiner">
+        <section class="flex-contatiner"> <!-- misspelde ik dit overal?? oh well, it works. -->
             <article class="reviewContainer1">
                 <img src="" alt="" id="reviewImg">
                 <iframe src="" id="reviewVid"></iframe>
@@ -84,17 +84,17 @@ include "lib/PHP/reviews.php"; // arrays met reviews
                     <textarea rows="3" cols="74"  name="review-txt"></textarea>
                     <input type="submit" value="submit review" name="inputValue">
                     <fieldset class="reviewBtns">
-                        <input type=radio name=r class="" value="10">
-                        <input type=radio name=r class="" value="9">
-                        <input type=radio name=r class="" value="8">
-                        <input type=radio name=r class="" value="7">
-                        <input type=radio name=r class="" value="6">
-                        <input type=radio name=r class="" value="5">
-                        <input type=radio name=r class="" value="4">
-                        <input type=radio name=r class="" value="3">
-                        <input type=radio name=r class="" value="2">
-                        <input type=radio name=r class="" value="1">
-                        </fieldset>
+                        <input type=radio name=r value="10">
+                        <input type=radio name=r value="9">
+                        <input type=radio name=r value="8">
+                        <input type=radio name=r value="7">
+                        <input type=radio name=r value="6">
+                        <input type=radio name=r value="5">
+                        <input type=radio name=r value="4">
+                        <input type=radio name=r value="3">
+                        <input type=radio name=r value="2">
+                        <input type=radio name=r value="1">
+                    </fieldset>
                 </form>
             </section>
             
@@ -107,23 +107,21 @@ include "lib/PHP/reviews.php"; // arrays met reviews
     <footer class="footer-reviews">
         <div class="footer-content">
             <section class="footer-left">
-                <p class="footer-left">
-                <h1 class="footer-header">Contact</h1> For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></span>
-                </p>
+                <span class="footer-header">Contact</span> 
+                <p class="footer-left">For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></p>
             </section>
 
             <section class="footer-right">
-                <p>
                 <span class="footer-header">Follow us</span>
                 <div class="divider"></div>
-
+                
                 <section class="icons">
                     <a href="" class="iconlinks"><img src="img/socialmedia/yt-logo.png" alt="Youtube link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/ig-logo.png" alt="Instagram link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/X-logo.png" alt="X(Twitter) link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link" class="annoyance"></a>
                 </section>
-                </p>
+               
             </section>
         </div>
     </footer>
