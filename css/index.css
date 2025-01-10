@@ -85,20 +85,11 @@ body {
     color: white;
 }
 
-.stick a,
 .Name {
-    float: right;
     display: flex;
-    flex-direction: row;
-    /* color: #f2f2f2; */
-    text-align: center;
-    padding: 22px 15px;
     text-decoration: none;
-    font-size: 25px;
-}
-
-
-.Name {
+    flex-direction: row;
+    padding: 22px 15px;
     float: left;
     font-size: 60px;
     height: 10vh;
@@ -107,17 +98,6 @@ body {
     font-weight: 400;
     font-style: italic;
     text-shadow: 2px 2px #3ca5c8;
-}
-
-
-
-.stick {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    left: 6vw;
-    overflow: hidden;
-    /* background-color: #333; */
 }
 
 

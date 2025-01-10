@@ -31,9 +31,6 @@
             </div>
         </article>
 
-        <nav class="stick">
-        </nav>
-
     </header>
 
 

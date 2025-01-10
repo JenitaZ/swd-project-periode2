@@ -20,8 +20,6 @@
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
         </article>
 
-        <nav class="stick">
-        </nav>
     </header>
 
     <?php 
