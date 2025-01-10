@@ -85,7 +85,7 @@
 
         <section class="ratingContainer"></section>
 
-        <div id="ratingScoring">
+        <div id="rating">
             <!-- Rating numbers 1 to 10 -->
             <div class="rating-item" data-value="1">1</div>
             <div class="rating-item" data-value="2">2</div>
@@ -99,7 +99,7 @@
             <div class="rating-item" data-value="10">10</div>
         </div>
 
-        <p>Selected Rating: <span id="selected-rating">0</span></p>
+        <p>Selected Rating: <span id="selectedrating">0</span></p>
 
     </main>
 
