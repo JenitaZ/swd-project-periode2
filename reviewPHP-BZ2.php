@@ -24,6 +24,7 @@
         </nav>
     </header>
 
+    
     <?php 
         $value = $_GET['var'];
 
