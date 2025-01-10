@@ -19,14 +19,20 @@ include "lib/PHP/reviews.php"; // arrays met reviews
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
-    <link rel="icon" href="###" type="img/x-icon"> <!-- ooit -->
+    <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+
+    <!-- nav, img slides, ratingcolors -->
+    <script src="lib/index.js" defer></script>
+    <script src="lib/gameSlides.js" defer></script>
+    <script src="lib/ratingCircles.js" defer></script>
+
 </head>
 
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate review-header">
+    <header class="header-template review-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
@@ -57,7 +63,7 @@ include "lib/PHP/reviews.php"; // arrays met reviews
                     <div class="divider divider2"></div>
                     <p id="description"><?=$gameInfo["description"]?></p> 
                     <p id="genres" class="smallGrayText">genres: <?=$gameInfo["genre"]?></p>
-                </div>       <!-- TODO: genres -->
+                </div>    
             </section>
             <button onclick="changeGameImg()" id="btnRight">&#9654</button>
             <button onclick="changeGameImgL()" id="btnLeft">&#9664;</button>
@@ -125,10 +131,6 @@ include "lib/PHP/reviews.php"; // arrays met reviews
             </section>
         </div>
     </footer>
-
-    <script src="lib/index.js"></script>
-    <script src="lib/gameSlides.js"></script>
-    <script src="lib/ratingCircles.js"></script>
 
 </body>
 

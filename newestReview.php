@@ -13,13 +13,16 @@
     <meta name="author" content="Jenita Zheng">
 
     <title>Gamestars</title>
-    <link rel="icon" href="###" type="img/x-icon"><!-- niet vergeten -->
+    <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+
+    <script src="lib/index.js"></script> <!-- nav, toggle -->
+    <script src="lib/toggle-count.js"></script> 
 </head>
 
  <body class="Home">
 
-    <header class="headerTemplate">
+    <header class="header-template">
         <a class="logo">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <!--TODO: #6 make final version of logo-->
@@ -160,11 +163,6 @@
             </section>
         </div>
     </footer>
-
-    <script src="lib/index.js"></script> <!-- nav -->
-    <script src="lib/toggle-count.js"></script> 
- 
-
 
 </body>
 

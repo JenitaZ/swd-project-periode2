@@ -15,14 +15,16 @@
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
-    <link rel="icon" href="###" type="img/x-icon"> <!-- brrr -->
+    <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    
+    <script src="lib/index.js" defer></script>
 </head>
 
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate review-header">
+    <header class="header-template review-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
@@ -56,8 +58,6 @@
                 </div>       
             </section>
         </section>
-
-        <section class="ratingContainer"></section>
     </main>
 
 
@@ -82,11 +82,6 @@
             </section>
         </div>
     </footer>
-
-
-
-    <script src="lib/index.js"></script>
-
 
 </body>
 

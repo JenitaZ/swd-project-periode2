@@ -13,13 +13,18 @@
     <meta name="author" content="Jenita Zheng">
 
     <title>Games</title>
-    <link rel="icon" href="###" type="img/x-icon"> <!-- brrr -->
+    <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+
+    <!-- nav, arrays, ratingcolors -->
+    <script src="lib/index.js" defer></script>
+    <script src="lib/paramsReview3.js" defer> </script>
+    <script src="lib/ratingCircles.js" defer></script>
 </head>
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate review-header">
+    <header class="header-template review-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
@@ -120,11 +125,7 @@
                
             </section>
         </div>
-    </footer> src="lib/index.js"> </script> <!-- nav -->
-    <script src="lib/paramsReview3.js"> </script> <!-- array -->
-    <script src="lib/ratingCircles.js"></script> <!-- ratingcircle color -->
-        
-   
+    </footer>
 
 </body>
 

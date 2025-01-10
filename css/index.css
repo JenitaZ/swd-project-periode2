@@ -12,11 +12,11 @@
     --bg-gray: #1b1b1b;
     --text-field: #2c2c2c;
     --text-field-border: #5c5c5c;
-    
+
     /* light theme ?????*/
     --bg-light: #e0e0e2;
     --bgNav-light: #7390ae;
-    --bgNav2-light: #b5bad0; 
+    --bgNav2-light: #b5bad0;
     --highlight-light: #83b9b6;
 
     /* Ratingcircles */
@@ -28,7 +28,7 @@
     --rating-color-great: #48c57c;
     --rating-color-good: #7dc45b;
     --rating-color-meh: #d6d253;
-    --rating-color-bad: #e74c3c; 
+    --rating-color-bad: #e74c3c;
 }
 
 * {
@@ -59,7 +59,8 @@ body {
 }
 
 /*#region------------------------ NAV --------------------------------------*/
-.headerTemplate {
+
+.header-template {
     border: black 1px solid;
     position: fixed;
     top: 0;
@@ -138,7 +139,9 @@ body {
     right: 120px;
     top: 20px;
 }
-.toggle__label, .toggle__input{
+
+.toggle__label,
+.toggle__input {
     position: absolute;
     right: 40px;
     top: 20px;
@@ -150,7 +153,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 
-    &::after{
+    &::after {
         content: '';
         position: absolute;
         top: 3px;
@@ -173,18 +176,19 @@ body {
 
 /* #endregion */
 
-/* #region----------------------INDEX-------------------------------------*/
+/* #region-----------------------INDEX-------------------------------------*/
 
-.overlay-header{
+.overlay-header {
     margin-top: 110px;
     width: 100%;
     background: linear-gradient(180deg,
-    transparent,
-    rgb(0, 0, 0, .2),
-    rgb(0, 0, 0, .5));
+            transparent,
+            rgb(0, 0, 0, .2),
+            rgb(0, 0, 0, .5));
     position: absolute;
     height: 70vh;
 }
+
 #textvak {
     color: white;
     position: absolute;
@@ -256,13 +260,13 @@ body {
 
 }
 
-.txtafstand{
+.txtafstand {
     position: absolute;
     width: 20vw;
     max-height: 30vh;
     margin-top: 10px;
     font-size: 1.1rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: gray;
 }
 
@@ -295,20 +299,20 @@ body {
 
 
 
-.txt-two td{
+.txt-two td {
     width: 370px;
     padding: 3px 6px;
     font-style: oblique;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    display:block;
+    display: block;
 }
 
 #news {
     font-size: 24px;
     padding-bottom: 12px;
-    font-style:normal;
+    font-style: normal;
 }
 
 
@@ -316,9 +320,7 @@ body {
     background-color: #272b2e;
     color: #fff;
 }
-/**/
 
-/* uiteindelijk .imgtemp class toevoegen en dit stuk korter maken */
 .img-one {
     display: block;
     grid-area: 1 / 3 / 3 / 4;
@@ -326,8 +328,6 @@ body {
     border-radius: 3px;
     background-image: url('https://i.pinimg.com/736x/d4/16/ac/d416ac062be6772119d84c8ba19a00fb.jpg');
 
- 
-    
 }
 
 .img-two {
@@ -344,17 +344,20 @@ body {
     border-radius: 3px;
 
     background-image: url('https://m.media-amazon.com/images/I/61HR1cpzwtL.jpg');
- 
+
 }
+
 .img-cover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .wth {
     text-decoration: none;
     color: white;
 }
+
 .overlay {
     display: flex;
     flex-direction: column;
@@ -366,8 +369,6 @@ body {
             transparent,
             rgb(0, 0, 0, .3),
             rgb(0, 0, 0, .7));
-
-
 }
 
 .overlay p {
@@ -380,21 +381,21 @@ body {
     font-size: 18px;
 }
 
-.oof p{
+.oof p {
     width: 37vw;
-    
+
 }
 
 .oof {
     margin-top: -180px;
     pointer-events: none;
-    
+
 }
 
 /*#endregion */
 
-/* #region------------------------GAMES OVERZICHT--------------------------------- */
-   
+/* #region--------------------GAMES OVERZICHT--------------------------------- */
+
 #gameMain {
     margin-top: 130px;
 
@@ -419,7 +420,7 @@ body {
 
 }
 
-.gamesgames{
+.gamesgames {
     margin: 12px 50px 40px 40px;
     font-size: 30px;
     overflow: hidden;
@@ -431,8 +432,8 @@ body {
     width: 75%;
 }
 
-.gamesCC{
-    grid-template-columns: 1fr 1.5fr 0.1fr 1.2fr 1fr; 
+.gamesCC {
+    grid-template-columns: 1fr 1.5fr 0.1fr 1.2fr 1fr;
     row-gap: 30px;
     margin: 20px 50px 30px;
 }
@@ -458,8 +459,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 170px;
-    
-    & span{
+
+    & span {
         margin-left: 10px;
     }
 }
@@ -474,9 +475,10 @@ body {
         transition: .3s;
     }
 }
+
 .show {
     display: inline;
-  }
+}
 
 .game-title {
     color: var(--bg-light);
@@ -491,10 +493,10 @@ body {
     border-radius: 3px;
     color: white;
     background-image: url(../img/games/37107d39373c202221d6672722f514cf.png);
-    
+
 }
 
-.imgtemp img{
+.imgtemp img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -610,18 +612,19 @@ footer {
     width: 360px;
 }
 
-.dividerGs{
+.dividerGs {
     width: 95%;
     margin-left: 35px;
 }
 
-.dividerGamepage{
+.dividerGamepage {
     width: 95%;
     margin-left: 35px;
     margin-top: 150px;
     margin-bottom: 60px;
     position: absolute;
 }
+
 .footer-left .footer-header {
     margin-bottom: 15px;
     color: var(--highlight-dark);
@@ -654,7 +657,8 @@ footer {
 .review-header {
     padding-left: 18.6px;
 }
-#phpcontainer{
+
+#phpcontainer {
     min-height: 100vh;
     width: fit-content;
     padding-top: 150px;
@@ -666,7 +670,7 @@ footer {
     justify-content: center;
 }
 
-.reviewContainer1{
+.reviewContainer1 {
     /* border: 1px white solid; */
     width: 655px;
     height: 400px;
@@ -700,24 +704,29 @@ footer {
     margin-top: -5px;
     width: 100%;
     text-align: center;
-  }
-  
+}
+
 .fade {
     animation-name: fade;
     animation-duration: 1.3s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
+}
 
-.reviewImg-AC { 
-   width: 120% !important; 
-   height: 100%;
-   object-fit: cover;
-  
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+.reviewImg-AC {
+    width: 120% !important;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 #reviewVid {
@@ -726,14 +735,12 @@ footer {
     position: absolute;
     border: none;
     object-fit: cover;
-    /* margin-left: -655px; */
     border: none;
     display: block;
 }
 
 
 .containerReview {
-    /* border: 1px white solid; */
     width: 400px;
     height: 400px;
     right: 330px;
@@ -769,7 +776,9 @@ footer {
 }
 
 
-#wallOfText, #textbz, #extratekst{
+#wallOfText,
+#textbz,
+#extratekst {
     width: 1000px;
     margin: 30px 0px;
     background-color: var(--bg-gray);
@@ -788,7 +797,7 @@ footer {
 
 #genres {
     position: absolute;
-    bottom: 130px; 
+    bottom: 130px;
 }
 
 .genresjs {
@@ -802,12 +811,14 @@ footer {
 .reviewImgContainer {
     width: fit-content;
 }
-.reviewImgContainer img{
+
+.reviewImgContainer img {
     background-color: white;
     width: 320px;
     height: auto;
 }
 
+/* FIXME: */
 #btnRight {
     position: absolute;
     margin-top: 170px;
@@ -819,8 +830,6 @@ footer {
     font-size: 30px;
     padding: 0 0 3px 5px;
     color: rgb(255, 255, 255, .9);
-    
-    /* background-color: rgb(255, 255, 255, .7); */
     background-color: rgb(0, 0, 0, .4);
 
 }
@@ -836,29 +845,30 @@ footer {
     font-size: 30px;
     padding: 0 0 0 0;
     color: rgb(255, 255, 255, .9);
-    
-    /* background-color: rgb(255, 255, 255, .7); */
     background-color: rgb(0, 0, 0, .4);
 
 }
-#btnRight:hover, #btnLeft:hover {
+
+#btnRight:hover,
+#btnLeft:hover {
     background-color: rgb(0, 0, 0, .6);
     color: white;
     transition: .2s ease;
 }
 
-.reviewImgContainer img + img{
+.reviewImgContainer img+img {
     margin-left: 40px;
 }
+
 /* #endregion */
 
 /* #region--------------------REVIEW SECTION--------------------------------------------- */
+
 .userRating {
-    /* border: 1px white solid; */
     width: 1010px;
     height: fit-content;
     margin-top: 30px;
-    padding: 26px;  
+    padding: 26px;
     border-radius: 5px;
     background-color: var(--bg-gray);
 }
@@ -871,7 +881,8 @@ footer {
 .avgRatingTxt {
     font-weight: 5;
 }
-.avgRatingTxt #bs{
+
+.avgRatingTxt #bs {
     font-weight: 5;
     font-size: 30px;
     color: var(--highlight-dark);
@@ -890,13 +901,14 @@ footer {
     width: 100%;
 }
 
-.pfps{
+.pfps {
     width: 90px;
     height: 90px;
     margin: 10px;
     border: 2px var(--highlight-dark) solid;
     object-fit: cover;
 }
+
 .username {
     float: left;
     width: fit-content;
@@ -907,6 +919,7 @@ footer {
     position: absolute;
     margin-left: 150px;
 }
+
 .profileContainerL {
     width: 15%;
     margin-top: 10px;
@@ -925,7 +938,8 @@ footer {
     height: 90%;
 
 }
-.rTextContainer input[type="submit"]{
+
+.rTextContainer input[type="submit"] {
     float: right;
     margin: 10px 5.2px 0 0;
     position: relative;
@@ -937,17 +951,20 @@ footer {
     background: linear-gradient(var(--highlight-light), var(--highlight-dark));
     color: #003a43;
 
-    &:hover{
+    &:hover {
         color: var(--highlight-light);
         background: none;
         background-color: var(--bgNav-dark);
     }
 }
 
-textarea[name="review-txt"], textarea[name="review-txt"]:focus, #nameInput, #nameInput:focus{
+textarea[name="review-txt"],
+textarea[name="review-txt"]:focus,
+#nameInput,
+#nameInput:focus {
     font-weight: 500;
     border: 1px var(--text-field-border) solid;
-    outline: none; 
+    outline: none;
     resize: none;
     background-color: var(--text-field);
     color: white;
@@ -978,36 +995,36 @@ fieldset {
     color: white;
 
     &:has(input:hover:hover) input {
-      color: inherit;
+        color: inherit;
     }
-    input {
-      appearance: none;
-      overflow: hidden;
-      color: white;
 
-      &::before {
-        width: 70px;
-        content: '-';
-        cursor: pointer;
-        font-size: 95px;
-        margin: 0 -5px;
-      }        
-  
-      &:checked,        
-      &:hover:hover:hover,
-      &:checked ~ input,    
-      &:hover:hover ~ input {
-        color:teal;
-      }
+    input {
+        appearance: none;
+        overflow: hidden;
+        color: white;
+
+        &::before {
+            width: 70px;
+            content: '-';
+            cursor: pointer;
+            font-size: 95px;
+            margin: 0 -5px;
+        }
+
+        &:checked,
+        &:hover:hover:hover,
+        &:checked~input,
+        &:hover:hover~input {
+            color: teal;
+        }
     }
-} 
-  
+}
+
 .reviewed {
     margin-top: -35px;
 }
 
 .reviewedTxt {
-    /* background-color: black; */
     width: 80%;
     height: fit-content;
     margin: 45px 20px 0 0;
@@ -1021,22 +1038,22 @@ fieldset {
 }
 
 
- /* -------------Rating cirlces ------------*/
+/* -------------Rating cirlces ------------*/
 
- .userRated {
+.userRated {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100%;
     overflow: hidden;
-    
+
     background: var(--rating-color-default);
     color: var(--rating-color-default);
     width: var(--rating-size);
     height: var(--rating-size);
     margin: 20px 0 0 10px;
-  
+
     font-size: calc(var(--rating-size) / 3);
     line-height: 1;
 
@@ -1057,45 +1074,47 @@ fieldset {
         box-shadow: 0 0 0 1rem var(--rating-color-background);
         z-index: -1;
     }
-    
-  }
-  
-  .userRated span {
+
+}
+
+.userRated span {
     position: relative;
     display: flex;
     font-weight: bold;
     z-index: 2;
     font-size: 25px;
-    overflow: hidden;   
-  }
-  
-  .userRated span small {
+    overflow: hidden;
+}
+
+.userRated span small {
     font-size: 0.5em;
     font-weight: 900;
     align-self: center;
-  }
-  
-  .userRated.great {
+}
+
+.userRated.great {
     background: var(--rating-color-great);
     color: var(--rating-color-great);
-  }
-  .userRated.good {
+}
+
+.userRated.good {
     background: var(--rating-color-good);
     color: var(--rating-color-good);
-  }
-  
-  .userRated.meh {
+}
+
+.userRated.meh {
     background: var(--rating-color-meh);
     color: var(--rating-color-meh);
-  }
-  
-  .userRated.bad {
+}
+
+.userRated.bad {
     background: var(--rating-color-bad);
     color: var(--rating-color-bad);
-  }
+}
 
 /* #endregion */
-/* #region ---------------NEWEST REVIEWS-------------------------- */
+
+/* #region -------------------NEWEST REVIEWS-------------------------- */
 
 
 #recent-reviews {
@@ -1106,23 +1125,23 @@ fieldset {
     background-color: var(--bg-gray);
     padding: 30px;
     border: 1px white solid;
-    
+
     .smallGrayText {
         font-size: 16px;
         line-height: 1.2rem;
     }
-    
+
     h1 {
         font-size: 35px;
         height: 42px;
 
-        .new-gametitle{
+        .new-gametitle {
             position: absolute;
             margin: 12px 5px;
-            
+
         }
 
-        #jp{
+        #jp {
             margin: 7px;
             position: absolute;
         }
@@ -1146,7 +1165,7 @@ fieldset {
 #newest-reviews {
     display: flex;
     flex-direction: row;
-    
+
     div {
         margin: 30px 0px 0 0px;
         background-color: transparent;
@@ -1156,8 +1175,8 @@ fieldset {
         padding: 5px;
         overflow: hidden;
 
-        
-        &:not(:last-child){
+
+        &:not(:last-child) {
             margin-right: 30px;
         }
 
@@ -1174,29 +1193,28 @@ fieldset {
 }
 
 .recent-pfps {
-    margin: 30px 20px 0 20px;
+    margin: 30px 10px 0 20px;
     width: 43px;
     height: 100px;
     float: left;
     font-size: 30px;
-    margin-right: 10px;
-
 }
 
 .genre {
     margin-top: -22px;
 }
 
- /* #endregion */
+/* #endregion */
 
-/* #region Bingyi ------------SECTION merch and contact----------------------------- */
+/* #region ------------ merch and contact----------------------------- */
+
 div.hat {
     float: right;
     margin: 30px 50px;
     padding: 40px 20px;
 }
 
-div.merchs{
+div.merchs {
     margin: 30px 50px;
     padding: 40px 20px;
 }
@@ -1215,14 +1233,16 @@ div.telephone {
 }
 
 /*-----------------------containers for pages and txt-------------------------*/
+
 .img-container {
     width: 100%;
     padding-bottom: 70px;
+
     img {
         width: 30%;
         height: 200px;
-        
-         &:not(:first-child){
+
+        &:not(:first-child) {
             margin: 0 11px;
         }
     }
@@ -1231,8 +1251,6 @@ div.telephone {
 #container-imgs {
     margin-left: 58px;
 }
-
-
 
 
 /* #endregion */
