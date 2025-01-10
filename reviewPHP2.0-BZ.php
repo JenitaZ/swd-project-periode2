@@ -79,7 +79,28 @@
             <p id= "extradesctwo"><?=$gameInfo["extradesctwo"]?></p>
         </div>
 
+        <div>
+
+        </div>
+
         <section class="ratingContainer"></section>
+
+        <div id="rating">
+            <!-- Rating numbers 1 to 10 -->
+            <div class="rating-item" data-value="1">1</div>
+            <div class="rating-item" data-value="2">2</div>
+            <div class="rating-item" data-value="3">3</div>
+            <div class="rating-item" data-value="4">4</div>
+            <div class="rating-item" data-value="5">5</div>
+            <div class="rating-item" data-value="6">6</div>
+            <div class="rating-item" data-value="7">7</div>
+            <div class="rating-item" data-value="8">8</div>
+            <div class="rating-item" data-value="9">9</div>
+            <div class="rating-item" data-value="10">10</div>
+        </div>
+
+        <p>Selected Rating: <span id="selectedrating">0</span></p>
+
     </main>
 
     
@@ -109,7 +130,14 @@
                 </section>
             </div>
         </footer>
-        <script src=""> </script>
+        <script src="ratingTemplets.js"></script>
     <body>
-        
+        <script>
+            pegi = "ALL"
+
+            const ageInput = prompt("confirm your age:");
+
+            const leeftijd = parseInt(ageInput);
+
+        </script>
 <?
