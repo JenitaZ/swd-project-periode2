@@ -146,4 +146,5 @@
                 </section>
             </div>
         </footer>
-    <?php
+    </body>
+<?

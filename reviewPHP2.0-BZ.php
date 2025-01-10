@@ -109,6 +109,7 @@
                 </section>
             </div>
         </footer>
-        <script src=""
+        <script src=""> </script>
+    <body>
         
-    <?php
+<?
