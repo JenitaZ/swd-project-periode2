@@ -133,10 +133,11 @@
         <script src="ratingTemplets.js"></script>
     <body>
         <script>
-            const leeftijdInput = prompt("How old are you?");
+            pegi = "ALL"
 
-            const leeftijd = parseInt(leeftijdInput);
+            const ageInput = prompt("confirm your age:");
 
-            console.log(leeftijd);
+            const leeftijd = parseInt(ageInput);
+
         </script>
 <?
