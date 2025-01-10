@@ -82,7 +82,7 @@
         <a href="games.html">Games</a>
         <a href="Merchandise.html">Merchandise</a>
         <a href="contact.html">Contact</a>
-        <a href="newestReview.html">Newest Reviews</a> 
+        <a href="newestReview.php">Newest Reviews</a> 
 
     </nav>
 
