@@ -42,7 +42,7 @@
             "genre" => "farming, multiplayer, singleplayer",
         ];
     } else {
-        echo "Oops, something broke again";
+        echo "loading...";
     }
 
     ?>

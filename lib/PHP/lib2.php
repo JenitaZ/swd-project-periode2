@@ -52,7 +52,7 @@
             $gameInfo = $games['1'];
             break;
         default:
-            echo "iets brak weer";
+            echo "loading..";
 
     }
 

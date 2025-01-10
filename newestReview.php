@@ -26,6 +26,7 @@
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
 
             <div class="toggle">
+                <h1 id="counter"></h1>
                 <input type="checkbox" id="mode-toggle" class="toggle__input">
                 <label for="mode-toggle" class="toggle__label"></label>
             </div>
@@ -161,6 +162,7 @@
     </footer>
 
     <script src="lib/index.js"></script> <!-- nav -->
+    <script src="lib/toggle-count.js"></script> 
  
 
 
