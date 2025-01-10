@@ -1,6 +1,4 @@
-<?php 
-include "lib/PHP/reviewsNew.php"
-?>
+<?php include "lib/PHP/reviewsNew.php"?> <!-- Reviews -->
 
 <!DOCTYPE html>
 <html lang="en"> 
@@ -170,7 +168,7 @@ include "lib/PHP/reviewsNew.php"
 
     </footer>
 
-    <script src="lib/index.js"></script>
+    <script src="lib/index.js"></script> <!-- nav -->
  
 
 

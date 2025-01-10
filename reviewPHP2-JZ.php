@@ -1,9 +1,8 @@
 <?php 
-include "lib/PHP/lib2.php";
-include "lib/PHP/lib3.php";
-include "lib/PHP/reviews.php";
+include "lib/PHP/lib2.php"; // review 2
+include "lib/PHP/lib3.php"; // review 3 + 4
+include "lib/PHP/reviews.php"; // arrays met reviews
 ?>
-
 
 <!-- review 2, 3, 4 PHP-->
 

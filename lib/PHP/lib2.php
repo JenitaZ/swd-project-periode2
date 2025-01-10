@@ -1,8 +1,8 @@
 <!-- 
 *
 * game review 2
-* PHP game pagina's || games: stray + banana
-*
+* PHP || games: stray + banana
+* 
 *-->
 
 <!DOCTYPE html>

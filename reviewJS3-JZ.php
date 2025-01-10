@@ -1,6 +1,4 @@
-<?php
-    include "lib/PHP/reviews.php";
-?>
+<?php include "lib/PHP/reviews.php";?>  <!-- arrays met reviews  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -131,10 +129,10 @@
         </div>
     </footer>
 
-    <script src="lib/index.js"> </script>
-    <script src="lib/paramsReview3.js"> </script>
-    <script src="lib/ratingCircles.js"></script>
-       
+    <script src="lib/index.js"> </script> <!-- nav -->
+    <script src="lib/paramsReview3.js"> </script> <!-- array -->
+    <script src="lib/ratingCircles.js"></script> <!-- ratingcircle color -->
+        
    
 
 </body>
