@@ -36,6 +36,7 @@ include "lib/PHP/reviews.php"; // arrays met reviews
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
+            
         </article>
 
     </header>

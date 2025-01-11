@@ -16,8 +16,9 @@
     <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
 
-    <script src="lib/index.js"></script> <!-- nav, toggle -->
-    <script src="lib/toggle-count.js"></script> 
+    <script src="lib/index.js" defer></script> <!-- nav, toggle -->
+    <script src="lib/toggle-count.js" defer></script> 
+
 </head>
 
  <body class="Home">
