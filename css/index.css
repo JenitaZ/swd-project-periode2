@@ -29,6 +29,8 @@
     --rating-color-good: #7dc45b;
     --rating-color-meh: #d6d253;
     --rating-color-bad: #e74c3c;
+
+    --radius-border: 5px;
 }
 
 * {
@@ -1115,18 +1117,24 @@ fieldset {
 /* #region -------------------NEWEST REVIEWS-------------------------- */
 
 
-#recent-reviews {
+.recent-reviews {
     width: 1100px;
     height: auto;
     max-width: 1100px;
     margin: 130px auto 70px;
     background-color: var(--bg-gray);
     padding: 30px;
-    border: 1px white solid;
-
+    /* border: 1px white solid; */
+    border-radius: var(--radius-border);
+  
+    & > * {
+        animation-name: fade;
+        animation-duration: 1.8s;
+    }
     .smallGrayText {
         font-size: 16px;
         line-height: 1.2rem;
+        
     }
 
     h1 {
@@ -1146,18 +1154,21 @@ fieldset {
     }
 }
 
-#recent-review-txt {
+
+.recent-review-txt {
     height: 150px;
     width: fit-content;
-    margin: 10px 20px 35px;
+    margin: 10px 0px 35px;
 }
 
-#index-img {
-    background-color: white;
+.index-vid {
+    background-color: black;
     width: 525px;
     height: 300px;
     float: left;
     margin-right: 20px;
+    border: none;
+    border-radius: var(--radius-border);
 }
 
 #newest-reviews {
@@ -1165,12 +1176,13 @@ fieldset {
     flex-direction: row;
 
     div {
-        margin: 30px 0px 0 0px;
+        margin: 20px 0px 0 0px;
         background-color: transparent;
         border: 1px white solid;
+        border-radius: var(--radius-border);
         width: 100%;
         height: 120px;
-        padding: 5px;
+        padding: 10px 8px 0 0;
         overflow: hidden;
 
 
@@ -1185,23 +1197,26 @@ fieldset {
 
         #user-review {
             font-size: 15px;
-            line-height: 1rem;
+            line-height: 1.1rem;
         }
     }
 }
 
 .recent-pfps {
-    margin: 30px 10px 0 20px;
-    width: 43px;
+    margin: 35px 10px 0 28px;
+    width: 44.6px;
     height: 100px;
     float: left;
-    font-size: 30px;
+    font-size: 38.6px;
 }
 
 .genre {
     margin-top: -22px;
 }
 
+.float-right{
+    overflow: hidden;
+}
 /* #endregion */
 
 /* #region ------------ merch and contact----------------------------- */

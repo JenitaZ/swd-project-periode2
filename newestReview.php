@@ -16,8 +16,10 @@
     <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
 
-    <script src="lib/index.js" defer></script> <!-- nav, toggle -->
+     <!-- nav, toggle, slideshow -->
+    <script src="lib/index.js" defer></script>
     <script src="lib/toggle-count.js" defer></script> 
+    <!-- <script src="lib/slideshowNew.js" defer></script> -->
 
 </head>
 
@@ -49,14 +51,16 @@
     </nav>
 
     <main>
-        <div id="recent-reviews">
-            <div id="recentReviewC">
-                <iframe id="index-img" <?=$games["BOK"]["vid"]?>></iframe>
-                <h1><?=$games["BOK"]["title"]?> <span class="smallGrayText"><?=$games["BOK"]["dev"]?></span></h1>
-                <p class="smallGrayText"><?=$games["BOK"]["release_date"]?></p>
-                <p class="smallGrayText"><?=$games["BOK"]["platforms"]?></p>
-                <p id="recent-review-txt"><?=$games["BOK"]["description"]?></p>
-                <p class="smallGrayText">genres: <?=$games["BOK"]["genre"]?></p>
+        <div class="recent-reviews">
+            <div class="recentReviewC">
+                <iframe class="index-vid" <?=$games["BOK"]["vid"]?>></iframe>
+                <section class="float-right">
+                    <h1><?=$games["BOK"]["title"]?> <span class="smallGrayText"><?=$games["BOK"]["dev"]?></span></h1>
+                    <p class="smallGrayText"><?=$games["BOK"]["release_date"]?></p>
+                    <p class="smallGrayText"><?=$games["BOK"]["platforms"]?></p>
+                    <p class="recent-review-txt"><?=$games["BOK"]["description"]?></p>
+                    <p class="smallGrayText">genres: <?=$games["BOK"]["genre"]?></p>
+                </section>
             </div>
         
             <section id="newest-reviews">
@@ -78,16 +82,18 @@
             </section>
         </div>
 
-<!-- 
-        <div id="recent-reviews">
-            <div id="recentReviewC">
-                <iframe id="index-img" <?=$games["NR"]["vid"]?>></iframe>
-                <h1><?=$games["NR"]["title"]?></h1>
-                <p class="smallGrayText"><?=$games["NR"]["release_date"]?></p>
-                <p class="smallGrayText new-gametitle"><?=$games["NR"]["dev"]?></p>
-                <p class="smallGrayText">Platforms: <?=$games["NR"]["platforms"]?></p>
-                <p id="recent-review-txt"><?=$games["NR"]["description"]?></p>
-                <p class="smallGrayText genre">genre: <?=$games["NR"]["genre"]?></p>
+
+        <div class="recent-reviews">
+            <div class="recentReviewC">
+                <iframe class="index-vid" <?=$games["NR"]["vid"]?>></iframe>
+                 <section class="float-right">
+                    <h1><?=$games["NR"]["title"]?></h1>
+                    <p class="smallGrayText"><?=$games["NR"]["release_date"]?></p>
+                    <p class="smallGrayText new-gametitle"><?=$games["NR"]["dev"]?></p>
+                    <p class="smallGrayText">Platforms: <?=$games["NR"]["platforms"]?></p>
+                    <p class="recent-review-txt"><?=$games["NR"]["description"]?></p>
+                    <p class="smallGrayText genre">genre: <?=$games["NR"]["genre"]?></p>
+                </section>
 
             </div>
         
@@ -111,15 +117,16 @@
         </div>
 
 
-        <div id="recent-reviews">
-            <div id="recentReviewC">
-                <iframe id="index-img" <?=$games["STA"]["vid"]?>></iframe>
+        <div class="recent-reviews">
+            <div class="recentReviewC">
+                <iframe class="index-vid" <?=$games["STA"]["vid"]?>></iframe>
                 <h1><?=$games["STA"]["title"]?><span class="smallGrayText new-gametitle"><?=$games["STA"]["dev"]?></span></h1>
-                <p class="smallGrayText"><?=$games["STA"]["release_date"]?></p>
-                <p class="smallGrayText">Platforms: <?=$games["STA"]["platforms"]?></p>                
-                <p id="recent-review-txt"><?=$games["STA"]["description"]?></p>
-                <p class="smallGrayText">genres: <?=$games["NR"]["genre"]?></p>
-
+                <section class="float-right">
+                    <p class="smallGrayText"><?=$games["STA"]["release_date"]?></p>
+                    <p class="smallGrayText">Platforms: <?=$games["STA"]["platforms"]?></p>                
+                    <p class="recent-review-txt"><?=$games["STA"]["description"]?></p>
+                    <p class="smallGrayText">genres: <?=$games["STA"]["genre"]?></p>
+                </section>
             </div>
         
             <section id="newest-reviews">
@@ -138,7 +145,38 @@
                     }
                 }
                 ?> 
-            </section> -->
+            </section>
+        </div>
+
+        <div class="recent-reviews">
+            <div class="recentReviewC">
+                <iframe class="index-vid" <?=$games["OM"]["vid"]?>></iframe>
+                <h1><?=$games["OM"]["title"]?><span class="smallGrayText new-gametitle"><?=$games["OM"]["dev"]?></span></h1>
+                <section class="float-right">
+                    <p class="smallGrayText"><?=$games["OM"]["release_date"]?></p>
+                    <p class="smallGrayText">Platforms: <?=$games["OM"]["platforms"]?></p>                
+                    <p class="recent-review-txt"><?=$games["OM"]["description"]?></p>
+                    <p class="smallGrayText">genres: <?=$games["OM"]["genre"]?></p>
+                </section>
+            </div>
+        
+            <section id="newest-reviews">
+             <?php
+                foreach ($reviews as $game => $users) {
+                    if ($game === "OM") {
+                        foreach ($users as $user => $info) {
+                            echo '
+                                <div class="user-review">
+                                    <p class="recent-pfps">'. $info["rated"] .'</p>
+                                    <span>'. $info["username"] .'</span>
+                                    <p id="user-review">'. $info["review"] .'</p>
+                                </div>
+                            ';
+                        }
+                    }
+                }
+                ?> 
+            </section>
         </div>
 
     </main>
