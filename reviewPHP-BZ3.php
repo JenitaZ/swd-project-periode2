@@ -140,4 +140,4 @@
         </div>
     </footer>
     </body>
-<? /* html closing tags!! */
+</html>
