@@ -1138,12 +1138,13 @@ fieldset {
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 40px;
+        line-height: 1.9rem;
         height: 42px;
-
+        overflow: hidden;
         .new-gametitle {
             position: absolute;
-            margin: 12px 5px;
+            margin: 18px 5px;
 
         }
 
@@ -1217,6 +1218,28 @@ fieldset {
 .float-right{
     overflow: hidden;
 }
+
+.btn-new {
+    background-color: var(--that-gray) !important;
+    margin: auto auto;
+}
+
+.progress-border {
+    width: 75.5vw;
+    height: 11.2px;
+    border: 1px white solid;
+    position: absolute;
+    top: 669.6px;
+    left: 187.4px;
+}
+
+.progress-color {
+    height: 11.2px;
+    width: 0;
+    background-color: white;
+    
+}
+
 /* #endregion */
 
 /* #region ------------ merch and contact----------------------------- */

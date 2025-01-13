@@ -19,7 +19,7 @@
      <!-- nav, toggle, slideshow -->
     <script src="lib/index.js" defer></script>
     <script src="lib/toggle-count.js" defer></script> 
-    <!-- <script src="lib/slideshowNew.js" defer></script> -->
+    <script src="lib/slideshowNew.js" defer></script>
 
 </head>
 
@@ -51,6 +51,11 @@
     </nav>
 
     <main>
+        
+        <!-- <button onclick="changeGameImg()" id="btnRight" class="btn-new">&#9654</button>
+        <button onclick="changeGameImgL()" id="btnLeft" class="btn-new">&#9664;</button>  -->
+        
+            
         <div class="recent-reviews">
             <div class="recentReviewC">
                 <iframe class="index-vid" <?=$games["BOK"]["vid"]?>></iframe>
@@ -62,7 +67,6 @@
                     <p class="smallGrayText">genres: <?=$games["BOK"]["genre"]?></p>
                 </section>
             </div>
-        
             <section id="newest-reviews">
              <?php
                 foreach ($reviews as $game => $users) {
@@ -201,6 +205,11 @@
                
             </section>
         </div>
+
+        <div class="progress-border">
+            <div class="progress-color"></div>
+        </div>
+
     </footer>
 
 </body>
