@@ -18,7 +18,7 @@ include "lib/PHP/reviews.php"; // arrays met reviews
     <meta name="keywords" content="Stray, Banana, Terraria, HollowKnight, Bokura, review PHP">
     <meta name="author" content="Jenita Zheng">
 
-    <title>Review</title>
+    <title>Review 2,3,4</title>
     <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
 

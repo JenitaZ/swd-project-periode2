@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Review </title>
 
     <meta name="description" content="Gameshop Website">
     <meta name="keywords" content="Review games">
     <meta name="author" content="Bingyi Zhou">
     <link rel="stylesheet" href="css/index.css"> 
+    
 
 </head>
 

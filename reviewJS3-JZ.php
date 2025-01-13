@@ -12,7 +12,7 @@
     <meta name="keywords" content="NieR:Automata, STALKER2, JS review">
     <meta name="author" content="Jenita Zheng">
 
-    <title>Review</title>
+    <title>Review 3</title>
     <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
 
