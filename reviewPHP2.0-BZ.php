@@ -14,12 +14,14 @@
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="header-template review-header">
+    <header class="headerTemplate review-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
         </article>
 
+        <nav class="stick">
+        </nav>
     </header>
 
     <?php 
@@ -49,7 +51,7 @@
         <a href="games.html">Games</a>
         <a href="Merchandise.html">Merchandise</a>
         <a href="contact.html">Contact</a>
-        <a href="newestReview.php">Newest Reviews</a> 
+        <a href="newestReview.html">Newest Reviews</a> 
     </nav>
 
     <main id="phpcontainer">
@@ -103,35 +105,41 @@
 
     
     <footer>
-    <div class="footer-content">
+        <div class="footer-content">
             <section class="footer-left">
-                <span class="footer-header">Contact</span> 
-                <p class="footer-left">For any questions you can send us email directly through our <a href="contact.html" class="footer-header2">contact page!</a></p>
+                <p class="footer-left">
+                <h1 class="footer-header">Contact</h1>
+                For any questions you can send us email directly through our <a href="contact.html"
+                    class="footer-header2">contact page!</a>
+                </p>
             </section>
-
-            <section class="footer-right">
-                <span class="footer-header">Follow us</span>
-                <div class="divider"></div>
-                
+    
+                <section class="footer-right">
+                    <p>
+                        <span class="footer-header">Follow us</span>
+                    <div class="divider"></div>
+    
                 <section class="icons">
                     <a href="" class="iconlinks"><img src="img/socialmedia/yt-logo.png" alt="Youtube link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/ig-logo.png" alt="Instagram link"></a>
                     <a href="" class="iconlinks"><img src="img/socialmedia/X-logo.png" alt="X(Twitter) link"></a>
-                    <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link" class="annoyance"></a>
+                    <a href="" class="iconlinks"><img src="img/socialmedia/tk-logo.png" alt="Tiktok link"
+                            class="annoyance"></a>
+                    </section>
+                    </p>
                 </section>
-               
-            </section>
-        </div>
-    </footer>
-
+            </div>
+        </footer>
         <script src="ratingTemplets.js"></script>
     <body>
         <script>
-            pegi = "ALL"
+            pegi = "ALL";
 
             const ageInput = prompt("confirm your age:");
 
             const leeftijd = parseInt(ageInput);
+            console.log(ageInput);
 
         </script>
-<? /* missing html closing tags*/
+    </html>
+<?
