@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description" content="Homepage voor de gamereview pagina">
-    <meta name="keywords" content="Games Review Top3 home">
+    <meta name="description" content="Newest reviews">
+    <meta name="keywords" content="Games Review New Reviews">
     <meta name="author" content="Jenita Zheng">
 
-    <title>Gamestars</title>
+    <title>Newest Reviews</title>
     <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
 
@@ -154,7 +154,7 @@
 
         <div class="recent-reviews">
             <div class="recentReviewC">
-                <iframe class="index-vid" <?=$games["OM"]["vid"]?>></iframe>
+                <iframe class="index-vid"<?=$games["OM"]["vid"]?>></iframe>
                 <h1><?=$games["OM"]["title"]?><span class="smallGrayText new-gametitle"><?=$games["OM"]["dev"]?></span></h1>
                 <section class="float-right">
                     <p class="smallGrayText"><?=$games["OM"]["release_date"]?></p>
@@ -204,10 +204,6 @@
                 </section>
                
             </section>
-        </div>
-
-        <div class="progress-border">
-            <div class="progress-color"></div>
         </div>
 
     </footer>
