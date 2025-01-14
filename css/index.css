@@ -1227,16 +1227,18 @@ fieldset {
 .progress-border {
     width: 75.5vw;
     height: 11.2px;
-    border: 1px white solid;
+    border: 1px var(--highlight-light) solid;
     position: absolute;
     top: 669.6px;
     left: 187.4px;
+    border-radius: var(--radius-border);
 }
 
 .progress-color {
     height: 11.2px;
     width: 0;
-    background-color: white;
+    background-color: var(--highlight-light);
+    border-radius: var(--radius-border);
     
 }
 

@@ -206,6 +206,10 @@
             </section>
         </div>
 
+        <div class="progress-border">
+            <div class="progress-color"></div>
+        </div>
+
     </footer>
 
 </body>
