@@ -14,7 +14,7 @@
     <meta name="keywords" content="Rainworld Stardew-valley review PHP">
     <meta name="author" content="Jenita Zheng">
 
-    <title>Games</title>
+    <title>Review 1</title>
     <link rel="icon" href="img/logo/IMG_2997.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css" type="text/css">
     

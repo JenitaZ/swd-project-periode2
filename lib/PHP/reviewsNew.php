@@ -23,7 +23,7 @@
             "release_date" => "February 23rd 2017",
             "platforms" => "Nintendo Switch, PlayStation 4, Xbox One, Windows",
             "description" => "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines.",
-            "vid" => 'src="https://www.youtube.com/embed/ARHVKZ5K1b0?si=YewiFnMGnssAbi_a" title="YouTube video player"',
+            "vid" => 'src="https://www.youtube.com/embed/ARHVKZ5K1b0?si=YewiFnMGnssAbi_a&mute=1" title="YouTube video player"',
             "PEGI" => 16,
             "genre" => "story rich",
             "dev" => "Takahisa Taura & Isao Negishi"
@@ -34,7 +34,7 @@
             "release_date" => "November 20th, 2024",
             "platforms" => "Xbox series X/S, Nvidia Geforce Now, Windows",
             "description" => "Discover the vast Chornobyl Exclusion Zone full of dangerous enemies, deadly anomalies and powerful artifacts",
-            "vid" => 'src="https://www.youtube.com/embed/1dHmayETd4c?si=fZzUVPLIv8Eo0LEL"',
+            "vid" => 'src="https://www.youtube.com/embed/1dHmayETd4c?si=fZzUVPLIv8Eo0LEL&mute=1"',
             "PEGI" => 12,
             "genre" => " open world, survival",
             "dev" => "GSC Game World"
@@ -45,7 +45,7 @@
             "release_date" => "August 9th, 2023",
             "platforms" => "PS4/5, switch, desktop",
             "description" => "BOKURA is a two-player puzzle adventure game.<br> Play as two boys who ran away from their homes and work together to take yourselves somewhere far, far away. ",
-            "vid" => 'src="https://www.youtube.com/embed/25mkGli1e0A?si=GrXsDk2QsngPG-8Z"',
+            "vid" => 'src="https://www.youtube.com/embed/25mkGli1e0A?si=GrXsDk2QsngPG-8Z&mute=1"',
             "PEGI" => 12,
             "genre" => "Action, Adventure, Casual",
             "dev" => "<span id='jp'>ところにょり</span>"
@@ -55,7 +55,7 @@
             "release_date" => "December 25th, 2020",
             "platforms" => "Nintendo switch, ps4, pc",
             "description" => "Explore a strange world full of colorful friends and foes. When the time comes, the path you’ve chosen will determine your fate... and perhaps the fate of others as well.",
-            "vid" => 'src="https://www.youtube.com/embed/erzgjfU271g?si=davMCDKzlsXvXzTe"',
+            "vid" => 'src="https://www.youtube.com/embed/erzgjfU271g?si=davMCDKzlsXvXzTe&mute=1"',
             "PEGI" => 16,
             "genre" => "psychological horror, story rich",
             "dev" => "OMOCAT"
