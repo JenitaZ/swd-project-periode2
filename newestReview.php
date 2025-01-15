@@ -51,10 +51,6 @@
     </nav>
 
     <main>
-        
-        <!-- <button onclick="changeGameImg()" id="btnRight" class="btn-new">&#9654</button>
-        <button onclick="changeGameImgL()" id="btnLeft" class="btn-new">&#9664;</button>  -->
-        
             
         <div class="recent-reviews">
             <div class="recentReviewC">

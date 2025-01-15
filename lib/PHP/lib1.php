@@ -17,10 +17,10 @@
 <body>
 
     <?php
+    // Gets query string parameter
     $value = $_GET['var'];
 
-    // shows content based on value 
-    
+    // Sets content based on query string parameter 
     if ($value == 'RW') {
         $gameInfo = [
             "title" => "Rain World",

@@ -18,6 +18,8 @@
 <body>
 
     <?php
+    
+    // Sets reviews based on query string parameters
     $value = $_GET['var'];
     switch ($value) {
         case "BOK": {
@@ -44,7 +46,8 @@
                     "dateRated" => "Dec 23, 2024",
                 ],
             ];
-
+ 
+            // Sorts reviews from oldest to newest, newest will end up on top when loaded
             uasort($Bokura, function ($a, $b) {
                 return strtotime($b['dateRated']) - strtotime($a['dateRated']);
             });
@@ -240,10 +243,13 @@
     }
     ;
 
+    // Creates an new array incase the array doesn't exist yet
     if (!isset($_SESSION['Bokura'])) {
         $_SESSION['Bokura'] = [];
     }
 
+    // Gets userinfo/-review using POST, adds the review to the array "Bokura"
+    // Sorts it on date so the new review is on top
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST["name"])) {
             $Bokura['new_user'] = [
@@ -262,11 +268,16 @@
     }
     ;
 
+    // Calculating the average of all ratings by getting the values from column 'rated'
+    // Rounds number to 1 decimal
     $averageRating = number_format(array_sum(array_column($Bokura, 'rated')) / count($Bokura), 1);
 
-    ob_start();
 
+    // Put's the result in a variable ($output), so I can echo it where I want
+    ob_start();
+    
     foreach ($Bokura as $user => $userData) {
+        // Generates the result for each $user
         echo '<div class="userRating">
                     <div class="dividerNeon"></div>
                     <section class="rProfileContainer">
@@ -282,6 +293,7 @@
                 </div>';
     }
 
+    // Puts all results in $output variable
     $output = ob_get_clean();
 
     ?>

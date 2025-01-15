@@ -17,6 +17,7 @@
 <body>
 
     <?php
+    // Gets query string parameter and set the content
     $value = $_GET['var'];
     $games = [
         "0" => [
@@ -41,7 +42,7 @@
         ]
     ];
 
-    // shows content based on value 
+    // Shows content based on query string parameter 
     switch ($value) {
         case '0':
             $gameInfo = $games['0'];
