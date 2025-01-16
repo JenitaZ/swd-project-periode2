@@ -15,7 +15,7 @@
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate">
+    <header class="header-template review-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
@@ -86,21 +86,20 @@
 
         <section class="ratingContainer"></section>
 
-        <div id="rating">
-            <!-- Rating numbers 1 to 10 -->
-            <div class="rating-item" data-value="1">1</div>
-            <div class="rating-item" data-value="2">2</div>
-            <div class="rating-item" data-value="3">3</div>
-            <div class="rating-item" data-value="4">4</div>
-            <div class="rating-item" data-value="5">5</div>
-            <div class="rating-item" data-value="6">6</div>
-            <div class="rating-item" data-value="7">7</div>
-            <div class="rating-item" data-value="8">8</div>
-            <div class="rating-item" data-value="9">9</div>
-            <div class="rating-item" data-value="10">10</div>
-        </div>
-
-        <p>Selected Rating: <span id="selectedrating">0</span></p>
+        <div class="rating-container">
+    <h1>Rate this game (1-10):</h1>
+    <div class="rating-numbers">
+        <p class="rating-number" data-value="1">1</p>
+        <p class="rating-number" data-value="2">2</p>
+        <p class="rating-number" data-value="3">3</p>
+        <p class="rating-number" data-value="4">4</p>
+        <p class="rating-number" data-value="5">5</p>
+        <p class="rating-number" data-value="6">6</p>
+        <p class="rating-number" data-value="7">7</p>
+        <p class="rating-number" data-value="8">8</p>
+        <p class="rating-number" data-value="9">9</p>
+        <p class="rating-number" data-value="10">10</p>
+    </div>
 
     </main>
 
@@ -132,15 +131,13 @@
             </div>
         </footer>
         <script src="ratingTemplets.js"></script>
-    <body>
-        <script>
-            pegi = "ALL";
+        <script> 
+        pegi = "ALL";
 
-            const ageInput = prompt("confirm your age:");
+const ageInput = prompt("confirm your age:");
 
-            const leeftijd = parseInt(ageInput);
-            console.log(ageInput);
-
-        </script>
+const leeftijd = parseInt(ageInput);
+</script>
+    </body>
     </html>
 <?

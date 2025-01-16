@@ -1299,3 +1299,35 @@ button.submit:hover {
 
 
 /* #endregion */
+
+/* ratingTemplets!!! */
+
+  .rating-container {
+    text-align: center;
+    background-color: #2222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rating-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .rating-number {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #4b897e;
+  }
+  
+  .rating-number.selected {
+    color: #272b2e;
+  }
+  
+  .rating-number:hover {
+    color: #4c7a72;
+  }
+  
