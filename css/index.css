@@ -1322,6 +1322,10 @@ button.submit:hover {
     color: #4b897e;
   }
   
+  .rating-number.selected {
+    color: #272b2e;
+  }
+  
   .rating-number:hover {
     color: #4c7a72;
   }
