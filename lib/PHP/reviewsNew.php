@@ -17,6 +17,7 @@
 <body>
 
     <?php
+    //arrays with gameinfo
     $games = [
         "NR" => [
             "title" => "NieR: Automata",
@@ -63,7 +64,7 @@
     ];
 
 
-
+    //arrays with userreviews
     $reviews = [
         "BOK" => [
             "user1" => [

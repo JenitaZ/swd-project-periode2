@@ -16,8 +16,9 @@
 
 <body>
 
-    <!-- arrays met gameinfo -->
     <?php
+    
+    // Sets content based on query string parameters
     $value = $_GET['var'];
     $games = [
         "TR" => [
@@ -38,7 +39,8 @@
             "gameDesc" => "<span id='title'>Hollow Knight</span> <br> <span class='smallGrayText'>released on: February 24th, 2017, Developed and released by: Team Cherry </span> <br><br>Hollow Knight is a 2D side-scrolling Metroidvania. <br><br>The player controls a silent insectoid protagonist called \"the Knight\" who explores an underground fallen kingdom called Hallownest.<br><br> The Knight can strike enemies with a sword-like weapon called a Nail and can learn spells that allow for long-range attacks.",
             "genre" => "difficult, platformer",
         ],
-        "BOK" => [  /* review 4 */
+        /* review 4 */
+        "BOK" => [  
             "title" => "BOKURA",
             "release_date" => "August 9th, 2023",
             "platforms" => "PS4/5",
@@ -51,7 +53,7 @@
         ]
     ];
 
-    
+    // displays content based on query string parameters
     switch ($value) {
         case 'TR':  
             echo "<script>let pegi = '" . $games['TR']['PEGI'] . "';</script>";
@@ -82,7 +84,8 @@
             $gameInfo = $games['HK'];
             break;
 
-        case 'BOK':  /* Game review 4 */
+        /* Game review 4 */
+        case 'BOK':  
             echo "<script>let pegi = '" . $games['BOK']['PEGI'] . "';</script>";
             echo "<script type='text/javascript'>
             let age = prompt('Confirm your age:');

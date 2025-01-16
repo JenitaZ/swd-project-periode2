@@ -1223,11 +1223,6 @@ fieldset {
     overflow: hidden;
 }
 
-.btn-new {
-    background-color: var(--that-gray) !important;
-    margin: auto auto;
-}
-
 .progress-border {
     width: 75.5vw;
     height: 11.2px;
