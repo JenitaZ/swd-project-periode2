@@ -1298,8 +1298,6 @@ button.submit:hover {
 }
 
 
-/* #endregion */
-
 /* ratingTemplets!!! */
 
   .rating-container {
@@ -1330,4 +1328,6 @@ button.submit:hover {
   .rating-number:hover {
     color: #4c7a72;
   }
+
   
+  /* #endregion */
