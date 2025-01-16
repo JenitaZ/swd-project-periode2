@@ -1320,11 +1320,11 @@ button.submit:hover {
   .rating-number {
     font-size: 2rem;
     cursor: pointer;
-    color: lightgray;
+    color: #4b897e;
   }
   
   .rating-number.selected {
-    color: #4c7a72;
+    color: #272b2e;
   }
   
   .rating-number:hover {

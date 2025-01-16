@@ -87,21 +87,19 @@
         <section class="ratingContainer"></section>
 
         <div class="rating-container">
-    <h2>Rate this product (1-10):</h2>
+    <h1>Rate this game (1-10):</h1>
     <div class="rating-numbers">
-        <span class="rating-number" data-value="1">1</span>
-        <span class="rating-number" data-value="2">2</span>
-        <span class="rating-number" data-value="3">3</span>
-        <span class="rating-number" data-value="4">4</span>
-        <span class="rating-number" data-value="5">5</span>
-        <span class="rating-number" data-value="6">6</span>
-        <span class="rating-number" data-value="7">7</span>
-        <span class="rating-number" data-value="8">8</span>
-        <span class="rating-number" data-value="9">9</span>
-        <span class="rating-number" data-value="10">10</span>
+        <p class="rating-number" data-value="1">1</p>
+        <p class="rating-number" data-value="2">2</p>
+        <p class="rating-number" data-value="3">3</p>
+        <p class="rating-number" data-value="4">4</p>
+        <p class="rating-number" data-value="5">5</p>
+        <p class="rating-number" data-value="6">6</p>
+        <p class="rating-number" data-value="7">7</p>
+        <p class="rating-number" data-value="8">8</p>
+        <p class="rating-number" data-value="9">9</p>
+        <p class="rating-number" data-value="10">10</p>
     </div>
-
-        <p>Selected Rating: <span id="selectedrating">0</span></p>
 
     </main>
 
