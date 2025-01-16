@@ -15,7 +15,7 @@
 
 <body class="Home Homereview">
     <!-- navigatie -->
-    <header class="headerTemplate">
+    <header class="header-template review-header">
         <article class="logo gameslog">
             <a href="index.html"><img src="img/logo/gameshoplogo-transparant~000.png" alt="Logo Gameshop" class="logo-main"></a>
             <a href="index.html" id="logo-txt-link"><h1 class="Name">GameStars</h1></a>
@@ -132,15 +132,13 @@
             </div>
         </footer>
         <script src="ratingTemplets.js"></script>
-    <body>
-        <script>
-            pegi = "ALL";
+        <script> 
+        pegi = "ALL";
 
-            const ageInput = prompt("confirm your age:");
+const ageInput = prompt("confirm your age:");
 
-            const leeftijd = parseInt(ageInput);
-            console.log(ageInput);
-
-        </script>
+const leeftijd = parseInt(ageInput);
+</script>
+    </body>
     </html>
 <?
