@@ -79,7 +79,7 @@
             ],
             "user3" => [
                 "username" => "shiroroll",
-                "review" => "test your communication skills with your friend as you play the game of two friends who climb a mountain for vandalism.",
+                "review" => "test your communication skills with your friend as you play the game of two friends who climb a mountain.",
                 "rated" => 7,
             ]
         ],
@@ -97,7 +97,7 @@
             ],
             "user3" => [
                 "username" => "Sufferez",
-                "review" => "The game looks to be aimed at the most refined fans of the medium by not caring about the regular gaming conventions.",
+                "review" => "The game looks to be aimed at the most refined fans of the medium.",
                 "rated" => 9,
             ],
         ],
