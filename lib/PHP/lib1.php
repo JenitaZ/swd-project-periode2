@@ -29,7 +29,7 @@
             "description" => "Rain World simulates a harsh, complex ecosystem- one where you are both predator and prey, hunter and hunted in unforgiving, apocalyptic climes. You are a slugcat. The world around you is full of danger, and you must face it – alone.",
             "image" => "https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png",
             "PEGI" => 7,
-            "genre" => "survival, exploration, singleplayer",
+
         ];
     } elseif ($value == 'SV') {
         $gameInfo = [
@@ -39,7 +39,7 @@
             "description" => "You've inherited your grandfather's old farm plot in Stardew Valley.",
             "image" => "https://www.stardewvalley.net/wp-content/uploads/2018/12/1_1screenshot15.png",
             "PEGI" => 12,
-            "genre" => "farming, multiplayer, singleplayer",
+    
         ];
     } else {
         echo "loading...";
