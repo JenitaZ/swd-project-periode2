@@ -503,7 +503,7 @@ img[alt="red death redemption"]{
     background-color: green;
     border-radius: 3px;
     color: white;
-    background-image: url(../img/games/37107d39373c202221d6672722f514cf.png);
+    background-image: url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
 
 }
 
@@ -530,13 +530,13 @@ img[alt="red death redemption"]{
 
 .stardew {
     grid-area: 1 / 4 / 2 / 6;
-    background-image: url(../img/games/sdv-banner.jpg);
+    background-image: url(https://hisameartwork.wordpress.com/wp-content/uploads/2018/01/sdv-banner.jpg);
 
 }
 
 .LN {
     grid-area: 2 / 4 / 3 / 6;
-    background-image: url(../img/games/LN_2_1920_1080_banner.jpg);
+    background-image: url(https://www.dreadxp.com/wp-content/uploads/2021/02/Little-Nightmares-2-Header.jpg);
 
 
 }
