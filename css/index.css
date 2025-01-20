@@ -1254,6 +1254,29 @@ fieldset {
 }
 /* #endregion */
 
+/* #region -------------MERCHANDAISE PAGE-----------------------------*/
+
+.merchCC {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 144.4px;
+    margin: 124px 150px 30px;
+    overflow: hidden;
+    row-gap: 130px;
+}
+
+.merch-images p {
+  width: inherit;
+  font-size: 27px;
+  overflow: hidden;
+}
+.merch-images img{
+    /* height: 200px; */
+    height: 50vh;
+    width: 40vw;
+    object-fit: cover;
+
+}
 /* #region ------------ merch and contact----------------------------- */
 
 div.hat {
