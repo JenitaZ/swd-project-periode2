@@ -89,16 +89,16 @@
         <div class="rating-container">
     <h1>Rate this game (1-10):</h1>
     <div class="rating-numbers">
-        <p class="rating-number" data-value="1">1</p>
-        <p class="rating-number" data-value="2">2</p>
-        <p class="rating-number" data-value="3">3</p>
-        <p class="rating-number" data-value="4">4</p>
-        <p class="rating-number" data-value="5">5</p>
-        <p class="rating-number" data-value="6">6</p>
-        <p class="rating-number" data-value="7">7</p>
-        <p class="rating-number" data-value="8">8</p>
-        <p class="rating-number" data-value="9">9</p>
-        <p class="rating-number" data-value="10">10</p>
+        <input class="rating-number" data-value="1">1</input>
+        <input class="rating-number" data-value="2">2</input>
+        <input class="rating-number" data-value="3">3</input>
+        <input class="rating-number" data-value="4">4</input>
+        <input class="rating-number" data-value="5">5</input>
+        <input class="rating-number" data-value="6">6</input>
+        <input class="rating-number" data-value="7">7</input>
+        <input class="rating-number" data-value="8">8</input>
+        <input class="rating-number" data-value="9">9</input>
+        <input class="rating-number" data-value="10">10</input>
     </div>
 
     </main>
