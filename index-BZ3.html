@@ -37,21 +37,17 @@
             <article class="reviewContainer1">
                 <iframe width="650" height="420" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="ytvideo"></iframe>
             </article>
-
-        </div>
-        <main>
-            <!-- naming-stuff-css, camelCaseJs -->
-                <section class="containerReview">
-                    <div class="reviewContent">
-                        <h1 id="title"></h1>
-                        <h1 id="genre"></h1>
-                        <p id="pegi"></p>
-                        <p id="release"></p>
-                        <p id="accesPlatforms"></p>
-                        <p id="Description"></p>
-                    </div>
-                </section>
+            <section class="containerReview">
+                <div class="reviewContent">
+                    <h1 id="title"></h1>
+                    <h1 id="genre"></h1>
+                    <p id="pegi"></p>
+                    <p id="release"></p>
+                    <p id="accesPlatforms"></p>
+                    <p id="Description"></p>
+                </div>
             </section>
+        </section>
     
             <section class="ratingContainer"></section>
 
@@ -102,7 +98,7 @@
         const extratext = document.getElementById("extratekst");
         const foto = document.getElementById("Foto");
         const pic = document.getElementById("Pic");
-        const IMGG = document.getElementById("image");
+        const image = document.getElementById("IMGG");
         const Youtube = document.getElementById("ytvideo");
     
         const params = window.location.search;
