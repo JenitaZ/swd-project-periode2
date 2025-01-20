@@ -11,7 +11,6 @@
     <meta name="author" content="Bingyi Zhou">
     <link rel="stylesheet" href="css/index.css"> 
     
-
 </head>
 
 <body class="Home Homereview">
