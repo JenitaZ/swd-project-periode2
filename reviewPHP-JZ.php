@@ -1,7 +1,7 @@
-<?php include "lib/PHP/lib1.php";?> <!-- arrays review 1 -->
+<!-- arrays review 1 -->
+<?php include "lib/PHP/lib1.php";?> 
 
 <!-- review 1, PHP-->
-
 <!DOCTYPE html>
 <html lang="en">
 

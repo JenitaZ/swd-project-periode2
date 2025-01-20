@@ -43,11 +43,11 @@
             <!-- naming-stuff-css, camelCaseJs -->
                 <section class="containerReview">
                     <div class="reviewContent">
-                        <h1 id="tItle"></h1>
-                        <h1 id="gEnre"></h1>
-                        <p id="p3gi"></p>
+                        <h1 id="title"></h1>
+                        <h1 id="genre"></h1>
+                        <p id="pegi"></p>
                         <p id="release"></p>
-                        <p id="Accessplatforms"></p>
+                        <p id="accesPlatforms"></p>
                         <p id="Description"></p>
                     </div>
                 </section>
@@ -92,21 +92,21 @@
         </footer>
 
     <script>
-        const title = document.getElementById("tItle");
-        const genre = document.getElementById("gEnre");
-        const pegi = document.getElementById("p3gi");
+        const title = document.getElementById("title");
+        const genre = document.getElementById("genre");
+        const pegi = document.getElementById("pegi");
         const releaseDate = document.getElementById("release");
-        const releasedPlatforms = document.getElementById("Accessplatforms");
+        const releasedPlatforms = document.getElementById("accesPlatforms");
         const description = document.getElementById("Description");
         const text = document.getElementById("textbz");
         const extratext = document.getElementById("extratekst");
         const foto = document.getElementById("Foto");
         const pic = document.getElementById("Pic");
-        const IMGG = document.getElementById("IMGG");
+        const IMGG = document.getElementById("image");
         const Youtube = document.getElementById("ytvideo");
     
-    const params = window.location.search;
-    const game = params.includes("JRY");
+        const params = window.location.search;
+        const game = params.includes("JRY");
     
         switch(game) {
             case true:
@@ -120,7 +120,7 @@
                 extratext.innerText ="The player can walk in the levels, as well as control the camera, which typically follows behind the figure, either with the analog stick or by tilting the motion-sensitive controller. Other players on the same journey can be discovered, and two players can meet and assist each other, but they cannot communicate via speech or text and cannot see each other's names until after the game's credits.";
                 foto.src = "https://wallpapercave.com/wp/wp4032520.jpg";
                 pic.src = "";
-                IMGG.src = "";
+                image.src = "";
                 Youtube.src= "";
             break;
     
@@ -136,26 +136,26 @@
                 extratext.innerText = "Brotato is classified as a shoot 'em up. Shooting is automatically managed by the computer, although players have the option to change this setting to enable manual aiming.";
                 foto.src = "";
                 pic.src= "";
-                IMGG.src ="";
+                image.src ="";
                 Youtube.src= "";
             break;
                 
-                default:
-                    document.body.innerText ="Oops, Something went wrong..";
-                    break;
-                    };
-
-            if(game == true) {
-                foto.src = "https://wallpapercave.com/wp/wp4032520.jpg";
-                pic.src = "https://th.bing.com/th/id/R.72b69cc82d4071bd3f2f2e6e2deb1b38?rik=fYP4hyRlaCO8yQ&pid=ImgRaw&r=0";
-                IMGG.src = "https://lh4.googleusercontent.com/SCWeXRQapqLF0TTUJE_ynNah9PWs-ZbVLktPNnqgkQoDKLtC5qMy9ieUL8fplIFpCvok88KlkJQld01fOL-Xdlj6Phlrw6TYKns9HI24NN2DNlFi4tiJ2DToDAQ1Or-XonMU9RY";
-                Youtube.src= "https://www.youtube.com/embed/mU3nNT4rcFg?si=qKsLc45n2P-oNKI4";
-            
-            } else {
-                foto.src = "https://th.bing.com/th/id/OIP.my4zo_ihzIEV7lNFDsbQBAHaDt?rs=1&pid=ImgDetMain ";
-                pic.src= "https://voxelsmash.com/wp-content/uploads/2023/04/Brotato-release-date-trailer-story.jpg";
-                IMGG.src ="https://img.gg.deals/cc/30/898f743ddd6ef46479c1fcfd7c64bee95920_1920xt1080_S1000.jpg";
-                Youtube.src= "https://www.youtube.com/embed/-_pVPhP8CUk?si=d3wiKA1zBxrf4ug6";
+            default:
+                document.body.innerText ="Oops, Something went wrong..";
+                break;
             };
+
+        if(game == true) {
+            foto.src = "https://wallpapercave.com/wp/wp4032520.jpg";
+            pic.src = "https://th.bing.com/th/id/R.72b69cc82d4071bd3f2f2e6e2deb1b38?rik=fYP4hyRlaCO8yQ&pid=ImgRaw&r=0";
+            image.src = "https://lh4.googleusercontent.com/SCWeXRQapqLF0TTUJE_ynNah9PWs-ZbVLktPNnqgkQoDKLtC5qMy9ieUL8fplIFpCvok88KlkJQld01fOL-Xdlj6Phlrw6TYKns9HI24NN2DNlFi4tiJ2DToDAQ1Or-XonMU9RY";
+            Youtube.src= "https://www.youtube.com/embed/mU3nNT4rcFg?si=qKsLc45n2P-oNKI4";
+        
+        } else {
+            foto.src = "https://th.bing.com/th/id/OIP.my4zo_ihzIEV7lNFDsbQBAHaDt?rs=1&pid=ImgDetMain ";
+            pic.src= "https://voxelsmash.com/wp-content/uploads/2023/04/Brotato-release-date-trailer-story.jpg";
+            image.src ="https://img.gg.deals/cc/30/898f743ddd6ef46479c1fcfd7c64bee95920_1920xt1080_S1000.jpg";
+            Youtube.src= "https://www.youtube.com/embed/-_pVPhP8CUk?si=d3wiKA1zBxrf4ug6";
+        };
         </script>
     </script>

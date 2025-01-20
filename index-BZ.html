@@ -39,17 +39,15 @@
 
         </div>
         <main>
-    
-                <section class="containerReview">
-                    <div class="reviewContent">
-                        <h1 id="tItle"></h1>
-                        <p id="release"></p>
-                        <p id="Accessplatforms"></p>
-                        <p id="Description"></p>
-                    </div>
-                </section>
+            <section class="containerReview">
+                <div class="reviewContent">
+                    <h1 id="tItle"></h1>
+                    <p id="release"></p>
+                    <p id="Accessplatforms"></p>
+                    <p id="Description"></p>
+                </div>
             </section>
-    
+           
             <section class="ratingContainer"></section>
 
             <article>
@@ -89,8 +87,8 @@
             const picture = document.getElementById("reviewImg");
             const text = document.getElementById("textbz");
     
-    const params = window.location.search;
-    const game = params.includes("RDR");
+            const params = window.location.search;
+            const game = params.includes("RDR");
     
         switch(game) {
             case true:

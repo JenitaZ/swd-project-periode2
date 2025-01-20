@@ -26,38 +26,38 @@
     <?php 
         $value = $_GET['var'];
 
-            $gameInfo = [
-                "0" => [
-                    "title" => "Valorant",
-                "release_date" => "June 2, 2020",
-                "platforms" => "Windows, Xbox Series X/S and Playstation 5",
-                "description" => "Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents. Every player starts each round with a 'classic' pistol and one or more 'signature ability' charges.",
-                "image" => "https://pchocasi.com.tr/wp-content/uploads/2023/08/valorant-1.jpg",
-                "PEGI" => 16
-                ],
-                "1" => [
-                    "title" => "Call of Duty®: Modern Warfare® III",
-                "release_date" => "8 Nov, 2011",
-                "platforms" => "PlayStation 5 ,PlayStation 4, Xbox Series X|S ,Xbox One and PC",
-                "description" => "Call of Duty: Modern Warfare III is a 2023 first-person shooter game. Modern Warfare III retains the realistic, modern setting of its predecessors and continues the sub-series storyline. Players have access to an on-screen map of the area, including a tactical map that outlines objectives and usual equipment, with caches of weapons, gear and specialized equipment on hand.",
-                "image" => "https://bnetcmsus-a.akamaihd.net/cms/blog_header/um/UMPTLAFNBS0X1700263386338.jpg",
-                "PEGI" => 18
-                ]
-            ];
+        $gameInfo = [
+            "0" => [
+                "title" => "Valorant",
+            "release_date" => "June 2, 2020",
+            "platforms" => "Windows, Xbox Series X/S and Playstation 5",
+            "description" => "Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents. Every player starts each round with a 'classic' pistol and one or more 'signature ability' charges.",
+            "image" => "https://pchocasi.com.tr/wp-content/uploads/2023/08/valorant-1.jpg",
+            "PEGI" => 16
+            ],
+            "1" => [
+                "title" => "Call of Duty®: Modern Warfare® III",
+            "release_date" => "8 Nov, 2011",
+            "platforms" => "PlayStation 5 ,PlayStation 4, Xbox Series X|S ,Xbox One and PC",
+            "description" => "Call of Duty: Modern Warfare III is a 2023 first-person shooter game. Modern Warfare III retains the realistic, modern setting of its predecessors and continues the sub-series storyline. Players have access to an on-screen map of the area, including a tactical map that outlines objectives and usual equipment, with caches of weapons, gear and specialized equipment on hand.",
+            "image" => "https://bnetcmsus-a.akamaihd.net/cms/blog_header/um/UMPTLAFNBS0X1700263386338.jpg",
+            "PEGI" => 18
+            ]
+        ];
 
-            switch ($value) {
-                case '0':
-                    $gameInfo = $gameInfo['0'];
-                    break;
-            
-            
-                case '1':
-                    $gameInfo = $gameInfo['1'];
-                    break;
-            
-                default:
-                    echo "Oops, something broke!";
-                }
+        switch ($value) {
+            case '0':
+                $gameInfo = $gameInfo['0'];
+                break;
+        
+        
+            case '1':
+                $gameInfo = $gameInfo['1'];
+                break;
+        
+            default:
+                echo "Oops, something broke!";
+            }
     ?>
 
 

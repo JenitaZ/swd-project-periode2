@@ -1,6 +1,6 @@
 <?php 
 include "lib/PHP/lib2.php"; // review 2
-include "lib/PHP/lib3.php"; // review 3 + 4
+include "lib/PHP/lib3-4.php"; // review 3 + 4
 include "lib/PHP/reviews.php"; // arrays met reviews
 ?>
 
@@ -48,7 +48,8 @@ include "lib/PHP/reviews.php"; // arrays met reviews
         <a href="newestReview.php">Newest Reviews</a> 
 
     </nav>
-
+    
+    <!-- gameinfo -->
     <main id="phpcontainer">
         <section class="flex-contatiner"> <!-- misspelde ik dit overal?? oh well, it works. -->
             <article class="reviewContainer1">

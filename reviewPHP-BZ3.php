@@ -28,7 +28,7 @@
 
         $gameInfo = [
             "UGG" => [
-                "title" => "Untitled Goose Game",
+            "title" => "Untitled Goose Game",
             "genre" => "puzzle stealth",
             "PEGI" => "All",
             "release_date" => "20 Sep, 2019",
@@ -57,7 +57,7 @@
                 "imgs1" => "https://www.pockettactics.com/wp-content/uploads/2020/08/sky-children-of-the-light-friends.jpg",
                 "imgs2" => "https://cdn.mos.cms.futurecdn.net/Q6f4xr7UgeE2iNmSk3UU34.jpg",
                 "imgs3" => "https://nichegamer.com/wp-content/uploads/2022/08/sky-children-of-the-light-08-16-22-1.jpg"
-            ),
+                ),
             ]
         ];
 

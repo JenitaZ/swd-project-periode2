@@ -3,6 +3,8 @@
 * game review 2
 * PHP || games: stray + banana
 * 
+* gamepagina: reviewPHP2-JZ.php
+* opdrachten 2, 3 en 4 gebruiken dezelfde pagina    
 *-->
 
 <!DOCTYPE html>

@@ -3,6 +3,7 @@
 * game review 3 en 4
 * PHP || games: Terraria + Hollowknight + BOKURA
 *
+* gamepagina: reviewPHP2-JZ.php
 *-->
 
 <!DOCTYPE html>
@@ -54,6 +55,7 @@
     ];
 
     // displays content based on query string parameters
+    // also checks the age by echoing js code
     switch ($value) {
         case 'TR':  
             echo "<script>let pegi = '" . $games['TR']['PEGI'] . "';</script>";

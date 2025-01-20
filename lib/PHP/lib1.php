@@ -1,8 +1,9 @@
 <!-- 
 *
-* game review 1
+* game review 1, JZ
 * PHP
 *
+* gamepagina: reviewPHP-JZ.php
 *-->
 
 <!DOCTYPE html>

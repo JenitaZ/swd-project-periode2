@@ -10,7 +10,8 @@
     <meta name="keywords" content="Review games">
     <meta name="author" content="Bingyi Zhou">
     <link rel="stylesheet" href="css/index.css"> 
-
+    
+    <script src="ratingTemplets.js" defer></script>
 </head>
 
 <body class="Home Homereview">
@@ -130,14 +131,13 @@
                 </section>
             </div>
         </footer>
-        <script src="ratingTemplets.js"></script>
+
         <script> 
-        pegi = "ALL";
+            const pegi = "ALL";
 
-const ageInput = prompt("confirm your age:");
+            const ageInput = prompt("confirm your age:");
 
-const leeftijd = parseInt(ageInput);
-</script>
-    </body>
-    </html>
-<?
+            const leeftijd = parseInt(ageInput);
+        </script>
+</body>
+</html>
