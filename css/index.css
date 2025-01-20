@@ -263,6 +263,7 @@ body {
     grid-template-rows: repeat(2, 200px);
     column-gap: 30px;
     margin: 14px 40px 30px;
+    overflow: hidden;
 
 }
 
@@ -330,7 +331,9 @@ body {
     grid-area: 1 / 3 / 3 / 4;
     background-color: green;
     border-radius: 3px;
+
     background-image: url('https://i.pinimg.com/736x/d4/16/ac/d416ac062be6772119d84c8ba19a00fb.jpg');
+
 
 }
 
@@ -360,6 +363,7 @@ body {
 .wth {
     text-decoration: none;
     color: white;
+
 }
 
 .overlay {
@@ -378,7 +382,6 @@ body {
 .overlay p {
     margin: 10px 0 17px 5px;
     display: block;
-    overflow: hidden;
     width: 13.5vw;
     white-space: no-wrap;
     text-overflow: ellipsis;
@@ -394,6 +397,10 @@ body {
     margin-top: -180px;
     pointer-events: none;
 
+}
+
+img[alt="red death redemption"]{
+    width: 110% !important;
 }
 
 /*#endregion */
@@ -496,7 +503,7 @@ body {
     background-color: green;
     border-radius: 3px;
     color: white;
-    background-image: url(../img/games/37107d39373c202221d6672722f514cf.png);
+    background-image: url(https://cdn2.steamgriddb.com/hero/37107d39373c202221d6672722f514cf.png);
 
 }
 
@@ -523,13 +530,13 @@ body {
 
 .stardew {
     grid-area: 1 / 4 / 2 / 6;
-    background-image: url(../img/games/sdv-banner.jpg);
+    background-image: url(https://hisameartwork.wordpress.com/wp-content/uploads/2018/01/sdv-banner.jpg);
 
 }
 
 .LN {
     grid-area: 2 / 4 / 3 / 6;
-    background-image: url(../img/games/LN_2_1920_1080_banner.jpg);
+    background-image: url(https://www.dreadxp.com/wp-content/uploads/2021/02/Little-Nightmares-2-Header.jpg);
 
 
 }
@@ -1125,10 +1132,9 @@ fieldset {
     width: 1100px;
     height: auto;
     max-width: 1100px;
-    margin: 130px auto 70px;
+    margin: 130px auto 30px;
     background-color: var(--bg-gray);
     padding: 30px;
-    /* border: 1px white solid; */
     border-radius: var(--radius-border);
   
     & > * {
@@ -1146,11 +1152,6 @@ fieldset {
         line-height: 1.9rem;
         height: 42px;
         overflow: hidden;
-        .new-gametitle {
-            position: absolute;
-            margin: 18px 5px;
-
-        }
 
         #jp {
             margin: 7px;
@@ -1187,9 +1188,8 @@ fieldset {
         border-radius: var(--radius-border);
         width: 100%;
         height: 120px;
-        padding: 10px 8px 0 0;
+        padding: 6px 8px 0 0;
         overflow: hidden;
-
 
         &:not(:last-child) {
             margin-right: 30px;
@@ -1208,9 +1208,9 @@ fieldset {
 }
 
 .recent-pfps {
-    margin: 35px 10px 0 28px;
-    width: 44.6px;
-    height: 100px;
+    margin: 39px 16px 0 30px;
+    width: 53.6px;
+    height: 106.2px;
     float: left;
     font-size: 38.6px;
 }
@@ -1224,13 +1224,12 @@ fieldset {
 }
 
 .progress-border {
-    width: 75.5vw;
+    width: 1160px;
     height: 11.2px;
     border: 1px var(--highlight-light) solid;
-    position: absolute;
-    top: 669.6px;
-    left: 187.4px;
     border-radius: var(--radius-border);
+    margin: 0px auto 70px;
+
 }
 
 .progress-color {
@@ -1241,8 +1240,47 @@ fieldset {
     
 }
 
+.ten {
+    margin-left: 0;
+    font-size: inherit;
+}
+
+.pegi-images {
+    width:75px;
+    float: right;
+    height: 95.6px;
+    margin-top: -305.2px;
+}
+
+.pegi2 {
+    margin-top: -320.4px;
+}
 /* #endregion */
 
+/* #region -------------MERCHANDAISE PAGE-----------------------------*/
+
+.merchCC {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 144.4px;
+    margin: 124px 150px 30px;
+    overflow: hidden;
+    row-gap: 130px;
+}
+
+.merch-images p {
+  width: inherit;
+  font-size: 27px;
+  overflow: hidden;
+}
+
+.merch-images img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-border);
+
+}
 /* #region ------------ merch and contact----------------------------- */
 
 div.hat {
@@ -1298,8 +1336,6 @@ button.submit:hover {
 }
 
 
-/* #endregion */
-
 /* ratingTemplets!!! */
 
   .rating-container {
@@ -1329,4 +1365,6 @@ button.submit:hover {
   .rating-number:hover {
     color: #4c7a72;
   }
+
   
+  /* #endregion */

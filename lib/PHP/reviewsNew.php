@@ -27,7 +27,8 @@
             "vid" => 'src="https://www.youtube.com/embed/ARHVKZ5K1b0?si=YewiFnMGnssAbi_a&mute=1" title="YouTube video player"',
             "PEGI" => 16,
             "genre" => "story rich",
-            "dev" => "Takahisa Taura & Isao Negishi"
+            "dev" => "Takahisa Taura & Isao Negishi",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-16-black.jpg"
 
         ],
         "STA" => [
@@ -38,7 +39,9 @@
             "vid" => 'src="https://www.youtube.com/embed/1dHmayETd4c?si=fZzUVPLIv8Eo0LEL&mute=1"',
             "PEGI" => 12,
             "genre" => " open world, survival",
-            "dev" => "GSC Game World"
+            "dev" => "GSC Game World",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-16-black.jpg"
+            
 
         ],
         "BOK" => [
@@ -49,7 +52,9 @@
             "vid" => 'src="https://www.youtube.com/embed/25mkGli1e0A?si=GrXsDk2QsngPG-8Z&mute=1"',
             "PEGI" => 12,
             "genre" => "Action, Adventure, Casual",
-            "dev" => "<span id='jp'>ところにょり</span>"
+            "dev" => "<span id='jp'>ところにょり</span>",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-12-black.jpg"
+
         ],
         "OM" => [
             "title" => "OMORI",
@@ -59,7 +64,9 @@
             "vid" => 'src="https://www.youtube.com/embed/erzgjfU271g?si=davMCDKzlsXvXzTe&mute=1"',
             "PEGI" => 16,
             "genre" => "psychological horror, story rich",
-            "dev" => "OMOCAT"
+            "dev" => "OMOCAT",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-16-black.jpg"
+
         ]
     ];
 
@@ -79,7 +86,7 @@
             ],
             "user3" => [
                 "username" => "shiroroll",
-                "review" => "test your communication skills with your friend as you play the game of two friends who climb a mountain for vandalism.",
+                "review" => "test your communication skills with your friend as you play the game of two friends who climb a mountain.",
                 "rated" => 7,
             ]
         ],
@@ -97,7 +104,7 @@
             ],
             "user3" => [
                 "username" => "Sufferez",
-                "review" => "The game looks to be aimed at the most refined fans of the medium by not caring about the regular gaming conventions.",
+                "review" => "The game looks to be aimed at the most refined fans of the medium.",
                 "rated" => 9,
             ],
         ],

@@ -40,7 +40,7 @@
                 "release_date" => "March 3, 2017",
                 "platforms" => "Nintendo Switch and Wii U",
                 "description" => "Set at the end of the Zelda (including all Zelda game before Breath of The Wild) timeline, the player controls an amnesiac Link as he sets out to save Princess Zelda and prevent Calamity Ganon from destroying the world. Players explore the open world of Hyrule while they collect items and complete objectives such as puzzles or side quests.",
-                "image" => "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/hero"
+                "image" => "https://hype.games/_next/image?url=https%3A%2F%2Fimg.hype.games%2Fcdn%2Fc64bd743-e83f-4677-a53b-e03fdc4f6566%5BBHN-Nintendo%5D-The-Legend-of-Zelda-Breath-of-the-Wild%20(1).png&w=3840&q=75"
             ];
     
         } else {
