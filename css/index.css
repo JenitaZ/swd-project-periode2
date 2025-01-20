@@ -1132,10 +1132,9 @@ fieldset {
     width: 1100px;
     height: auto;
     max-width: 1100px;
-    margin: 130px auto 70px;
+    margin: 130px auto 30px;
     background-color: var(--bg-gray);
     padding: 30px;
-    /* border: 1px white solid; */
     border-radius: var(--radius-border);
   
     & > * {
@@ -1192,7 +1191,6 @@ fieldset {
         padding: 6px 8px 0 0;
         overflow: hidden;
 
-
         &:not(:last-child) {
             margin-right: 30px;
         }
@@ -1226,13 +1224,12 @@ fieldset {
 }
 
 .progress-border {
-    width: 75.5vw;
+    width: 1160px;
     height: 11.2px;
     border: 1px var(--highlight-light) solid;
-    position: absolute;
-    top: 669.6px;
-    left: 187.4px;
     border-radius: var(--radius-border);
+    margin: 0px auto 70px;
+
 }
 
 .progress-color {
@@ -1276,11 +1273,12 @@ fieldset {
   font-size: 27px;
   overflow: hidden;
 }
+
 .merch-images img{
-    /* height: 200px; */
     height: 50vh;
-    width: 40vw;
+    width: 100%;
     object-fit: cover;
+    border-radius: var(--radius-border);
 
 }
 /* #region ------------ merch and contact----------------------------- */

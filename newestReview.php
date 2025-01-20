@@ -184,9 +184,12 @@
                 ?> 
             </section>
         </div>
-
+        <div class="progress-border">
+            <div class="progress-color"></div>
+        </div>
     </main>
     
+  
     <footer>
     <div class="footer-content">
             <section class="footer-left">
@@ -208,9 +211,6 @@
             </section>
         </div>
 
-        <div class="progress-border">
-            <div class="progress-color"></div>
-        </div>
 
     </footer>
 
