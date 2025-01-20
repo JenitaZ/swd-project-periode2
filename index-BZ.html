@@ -37,22 +37,21 @@
                 <img src="" alt="Image of the game" id="reviewImg">
             </article>
 
-        </div>
-        <main>
             <section class="containerReview">
-                <div class="reviewContent">
-                    <h1 id="tItle"></h1>
-                    <p id="release"></p>
-                    <p id="Accessplatforms"></p>
-                    <p id="Description"></p>
-                </div>
+                    <div class="reviewContent">
+                        <h1 id="tItle"></h1>
+                        <p id="release"></p>
+                        <p id="Accessplatforms"></p>
+                        <p id="Description"></p>
+                    </div>
             </section>
-           
-            <section class="ratingContainer"></section>
+        </section>
+    
+        <section class="ratingContainer"></section>
 
-            <article>
-                <p id="textbz"></p>
-            </article>
+        <article>
+            <p id="textbz"></p>
+        </article>
         </main>
     
     
@@ -87,8 +86,8 @@
             const picture = document.getElementById("reviewImg");
             const text = document.getElementById("textbz");
     
-            const params = window.location.search;
-            const game = params.includes("RDR");
+    const params = window.location.search;
+    const game = params.includes("RDR");
     
         switch(game) {
             case true:
