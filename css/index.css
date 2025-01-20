@@ -1153,11 +1153,6 @@ fieldset {
         line-height: 1.9rem;
         height: 42px;
         overflow: hidden;
-        .new-gametitle {
-            position: absolute;
-            margin: 18px 5px;
-
-        }
 
         #jp {
             margin: 7px;
@@ -1251,6 +1246,17 @@ fieldset {
 .ten {
     margin-left: 0;
     font-size: inherit;
+}
+
+.pegi-images {
+    width:75px;
+    float: right;
+    height: 95.6px;
+    margin-top: -305.2px;
+}
+
+.pegi2 {
+    margin-top: -320.4px;
 }
 /* #endregion */
 

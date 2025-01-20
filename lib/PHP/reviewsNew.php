@@ -27,7 +27,8 @@
             "vid" => 'src="https://www.youtube.com/embed/ARHVKZ5K1b0?si=YewiFnMGnssAbi_a&mute=1" title="YouTube video player"',
             "PEGI" => 16,
             "genre" => "story rich",
-            "dev" => "Takahisa Taura & Isao Negishi"
+            "dev" => "Takahisa Taura & Isao Negishi",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-16-black.jpg"
 
         ],
         "STA" => [
@@ -38,7 +39,9 @@
             "vid" => 'src="https://www.youtube.com/embed/1dHmayETd4c?si=fZzUVPLIv8Eo0LEL&mute=1"',
             "PEGI" => 12,
             "genre" => " open world, survival",
-            "dev" => "GSC Game World"
+            "dev" => "GSC Game World",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-16-black.jpg"
+            
 
         ],
         "BOK" => [
@@ -49,7 +52,9 @@
             "vid" => 'src="https://www.youtube.com/embed/25mkGli1e0A?si=GrXsDk2QsngPG-8Z&mute=1"',
             "PEGI" => 12,
             "genre" => "Action, Adventure, Casual",
-            "dev" => "<span id='jp'>ところにょり</span>"
+            "dev" => "<span id='jp'>ところにょり</span>",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-12-black.jpg"
+
         ],
         "OM" => [
             "title" => "OMORI",
@@ -59,7 +64,9 @@
             "vid" => 'src="https://www.youtube.com/embed/erzgjfU271g?si=davMCDKzlsXvXzTe&mute=1"',
             "PEGI" => 16,
             "genre" => "psychological horror, story rich",
-            "dev" => "OMOCAT"
+            "dev" => "OMOCAT",
+            "pegiImg" => "https://pegi.info/sites/default/files/inline-images/age-16-black.jpg"
+
         ]
     ];
 
